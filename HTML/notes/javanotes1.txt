@@ -1,0 +1,2243 @@
+***************************************************c basic************************************************************************
+
+c language developed or invented by Denis Ritchie in year 1972.
+*procedure object programming.
+*return type:we are not returning anything, or successfully executed,if we declared the void main.
+*looping control statements:dowhile ,while and for.
+*decision control statements:if,else,switch.
+*break,goto,continue-branching statements.
+
+*if else condition:
+else part is not compulasary it is option.if condition continue  only single conditions then no need to write curly braces.
+
+*different datatype are:
+ 
+1.int 2 bytes.
+2.char 1 bytes.
+3.float 4 bytes.
+4.double 8 bytes.
+5.long double 10 bytes.
+
+*In an expression when there is a difference in date type of variable then c compiler changes the data type of smallest to largest
+ its called as typecasting.
+*c language allows to declare constants in the program ,its program use constant in left hand side then there is a compiler 
+time error.
+
+*variable declaration:
+syntax:
+datatype_variable_name;
+ex:
+int a;
+float b;
+
+*variable name:
+c language  provies rules for variable declaration.
+1.the variable name can be alphanumeric but starting letter should be capital.
+2.spaces & tabs in between the variable name is not allowed.
+3.special symboles except-is not allowed.
+4.keyword are not allowed as variable name.
+
+*operator:
+arity:the no.of operands working with operator is called as arity.there are differents type of operator depending on arity as.
+there is three types are:
+1.unary :   a++
+
+2.binary :  a+b
+a.arithematics
+b.logical
+c.relationship
+d.assignment.
+e.comparison.
+
+3.ternary:  ?:
+
+Q.write a program to calculate simple interest if user enters principle,amount,rate,no of years.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+ clrscr();
+ int p,r,y,fb;
+ printf("enter a principle amount: ");
+ scanf("%d %d %d",&p,&r,&y);
+ fb=(p*r*y/100);
+ printf("enter a simple interest:",fb);
+ getch();
+ }
+
+Q.write a program to accept marks of 5 subjects from user and print  its percentage.
+
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+clrscr();
+int m1,m2,m3,m4,m5,na;
+printf("enter the marks of five subjects");
+scanf("%d %d %d %d %d",&m1,&m2,&m3,&m4,&m5);
+na=(m1+m2+m3+m4+m5/5);
+printf("the sum of total marks are:",na);
+getch();
+}
+
+Q.write a program to accept 3 nos.from the user and print max from them .
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+clrscr();
+int num1,num2,num3;
+printf("enter a number:");
+scanf("%d %d %d",&num1,&num2,&num3);
+if(num1>num2 && num1>num3)
+{
+ printf(""no.is max",num1);
+}
+elseif(num2>num3)
+{
+printf(""no.is max",num2);
+}
+else
+{
+printf("no. is max",mum3);
+}
+getch();
+}
+
+Q.write a program to accept characters from user and check wheather it is vowel or not?
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+char ch;
+printf("enter a characters:");
+scanf("%c",&ch);
+if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u')
+{
+printf("it is vowel");
+}
+else
+{
+printf("it is constant");
+}
+getch();
+}
+
+Q.write a program and display weather a one ,two or three digit number.
+
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+clrscr();
+int no;
+printf("enter any number:");
+scanf("%d",&no);
+if(no>=0 && no<=99)
+{
+printf("one digits number");
+}
+else
+{
+if(no>=10 && no<=999)
+{
+printf("two digit number");
+}
+ else{
+if (no>=1000 && no<=9999)
+{
+printf("three digit number")
+}
+else{
+printf("bye")
+}
+
+Q.write a program to decreasing series from 100 to 1?
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+int i;
+for(i=100;i>=1;i--)
+{
+printf("%d",i);
+}
+getch();
+}
+
+
+Q.write a program to print the even number?
+#include<conio.h>
+#include<stdio.h>
+void main()
+{ 
+for(i=1;i<=100;i=i+2)
+{
+printf("%d",i);
+}
+getch();
+}
+
+Q.write a program to ascreasing series from 1to 100?
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+for(i=1;i<=100;i++)
+{
+printf("%d",i);
+}
+getch();
+}
+
+Q.write a program to
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+for(i =1;i<=5;i++)
+{
+for(j=1;j<=5;j++)
+{
+printf("%d",j);
+}
+getch();
+}
+
+Q.write a program to accepting marks of there subjects,calculation avg,& distinction according first  class etc.
+
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+clrscr();
+int m1,m2,m3,total,avg;
+printf("enter a marks of subjects ");
+scanf("%d %d %d",&m1,&m2,&m3);
+total=m1+m2+m3;
+avg=total/3;
+printf("total=%d",total)
+printf("average=%d",avg)
+if(avg>=75)
+{
+printf("in distinction")
+}
+else
+{
+if(avg>=60)
+{
+printf("in first class");
+}
+else
+{
+if(avg>=50)
+{
+printf("second class");
+}
+else{
+if(avg>=40)
+{
+printf("pass");
+}
+else{
+printf("fail");
+}
+
+Q.write a program to do the calculation to the arthimatics operation?
+
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+clrscr();
+int n1,n2;
+printf("enter any two number:")
+scanf("%d %d",&n1,&n2);
+printf("a.addition");
+printf("b.subtraction");
+printf("c.multiplication");
+printf("d.division");
+printf("enter your choice(a/b/c/d)");
+scanf("%c",&ch);
+switch(ch)
+{
+case 'a':printf("addition=%d",n1+n2);
+break;
+case 'b':printf("substraction=%d",n1-n2);
+break;
+case 'c':printf("multiplication =%d",n1*n2);
+break;
+case 'd':printf("division=%d",n1/n2);
+break;
+default: printf("ok ,bye");
+}
+}
+*break statements is not complasary default.
+*we can write default anywhere, in the switch case but it must break at the time.
+
+Q.
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+clrscr();
+int nO,l,r=0,temp;
+print("enter a number");
+scanf("%d ",no);
+
+Q.write a program to print the weather a number are armstrong or not? 
+
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+int no,l,sum=0,temp;
+printf("enter a number");
+scanf("%d",&no);
+temp no;
+while(no>0)
+{
+l=no%10;
+sum=sum+(l*l*l);
+no=no/10;
+}
+if(sum==temp)
+{
+printf("armstrong");
+}
+else{
+printf("not a armstorng");
+}
+}
+
+*ternary operator:
+Q.write a program to accept a number from used and check weather it is positive,negative or zero.
+
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+int num1;
+clrscr();
+printf("enter number:");
+scanf("%d",&num1);
+if(num1>0)
+{
+printf("no. is positive");   or    (num1>0)?printf("no. is positive")
+}
+else if(num1<0)              or    (num1<0)?printf("no.is negative")
+{
+printf("no. is negative");   or   printf("zero")
+}
+else{
+print("zero");
+}
+getch();
+return 0;
+}
+
+*switch-case:
+syntax:
+
+switch(expression)
+{
+case(<default expression>):statements;
+case(<default expression>):statements;
+default:statements;
+}
+
+Q.write a program to accept month number from user and print the total number of days for month number.
+
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+getch();
+int num;
+printf("enter a number months:");
+scanf("%d",&num);
+if(num==1||num==3||num==5||num==7||num==8||num==10||num==12)
+{
+printf("month have 30 days");
+}
+else if(num==4||num==6||num==9||num==11)
+{
+printf("month have 31 days");
+}
+elseif(num==2)
+{
+printf("month have 28 days");
+}
+getch();
+}
+or
+switch(num)
+{ 
+case 1:
+case 3:
+case 5:
+case 7:
+case 8:
+case 12:printf("month have 30 days ");
+case 4:
+case 6:
+case 9:
+case 11:printf("month have 31 days ");
+case 2:printf("month have 28 days ");
+default:printf(" wrongs month  ");
+}
+
+note:
+1.In switch  case there is no conpulsion on break statements to each case.
+2.continous statements is not allowed with switch case,but if switch case is inside the loop then continous will get allowed.
+3.case value need not to be ascending or descending order.
+4.the case values can used arithematics operator ,but programmer have to taken care that the value should be unique.
+ 
+*iterative statements:
+1.when ever a statements or a block of statements needs to executed again and again till the condition come tree,then we have 
+to used iterative statements.
+2.c programming allows three type of ilterative statements for,while and do while. 
+
+Q.write a program to accept number from user and check wheather its prime or not?
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int num,k;
+clrscr();
+printf("enter number:")
+scanf("%d",&num);
+for(k=2;k<num;k++)
+{
+if(num%2==0)
+{
+printf("no.is not prime number");
+}
+if(k==num)
+{
+printf("no. is prime number");
+getch();
+return 0; 
+}
+
+Q.write a program to accept limit from used and print fib series.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int x=0,y=1,z,limit;
+printf("enter the limit")
+scanf("%d",&limit);
+printf("\n fibseries =%d \t %d",x,y);
+for(k=0;k<(limit-2);k++)
+{
+z=x+y;
+printf("\t %d ",z);
+x=y;
+y=z;
+}
+getch();
+return 0;
+}
+
+Q.write a programto calculated the sum of digits of user enter number?
+
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+int num,rem,sum=0;
+clrscr();
+printf("enter number");
+scanf("%d",&num);
+while(num>0)
+{
+num=num%10;
+sum=sum+rem;
+num=num/10;
+}
+printf("\n sum of digits=",sum);
+getch();
+}
+
+Q.write a program to check weather user enter number is amstrong or not?
+
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+int num,rem,sum=0,no;
+clrscr();
+printf("enter a number");
+scanf("%d",&num);
+no=num;
+while(num>0)
+{
+rem=num%10;
+sum=sum+(rem*rem*rem);
+num=num/10;
+}
+if(no==sum)
+{
+printf("no is armstrong")
+}
+else{
+printf("no is not armstrong")
+}
+getch();
+return 0;
+}
+
+Q.write armstrong number between 100 and 800 are formed?
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+int num,rem,sum =0,k;
+clrscr();
+for(k=0;k<=800;k++)
+{
+num=k;
+while(num>0)
+{
+rem=num%10;
+sum=sum+(rem*rem*rem);
+num=num/10;
+}
+if(k==sum)
+{
+printf("armstrong no %d",k);
+sum=0;
+}
+getch();
+return 0;
+}
+
+*function:
+it is statements block which gives the answer as per the logics.
+functions have three parts:
+1.function declaration.
+2.function call;
+3.function defination;
+
+*there are two types of function as:
+1.built in:printf have declaration in stdio.h and stdlib.h
+2.user defination: user are created by there own.
+
+Q.wirte a program to accept two number from user passing it two function printf add and multiplication in function.
+
+#include<conio.h>
+#include<stdio.h>
+void funmax(int n1 ,int n2)
+int main()
+{
+int num1,num2;
+clrsrc();
+printf("enter a number");
+scanf("%d %d",&num1,&num2);
+funmax(num1,num2);
+getch();
+return 0;
+}
+void funmax()
+{
+int sum,result,mult;
+sum=n1+n2;
+mult=n1*n2;
+printf("\n addition =%d",sum);
+printf("\n multiplication =%d",mult);
+}
+
+Q.write  a program two number from user passed it to function and printf max from it.
+
+#include<conio.h>
+#include<stdio.h>
+int funmax(int n1,int n2)
+{
+int num1,num2,max;
+printf("enter a two number");
+scanf("%d %d",&num1,&num2);
+max=funmax(num1,num2);
+printf("maximum=%d",max);
+getch();
+return 0;
+}
+int funmax(int n1,int n2)
+{
+if(n1>n2)
+return (n1);
+else
+return(n2);
+}
+
+note:
+1.in function we can have more than one return statement but,only one statement get execute,if the return statement are without 
+condition then first return statement will execute.
+2.from function at a time only one value get return back,if the statement is a return.
+return(n1,12,23,34,45) there is no any error and the right most value get return back.
+
+Q.write a program to accept two number from user and pass it to function swap then and printf the result in main function.
+
+int num=10;
+int *p;
+p=&num;
+*p=8;
+printf("%d %d",num,*p);
+
+*pointer: a variable which is used to stored another variable.
+1.two important symbols:
+
+&-address of variable.
+*-value at the address.
+
+2.syntax to declared pointer:
+
+datetype *pointer_name;
+for ex:
+int *ptr
+char *chptr;
+
+3.initilization of pointer:
+int num=10;
+int *ptr=num;
+
+4.asigning address to pointer:
+int num1,num2;
+int *ptr;
+ptr=&num1;
+ptr=&num2;
+
+*sizeof is a uniary operator which given us the bytes allocated by variable or value.
+answer=2bytes.
+
+*pointer of any type holds address of another variable address is an interger value,so pointer of anytype allocates
+memory of 2 bytes.
+
+*swapping programs:
+
+#include<stdio.h>
+#include<conio.s>
+void funswap(int *,int*)
+{
+int num1,num2;
+clrscr();
+printf("enter two number:")
+scanf("%d %d",&num1,&num2);
+funswap(&num1,&num2);
+printf("\n after swapping =%d %d",num1,num2);
+getch();
+return 0;
+}
+void funswap(int*n1,int*n2)
+{
+int temp;
+temp=*n1;
+*n1=*n2;
+*n2=temp;
+}
+
+Q.write a program to accept two form user pass it to function calculate addition and subtraction 
+and the result in main function.
+
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+int num1,num2,add,mult;
+  clrscr();
+printf("enter a value:");
+scanf("%d %d",&num1,&num2);
+add=funoperation(num1,num2,mult);
+printf("\n addition=%d"multiplication =%d",add,mult);
+getch();
+return o;
+}
+int funoperation(int n1,int n2,int*m)
+{
+int sum;
+sum=n1+n2;
+*m=n1*n2;
+return 0;
+}
+
+*array:collection of elements of same datatype in contionus memory allocation.
+decalaration:
+
+syntax:
+datatype arrayname[size];
+for ex:
+int arr[10];
+
+1.[]-it is subscript operator used to declared the size of array and to mention the index in the program.
+2.size should be always an integer and positive value .
+
+Q.write a program to accepts even values from used and print only positive values from them.
+
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+int arr[7],k;
+clrscr();
+printf("enter a 7 values:");
+for(k=0;k<7;k++)
+{
+scanf("%d",&arr[k]);
+}
+printf("all postive");
+for(k=0;k<7;k++)
+{
+if (arr[k]>0)
+{
+printf("%d \t",arr[k]);
+}
+}
+getch();
+return 0;
+}
+
+Q.update the above program to pass an array to function and print all even number from here?
+
+#include<stdio.h>
+#include<conio.h>
+void funeven(int[]);
+int main()
+{
+int arr[7],k;
+clrscr();
+printf("enter a 7 values");
+for(k=0;k<7;k++)
+{
+scanf("%d",&arr[k]);
+}
+funeven(arr);
+getch();
+return 0;
+}
+void function(int b[7])
+{
+int k;
+printf("enter all values");
+for(k=0;k<7;K++)
+{
+if(b[k]%2==0)
+{
+printf("%d",b[k]);
+}
+}
+}
+
+Q.write a program to accept from user and print using pointer?
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int*p;
+int arr[5];
+p=&arr;
+printf("accept 5 values");
+for(k=0;k<5;K++)
+{
+scanf("%d",&arr[k]);
+}
+for(k=0;k<5;k++)
+{
+printf("%d",*(p+(k*no.ofbytes)));
+p++;
+}
+return 0;
+}
+
+Q.write a program to pass an array to function multiply each elements by 5 and print the result in main function.
+
+#include<stdio.h>
+#include<conio.h>
+void funopt(int *p)
+int main()
+{
+int arr[5],k;
+clrscr();
+printf("enter a number");
+for(k=0;k<5;k++)
+{
+scanf("%d",&arr[k]);
+}
+funopt(arr);
+printf("after function operations=");
+for(k=0;k<5;k++)
+{
+printf("%d",arr[k]);
+}
+
+note:only array arr[k] name gives it starting address
+*string:
+char str[4]={'p','u','n','a'}
+char s[4]="pune"
+1.python is an array of characters having last charatcers"\0" or null.
+
+case1:
+char str[30]
+printf("enter name:")
+scanf("%s",&str);
+
+case2:
+gets(str)
+if we accept string using %s,then u will accept first word from the given string.to accept the whole 
+string including spaces we have to use,function as gets.
+
+Q.write a program to accetp string from user calculation total no. of vowels and print the result.
+
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+char str[30],int k=0,int=0;
+printf("enter the string values:");
+gets(str);
+while(str[k]!='\0')
+{
+if(str[k]=='a'||str[k]=='e'||str[k]=='i'||str[k]=='o'||str[k]=='u')
+{
+cnt++;
+}
+k++;
+printf("total vowel=%d",cnt);
+getch();
+}
+
+*string function:
+
+1.strlen():return length of string.
+int len =strlen(str);
+
+2.strcpy():copy source string into largest string
+strcpy(target string,source string);
+
+3.strcpm():compare 2 strings and return int values.
+val=strcmp(str1,str2)
+if val=0 then both string is greater.
+if val>0 then first string is greater.
+if val<0 then second string is greater.
+
+4.strrev():reverse the string 
+strrev(str1);
+
+5.strcat():to concatenate one string to another string .
+strcat(str1,str2);  
+
+*write a progarm using the string function to check weather user entering string is palindrome or not?
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+char str[30],s[30];
+int val;
+clrscr();
+printf("enter string:")
+gets(str);
+strcpy(s,str);
+strrev(str);
+val=strcpm(str,s);
+if(var==0)
+{
+printf("palindrome");
+}
+else{
+printf("not a palindrome");
+}
+getch();
+return 0;
+}
+1.passing of string to function by value and address is same as normal array.
+2.pointing arthematics with the string is also same as array.
+
+*dynamic memory allocation:
+when ever a program execute the uses two segments as:
+1.date segments:it holds local variable ,global variable and runtime memory.
+2.code segments:is allocated compiler code of program.
+
+*c allows run time memeory allocation using function such as:
+1.malloc()
+2.calloc()
+3.realloc()
+4.free()
+
+Q.write a program to accept no.of elements from user ,accept the array at run time and print sum of the element.
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int *p,limit,k,num=0;
+clrscr();
+pirntf("enter no.of elements");
+scanf("%d",&limit);
+p=(int*)malloc(limit*sizeof(int));
+for(k=0;k<limit;k++)
+{
+scanf("%d",(p+k));
+for(k=0;k<limit;k++)
+{
+sum=sum+(*(p+k));
+}
+printf("\n sum of digits=%d",sum);
+free();
+getch();
+retur 0;
+}
+
+*notes:
+1.malloc()& calloc() allocated memory on heap area and return teh stating address of heap area.
+2.malloc() inilization the block with garbage valuse while calloc() initilized with zero value.
+3.all allocation and dealloation function are included in it.
+
+*structure:
+*need of structure:
+1. in real life application user will come across with the data of the different  data type with the array conceptwe cant achive this.
+2. c language provide us a datatype which programmer can define.
+3. structure and union are used define data types.
+
+*struct Student
+{
+int rollno;
+char name[20];
+}
+memory allocation,size=22.
+
+*structure declaration:
+struct studentname
+{
+datatype member1;
+datatype member2;
+datatype member3;
+};
+
+for example:
+struct book
+{
+int no;
+float price;
+char name[20],anchore[20];
+};
+
+*structure variable declaration:
+
+case1:
+Struct Student
+{
+int rollno;
+String name[20],author;
+float marks;
+};
+
+case2:
+Struct book
+{
+int ISBN.NO;
+String name[20],author;
+float prise;
+};
+void main()
+{
+struct book b1={1,"lord shiva","230.9f"};
+printf(b1.ISBN.N0,b1.name,b1.prise);
+
+}
+
+*union:it is also user define data type same as structure but used when ever programmer wants related data members
+or a group and data wil be used with anyone data members of union.
+
+1.any one date memory member.
+2.longest data type-4bytes.
+
+*file handling:
+FILE*fp;
+for file handling in c,we have to declare a pointer of file structure.
+
+******************JAVA CONCEPTS AS (JVM AND JVR)**********************************************
+
+*what is jdk,jre and ivm?
+jdk=is a program development  environment to develop jav aprogramming (java development kit=jre+developments tools like javac etc.)
+jre= include jvm and application libraries to run java application .
+(java runtime environments= jvm +set of libraries)
+jvm=converts byte code to execute code and run in machine (java virtual machines).
+
+*java supporting the 50 keywords .
+*plateform independently:what evre the program are written are must the plateform easily executive in any window ,linux 
+and inix 32 or 64 bytes.
+
+*data types:
+1.primitive
+a.numeric type:float,double.
+b.boolean:byte,short,int,long,char. 
+2.non-primitive
+a.reference: class,interface ,array.
+
+*object:it is a real world entity which have well define structure and behaviour.
+
+*class:it is a template to create like objects name.
+
+*charasterties of an object:
+1.state:current values of all atributes gives objects state this value can be static or dynamics.
+2.behaviour:if they is anychange in state the actor reacting taken  by an object is called as behaviour.
+3.identity:it is an attribute which distigution the object from all others is called identity.
+4.responsibility:the object are some service in an environment is called as its responsibility.
+
+*major concepts of oops:
+
+1.abstraction: selection a required attributes and ignoring the rest is called abstraction.
+for example:
+student             P.T             Class teacher
+rollno               13               13
+name                suraj            suraj
+age                  23               23
+address             khed             
+phoneno.        7776901845           7776901845
+qualification       BE
+height/weight       172               172
+
+2.encapsulation:
+it is process of hiding data function structure and other implementation of programm from user .
+1.it also binds data and function s together.
+2.the end user only knows how to used the software (in application )and not the actually implementationof an program for the
+example:
+road car race game application,that we can play the game but we donot know the interior behaviour  or function.
+
+3.inheritance:the property of a child class of aquaring or accessing data fields and function from its super or parent class .
+they are different type of inhetitance 
+1.single.
+2.multiple(not used in java). overcome by using the interface as using implementation.
+3.multilevel.
+4.hybride.
+
+4.polymorphism:the process of acting to the same comment or same method will be different for diffenent objets of inheritance class 
+is called as polymorphism.
+for ex:
+student:
+1.first year.
+2.second year.
+3.third year.
+4.fourth year.
+
+*Java feature:
+1.object oriented:java support the concept of object orinented programming as overloading ,overridding ,inheritance ,polymorphism ,
+static etc.when ever we are written java program we have to start with class
+
+2.simple:with the java language making confusion and rarly used concept we omitted for eg.pointer arithematics structure ,headerfile
+ including operators overloading virtual keywords etc.
+
+3.distributed:java work with distributed system it have extentive library support on networking with protocol as tcp/ip,http 
+etc.java applicaton can acess objetcs theoughout the internet easily.
+
+4.robust:with the java coding developer donot have to worry about bad pointer memory allocation error,memory leakage problem etc.
+java program ar eeasily checked for error.
+
+5.secure:java application are compiled and saved as in bytes so this bytes are unreadable by human beings.java have it oun security
+ managers to take care of java application.
+
+6.aricture neutral:bytecode is archicture neutral file to support code independent of hardware plate form and operationg system.
+7.interpeted:as bytecode get executed on any plateform -as java interpeter and java run time system support bytecode executing .
+8.interpered:
+
+9.multipthreaded:they is build in support for threads in java .the function related to threads are implemented using java specific 
+classes.
+10.portable:java program can execute on every plateform.there is no problem of datetype compatibitity or arthematics operator etc.
+
+*creating of class and its objects are achieves  two type major concepts of objects model as:
+1.abstraction           2.encapsulation.
+
+
+   java file--->compiler--->bytecode---->1.linux
+ (source code)        (.class file )     2.unix.
+                                         3.windows.
+
+
+
+java file-->java compiler -->.class file-->class loader-->  bytcodeverifier  -->jave runtime system    -->native os
+                                                                             (java virtual machine)
+
+1.class loadder:it loades (.class) file in memory.
+2.bytecode verifier:it is responsinle for verifing the bytecode it check the constitency of the class and tha validity of the code.
+3.jvm:it is the heart of the javas orientation .jvm is responsibility to carry out plateform specific al function so, jvm is highly 
+plateform depentent,because of jvm java is plateform independent.plateform is combination of operating system and hardware ,
+about plateform java program get specified oc function by jvm.java is plateform indepentent an djvm is 
+depend playeform.
+
+Q.write a program to create a class mydate create its objects and display it.
+when ever we create a class in java we achieve to means major of oop as:(to select the requierd date field and encaplucations
+ [binding of date field with function and no access of data from outside the class]
+
+public class Date {
+	int dd,mm,yy;
+	Date()  //default constructor
+	{
+		dd=1;
+		mm=2;
+		yy=2019;
+	}
+	Date(int d,int m,int y)// parameretised
+	{
+		dd=d;
+		mm=m;
+		yy=y;
+	}
+	void display()
+	{
+		System.out.println(dd+"/"+mm+"/"+yy);
+	}
+	public static void main(String[] args)
+	{
+		Date d1=new Date();
+		Date d2;
+		d2=new Date(3,2,2019);
+		d1.display();
+		d2.display();
+		}
+}
+//output:
+//1/2/2019
+//3/2/2019
+
+*whenever object get create it will go through three steps as:
+1.memory allocation.
+2.constructor call.
+3.memory insitilization.
+
+*constructor:a special methods which have the same name as class name do not have any return datatype and invoke (call) at the 
+time of object creation.
+
+//consrtuctor parameterised:
+Date(int dd,int mm,int yy)
+{
+d=dd;
+m=mm;
+y=yy;
+}
+
+//constructor default valued:
+Mydate()
+{
+d=1;
+m=1;
+y=2018;
+}
+
+1.if in a class there are more than one same method names but different signatures are implemented then it is called as method 
+overloading.
+2.method signature menas no.of parameter ,their type,sequence.
+3.constructor are special method and a class can have more then one constructor so we can achieved constructor overloading.
+
+*with a java class there are three type of variables are-
+
+1.local variable-variable which declared as  parameter of method or inside a method.
+2.instance variable-variable which get occupied at the time of object creating and declared in the class outoff any method are 
+called instance or object variable.
+3.static variable-this are also called as class variable if,instance variable name and class and class variable name are same 
+then their is confusion to the compiler that which one is used with instance variable.
+
+*java main points:
+
+1.plateform indepedent.
+2.oops.
+3.robust language-strong &steady.
+4.simple language.
+5.no concept of pointer operator overlaoding.
+6.security.
+7.multithreading.
+
+*hellow world:
+1.when  the body of class ends,do not put semicolon .
+2.when in java type of access specifier:
+a.private .
+b.public .
+c.protected.
+d.default. 
+
+3.if any access class inside called as inner class.inner class may be public,private,protected or default.but outer class is 
+always public or nothing can be written direct start from class.
+4.when we write public before  outer class then it is public but when nothing is written before the output class then it is 
+consider as default.
+5.we cannot uses private or protected for the output class.
+
+*hellow world!
+it the name of class contain more than one word the the first letter of each word is written in capital.
+this is called as camel case.we cannot used space s .it is not allowed.we can use alphabet ,underscores or camel case.for 
+spenging two words.most of java professionals use camel case.
+
+*publis static void main():we have to create a class even if the program is two small manin function /every function is
+ partof some class.
+1.public:we make function public so that we can access it from outsides.
+2.static:when we make any member static then we can call is without using objects.
+3.statics:when we make any member static then we can call without using object.
+4.void :here the written type is only the void there is no return type,
+5.main(string[]args):arguments are inside main function when we run the program using command s line we can pass the arguments.
+6.System.out.println:whenever class is followed b dot then we are accessing string static members of the class.out 
+referensea object of any class .we are calling member function print of that objetc by using dot(.).in this one searcing
+ in passed a message,println always printhln a message from new lines.
+
+*contructor:same name as a class name and it can automatically
+1.it is special method of class whose name is same a sthe class name.
+2.constructor are used to contruct the object.
+3.it can get call automatically.
+4,it do not have the return value or not even a void .
+5.it is implicity invoked just after the memory is allocated for the void diplay ()object using "new" keywords
+out-reference variable -static  
+
+Q.write a class employee write the fields id,name,salary,write default constructor and parametrised and a display the metheod an
+ decreate a object 5.
+
+package sawa;
+
+public class Employs {
+	int id,d,m,y;
+	String name;
+	 
+	float basic_salary;
+	Employs()
+	{
+		this(02,"suraj",04,05,1998,6000);
+		
+	}
+Employs(int id,String name,int d,int m,int y,float basic_salary)
+{
+this.id=id;
+this.name=name;
+this.d=d;
+this.m=m;
+this.y=y;
+
+//doj=new Mydate(day,month,year);
+this.basic_salary=basic_salary;
+}
+public String toString()
+{
+//return("Employee id:"+id+"\nName:"+name+"\nSalary:"+basic_salary+"\n"+doj);
+return("Employee id:"+id+"\nName:"+name+"date:"+d+"month:"+m+"Year:"+y+"\nSalary:"+basic_salary);
+}
+ public static void main(String[] args)
+{
+System.out.println("Employee information:");
+Employs E2=new Employs();
+Employs E1=new Employs(01,"krishna",02,03,1997,5000);
+System.out.println(E1+"\n\n"+E2);
+
+}
+}
+//output:
+//Employee information:
+//Employee id:1
+//Name:krishnadate:2month:3Year:1997
+//Salary:5000.0
+
+//Employee id:2
+//Name:surajdate:4month:5Year:1998
+//Salary:6000.0
+
+
+*static fields:in java we can use the static keywords to declared static fields ,static members and static blocks,
+1.static fields:are shared by all the instance of a class so it is a same for all instrance .if the we change the value of static
+ field s the new value will be shared by instance.
+
+2.static method:in side a java class we can define any method with a static keywords .if the method is static method it can acess 
+only the static fields inside the class.static methods donot need any instance of the class so the static method can be called 
+without creating the instance of the class.
+
+3.static blocks:in side any java class we can write any block with the keyword static blocks get executed automaticaly before 
+the main method.they canbe any no.of static blocks inside the class all the blocks can will executed automatically in the sequence 
+in which they are define in a class.
+static blocks are generally return to intisized the static field s and if samecode should executed before main method then we 
+can put it inside the static blocks.
+
+Q.student rollno,marks avg,are format
+package asdf;
+
+public class Studexamp {
+	int roll;
+	String name;
+	float marks;
+	void setdata()
+	{
+		roll=12;
+		name="suraj";
+		marks=87;
+	}
+	void display()
+	{
+		System.out.println("roll=  "+roll);
+		System.out.println("name=  "+name);
+		System.out.println("marks=  "+marks);
+	}
+  public static void main(String[] args)
+  {
+    Studexamp S1=new Studexamp() ;
+    S1.setdata();
+    S1.display();
+  
+  }
+}
+
+*language which support abstration,encapsulation ,but does not support polymorphism inheritance called as object based language.
+*abstraction-finding imp feature of an objects.
+*encapsulation-hiding the data.
+
+*as in this there are sourcecode as saved as the .java and then compiler are there so that are used to convert into a source code 
+into bytecode.
+*althrough 1 bits is sufficient for boolean another there are not used for anythings so 1 bytes for boolean .
+*java datatype are:
+1.int    4byte
+2.char   2byte it cab hold only one characters.
+3.float  4byte
+4.long   8byte
+5.double 8byte
+6.short  2byte
+7.byte   1byte
+8.boolean1byte can take only true and false.
+
+*keywords in the java as 50.
+
+*whenever object get created its will go through three steps as:
+1.memory alloacation.
+2.constructor call.
+3.memory initilization.
+
+*constructor:special method which have teh same name as class name ,donot have any return type and invoke call at the time of object
+ creation.
+1.it in a class there are more than one same method names but different signatures are implements  then itsis called as
+method overloading.
+2.method signature means no. of parameters, there types,sequence.
+3.constructor are special methods and a class can have more than one constructor so we can achieve
+constructor overloading.
+ 
+*with in a java there are theree type of variable:
+
+1.local variable:variable which declared as parameter of method or inside a method.
+2.instance variable:variable which get occupied at the time of object creating and declared inthe class outoff any method are called 
+instance or object variabe.
+3.static variable:this are also called as class variable if,variable name and class variable name are same then their is confusion 
+to the compiler that which one is used with instance variables.
+
+*this:
+it is the keywords in java which have the address of current an object."this"is used for there purpose as -
+1.if local variables name and instance variables name are same the used this with instance variable.
+2.to achieved constructor chaining.
+3.whenever we call a method at that time object have hidden parameter as "this".
+
+Q.write a progarm to achieved a method overlaoding on addition.
+
+public class Math {
+	
+	  public int add(int num1,int num2)
+	 {
+		 return (num1+num2);
+		 
+	 }
+	  public int add(int num1,int num2,int num3) 
+	  {
+		  
+		  return(num1+num2+num3);
+	  }
+	  
+ 
+	public static void main(String[] args)
+	{ 
+	Math ob1=new Math();
+	 Math ob2=new Math();
+	System.out.println(ob1.add(12,28));
+	System.out.println(ob2.add(12,13,14));
+	
+	}
+ }
+//output:
+//40
+//30
+
+*static-we can have static variables,static methods ,statics blocks inside a class.
+1.static variables-also knows as class variable it get shared by all objects of the class only one copy will get exist for static 
+variable.
+
+Q.write  a java program to create  student class with rollno,name and count total no of creating objects.
+
+package par;
+public class MyDate {
+	int d,m,y;
+	void display()
+	{ 
+		System.out.println("date =" +d + "month =" +m +"year =" +y);
+
+	}
+	public static void main(String[] args) 
+	{ 
+        MyDate b1= new MyDate();
+		b1.display();
+		MyDate b2= new MyDate(18,7,2019);
+		b2.display();
+	}
+
+	MyDate(int dd, int mm,int yy)
+	{ 
+		this.d=dd;
+		this.m=mm;
+		this.y=yy;
+	}
+	
+	MyDate()
+	{
+		this(1,1,2019);
+	}
+}
+//output:
+//date =1month =1year =2019
+//date =18month =7year =2019
+
+Q.create class employ with datamembers id,name,implements,default,parameterised constructor,and display show totalno. of emp.
+
+package person;
+
+public class Employ
+{
+	static int cnt;
+	int id ;
+	String name;
+	Employ()
+	{ 
+		this(1,"suraj");
+	}
+	Employ(int id,String name)
+	{
+		this.id=id;
+		this.name=name;
+		cnt++;
+	}
+	void display()
+	{
+		System.out.println("employ_id="+ id +"employ_name="+name);
+    }
+static int showcnt()
+{
+	return cnt;
+	}
+
+public static void main(String[]args)
+{
+	Employ E1=new Employ();
+	E1.display();
+	Employ E2 = new Employ(1,"suraj");
+	E2.display();
+	System.out.println("total object ="+Employ.showcnt());
+}
+}
+//output:
+//employ_id=1employ_name=suraj
+//employ_id=1employ_name=suraj
+//total object =2
+
+Q.write a java code to swap two dates.
+
+package swap1;
+
+public class Mydate {
+	int d,y,m;
+	Mydate()
+	{
+		this(1,2,2019);
+	}
+Mydate(int d,int m,int y)
+{
+this.d=d;
+this.m=m;
+this.y=y;
+}
+public String toString()
+{
+return("Date is:"+d+"-"+m+"-"+y);	
+}
+   public static void main(String[] arg)
+{
+Mydate []d =new Mydate[2];
+d[0]=new Mydate();
+d[1]=new Mydate(2,2,2019);
+System.out.println(d[0]+"\n"+d[1]);
+swap(d);
+System.out.println("\n After Swapping:\n"+d[0]+"\n"+d[1]);
+}
+private static void swap(Mydate[] d2)
+
+{
+Mydate temp;
+temp=d2[0];
+d2[0]=d2[1];
+d2[1]=temp;
+}
+}
+
+Q.write a java program to create an arrayof five employee and implements the method to gat average salary of them.
+package king;
+
+public class Employ1 {
+int []arr= {2200,3300,4000,5000,4500};
+int avg;
+int total=0;
+void Salary()
+{ 
+	for(int i=0;i<arr.length;i++)
+	{
+	System.out.println("Salary of Employee:"+arr[i]);
+	total=total+arr[i];
+	
+    }
+	System.out.println("\n total Salary:"+total);
+	avg=total/arr.length;
+	System.out.println("\n Average Salary:"+avg);
+}
+public static void main(String[] args)
+{
+Employ1 E1=new Employ1();
+E1.Salary();
+}
+}
+//output:
+//Salary of Employee:2200
+//Salary of Employee:3300
+//Salary of Employee:4000
+//Salary of Employee:5000
+//Salary of Employee:4500
+ //total Salary:19000
+//Average Salary:3800
+
+*toString:this is a method of object class whnever we create an object by default it have parent class as object so object class 
+is called cosmic super class.
+*Array:arrays are first class object in java the referenace to each is stored an stack and actually array is an heap.
+for ex:
+int []arr=new arr[5]
+arr[0]=new int(20)
+arr[1]=new int(30)
+
+*garabage collector(gc):
+java gives facilities of deallocation memory of object using garbage collector .it is also known as'gc'.
+it deallocated memory of object that no longer has any reference.
+
+*containment:it represent 'has-a'relationship whenever a programmer used an object of one class as a datamember of another also
+then contaninment relationship maintains using containment we achive resuability of code.
+for ex:the object of mydate class is class is data member of employee class as date of joining.
+
+*function overriding:
+it is define as there are different class such as class employnew class manager but their are some method as getsal is called a 
+function overriding.
+
+*super:
+super allows to pass control to a constructor in parent class.were constructor must invoke of super class.if constructor is
+not invoke capilicitly,super class use it default constructor.if they is no default constructorin super classthen simplier will 
+given the error.if the parameterised constructor of super class the no.of parameterised are missmatching then their is compiler time
+ error.super must be thefirst statemnets in the sub costructor.
+
+*polymorplism:it inviked same method names having diffenent implements .it  support to resolved the method call to suitable
+ implements.because of inheritance and polymorpsism we can extends or shrink a heriany that menas a sper the need we can add 
+class in the heriarcy or remove it,which will not effetc on the herisrcy.
+
+*static polymorphism:it is achieved by method overlaoding while dynamics polymorphism is achived by method overriding in a inheriance.
+*overriding:it is directly related to the subclass of heriancry .the return type of overidding method sholud be of same type
+otherwise their iwll be compile time error.it is method should have same arguments lists with same time and its order otherwise 
+they are simple terated as overlaoded method.
+
+*overlaoding:signatuer of overlaoded method should be different.method overlaoding happen in the same class.
+*overridding:signature of overriding method happen between inthe inheritance classes.
+
+*every variable has two type as:
+1.static variable   2.dynamic variable.
+in th example package function main file we created array of object of base class employee .statically e[1]and e[2] have datatype 
+as employee while daynaics data type is manager and salerperson.
+
+*abstract class:we can create were generally or common feature s collection in single super class. inthis  abstract  class we 
+can have one or more method declared but ,not define [no any implementation for the method .] 
+
+1.any class that have at laest one method as adstract should  be declared as abstract class.
+2.we cant create object of an abstract class.
+3.abstract modifier can't be used for constructor and static method .
+4.any subclass of an abstract should implements all abstract method of super class or declared itself to be abstracts.
+ 
+
+Q.create class employ with date member id,name,implements default constructor and paramaterised constructor display and show 
+total no. of count
+object created.
+
+package icecream;
+
+public class Employ {
+
+	int id;
+	String name;
+	float salary;
+	Employ()
+	{
+		id=1;
+		name="suraj";
+		salary=230000.96f;
+	}
+	Employ(int d,String n,float f)
+	{
+		id=d;
+		name=n;
+		salary=f;
+		}
+	  void display() 
+	  {
+		  System.out.println("employid"+id+"employname"+name+"empyoleesalary"+salary);
+	}
+	  
+	  public static void main(String[] args)
+	  {
+		  Employ E1=new Employ();
+		  Employ E2=new Employ(23,"pranay",543777.9f);
+		  Employ E3=new Employ();
+		  Employ E4=new Employ();
+		  Employ E5=new Employ();
+		  E1.display();
+		  E2.display();
+		  E3.display();
+		  E4.display();
+		  E5.display();
+	}
+	  
+}
+
+
+Q.write a java progarm to create an array of five employee and implements the method to get avarage salary
+of them.
+
+*toString method:this is a the method of "object"class whenever we create an object by default it have  parents class a sobject so 
+object class is called cosmic super class.in jave parameter passing to method is done by value.
+
+*array:array are first class object in java we reference to each is stored in stack and actually array is on heap.
+for example:
+int []arr=new arr[5]
+arr[0]=new arr(20)
+arr[1]=new arr(30)
+arr[2]=new arr(40)
+arr[3]=new arr(50)
+arr[4]=new arr(60)
+
+Q.write a program to achieved a method overloading on addition.
+
+public abstract class Shape1 { 
+	int val;
+	public abstract void calculateArea();
+	public void func1()
+
+	{
+		System.out.println("Hellow");
+	}
+}
+public class Rectangle extends Shape1 {
+	float l,b;
+	Rectangle()
+	{
+		l=b=0;
+		
+	}
+	Rectangle(float l,float b)
+	{
+		this.l=l;
+		this.b=b;
+	}
+public void calculateArea()
+{
+float area;
+area=l*b;
+System.out.println("Area="+area);
+}
+
+public static void main(String[] args)
+{
+Rectangle r1=new Rectangle();
+r1.calculateArea();
+Rectangle r2=new Rectangle(2.3f,5.4f);
+r2.calculateArea();
+}
+}
+
+*there are two method are:
+1.getter.
+2.setter.
+for ex:
+package hgtsy;
+
+public class Car {
+	int wheels;
+	String name;
+	float price;
+	void setWheel(int w)
+	{
+		wheels=w;
+		
+	}
+    void setName(String n)
+    {
+    	name=n;
+  
+    }
+    void setPrice(float p)
+    {
+    	price=p;
+    }
+    int getWheels()
+    {
+    	return wheels;
+    }
+    String getName()
+    {
+    return name;	
+    }
+    float getPrice()
+    {
+    	return price;
+    }
+    public static void main(String[] args)
+    { 
+    	Car C1=new Car();
+    	Car C2=new Car();
+    	C1.setName("BMW");
+    	C1.setPrice(1234.098f);
+    	System.out.println("carname="+C1.getName());
+    	System.out.println("carprice="+C1.getPrice());
+    }
+}
+
+Q.write a class employee to scanner as field as name,salary,da,hra,gross,pt,net,static,count.
+package polk;
+
+public class Employes {
+	
+	int id;
+	String name;
+	float salary,da,hra,gross,pf,net;
+	static int empcount;
+	static
+	{
+		empcount=1000;
+	}
+	Employes()
+	{
+		id=++empcount;
+		name="xyz";
+		salary=23000.98f;
+	}
+	Employes(String n,float s)
+	{
+		id=++empcount;
+		name=n;
+		salary =s;
+		da=salary*8/100;
+		hra=salary*10/100;
+		gross=salary+da+hra;
+		pf=gross*25/100;
+		net=gross-pf;
+	}
+
+
+
+	void display()
+	{
+		System.out.println(id+"\t\t"+name+"\t\t"+salary+"\t\t"+da+"\t\t"+hra+"\t\t"+gross+"\t\t"+pf+"\t\t"+net);
+	}
+	static void showcount()
+	{
+		System.out.println("total no.of employee"+empcount);	
+	}
+	public static void main(String[] args)
+	{
+		Employes E1=new Employes();
+		Employes E2=new Employes("ravi",546.09f);
+		Employes E3=new Employes("rita",876.09f);
+		Employes E4=new Employes("hina",9845.87f);
+		Employes E5=new Employes("rima",7654.9f);
+		Employes.showcount();
+		E1.display();
+
+
+		E2.display();
+		E3.display();
+		E4.display();
+		E5.display();
+}
+}
+
+package person;
+
+import java.util.Scanner;
+public class Employ
+{
+	static int cnt;
+	int id ;
+	String name;
+	float p;
+	Employ()
+	{ 
+		this(1,"suraj",897.0f);
+	}
+	Employ(int id,String name,float p)
+	{
+		this.id=id;
+		this.name=name;
+		this.p=p;
+		cnt++;
+	}
+	void display()
+	{
+		System.out.println("employ_id="+ id +"employ_name="+name+"employ_p"+p);
+    }
+static int showcnt()
+{
+	return cnt;
+	}
+
+public static void main(String[]args)
+{
+	Employ E1=new Employ();
+	Scanner sc=new Scanner (System.in);
+	System.out.println("enter employee name:");
+	String name=sc.next();
+	System.out.println("enter salary:");
+	float p=sc.nextFloat();
+	System.out.println("total object ="+Employ.showcnt());
+}
+}
+//output:
+//employ_id=1employ_name=suraj
+//employ_id=1employ_name=suraj
+//total object =2
+//or
+//enter employee name:
+//suraj
+//enter salary:
+//100000
+//total object =1
+
+
+
+*garabage collection:dellocation memory,java donot allowed memory leakage.deallocation memory of object that no longer have any reference
+count is zero.
+*destructor:writing a codes to free memory as their are no concept in java.gc is a mechanism provided by jvm to reclaim heap spaces from object which are unreacble.
+helps to free non zero.
+*method overloading:no.of arguments ,data type,sequence of which it gives.
+   
+*var-args:varible arguments
+
+
+
+ public class Addtest
+{
+	void sun(int...number)
+  {   int sum=0;
+     for(int i =0;i<number.length;i++)
+   {
+	  sum=sum+number[i]; 
+   }
+     System.out.println("no is:"+sum);
+	}
+	public static void main(String[] args)
+	{
+		Addtest a1=new Addtest();
+		a1.sun(12,12,12,12);
+		a1.sun(12,12,12);
+		a1.sun(12,12);
+		a1.sun(12);
+		a1.sun();
+	}
+}
+//output:
+//no is:36
+//no is:24
+//no is:12
+//no is:0
+
+*array:it is a collection of homogenous data elements stored in consquative memoray location.the syntax of array creating location.
+syntax:
+int []a=newdata[5].
+or
+Mydate []a=new Mydate[5]
+a[0]=new Mydate(10)
+a[1]=new Mydate(20)
+a[2]=new Mydate(30)
+a[3]=new Mydate(40)
+a[4]=new Mydate(50)
+
+*foreachloop or enhanced for loop:
+disadvantages:
+1.filtering collection.
+2.cannot remove  array elements for the loop.
+3.reversing is not happen in the for loop.
+4.used over traverse over collection.
+
+for(type var:collection)
+for examples:
+int nums[]={1,2,3,4,5}
+int sum=0;
+for(int x:nums)
+{
+sum+=x;
+}
+System.out.println(sum);
+
+
+*int nums[]={10,20,30,40,50}
+int sum=0;
+for (int i=0;i<num.lenght;i++)
+{
+sum=sum+num[i];
+}
+System.out.println(sum);
+
+*containment:one object which contain part of the another object.
+1.compression:inside  object life is depend on outer object.
+2.aggresion:outer object destroyed that it will not effect the different objects.
+for example:
+1.car and engine.
+2.mobile and sim card.
+3.class room and chair.
+4.car has an insurance policy.
+
+package containment;
+
+public class Wheel {
+	float price;
+	String type;
+	String company;
+	Wheel()
+	{
+		price=4000.05f;
+		type="tubeless";
+		company="MRF";
+	}
+	Wheel(float price,String type,String company)
+	{
+		this.price=price;
+		this.type=type;
+		this.company=company;
+	}
+	public String toString()
+	{
+		return"Wheel type="+type+"Price="+price+"Company="+company;
+	}
+}
+package containment;
+
+public class Car {
+	float carprice;
+	String name;
+	Wheel w;
+	 
+	Car()
+	{
+		carprice=6000000.0f;
+		name="Swift Dwsire";
+		w=new Wheel();
+	}
+    Car(float carprice,String name,Wheel w)
+    {
+    	this.carprice=carprice;
+    	this.name=name;
+    	this.w=w;
+    	
+    }
+    public String toString()
+    {
+    	return"Car price="+carprice+"Name="+name+w;
+    }
+    
+}
+package containment;
+
+public class Test {
+	public static void main(String[] args)
+	{
+		Car c1=new Car();
+		System.out.println(c1);
+		Wheel w1=new Wheel(8000.0f,"withtude","dunlop");
+		Car c2=new Car(1000000.00f,"Hondacity",w1);
+		System.out.println(c2);
+	}
+	
+
+}
+//output:
+//Car price=6000000.0Name=Swift DwsireWheel type=tubelessPrice=4000.05Company=MRF
+//Car price=1000000.0Name=HondacityWheel type=withtudePrice=8000.0Company=dunlop
+or
+public class Employee {
+
+	int empid;
+	String name;
+	MyDate jd;
+	Employee(int empid,String name,MyDate jd)
+	{
+		this.empid=empid;
+		this.name=name;
+		this.jd=jd;
+		
+	}
+	public String toString() {
+		return"emp id="+empid+"name"+name+"joining date="+jd;
+		}
+	}
+public class MyDate {
+int dd,mm,yy;
+public String toString()
+{
+return "date="+dd+"month="+mm+"year="+yy;	
+}
+public MyDate(int dd,int mm,int yy)
+{
+this.dd=dd;
+this.mm=mm;
+this.yy=yy;
+}
+
+}
+public class Testemployee {
+
+	public static void main(String[] args)
+	{
+		MyDate jd=new MyDate(4,8,2019);
+		Employee e1=new Employee(1001,"jitender",jd);
+		System.out.println(e1);
+		
+		
+		
+	}
+	
+	
+	
+}
+//OUTPUT:
+//emp id=1001namejitenderjoining date=date=4month=8year=2019
+
+*package:
+it is a folder which group related class totally are two types such as:
+1.user define:
+2.java built in package:
+java.io(input output)
+java.net(networking)
+java.applet()
+java.awt(abstract window graphics)
+java.lang(common class)
+java.util.
+
+*how to create a package:
+1.create package
+write
+package packagename;
+as first statements in your program.
+
+2.to import the all the class files of the one package to any other package o that there are imp:
+synatx:    import p1.*;
+
+package p1;
+
+public class Student {
+	
+	int roll;
+	String name;
+	float marks;
+	public Student(int roll,String name,float marks)
+	{
+		this.roll=roll;
+		this.name=name;
+		this.marks=marks;
+	}
+	public String toString()
+	{
+		return roll+name+marks;
+		
+	}
+	}
+package p2;
+
+public class Classbatch {
+	int no;
+	String timing;
+	String batchcode;
+	public Classbatch(int no,String timing,String batchcode)
+	{
+	this.no=no;
+	this.timing=timing;
+	this.batchcode=batchcode;
+	}
+
+	public String toString()
+	{
+	return "Total student ="+no+"batch time="+timing+"bacth code"+batchcode;
+	}
+	}
+
+import p2.Classbatch;
+public class Test {
+	 public static void main(String[] args)
+	 { 
+		 p1.Student  s1=new p1.Student(101,"kavita",97.00f);
+	     Classbatch b1=new Classbatch(25,"12 to 2pm ","java");
+	     System.out.println(s1);
+	     
+	     System.out.println(b1);
+		 
+	 }
+
+}
+//output:
+//101kavita97.0
+//Total student =25batch time=12 to 2pm bacth codejava
+
+*inheritance:the mechanism of aquaring the properties of one class in another class is called inheritance .the existing 
+class is called super class or base class or parent class  and the newly created class is called 
+subclass or child class.
+types of inheritance are:
+1.single inheritance.
+2.multiple inheritance.
+3.multilevel
+4.mutiple inheritance.
+
+*method overloading:
+1.it is done within a same class.
+2.method overloading signatures must be different for each method 
+3.in method overloaling the return type is not consider as a part of the consider as a
+ part of the method signature.
+
+*method overridding:
+1.it is done with an inheritance classes.
+2.signatures muct be same in derived class  as well as based class.
+3.the return types also need to be same in super and well as sub class.
+
+*acess specifier:
+1.private.
+2.public.
+3.protected.
+4.default.
+
+*abstract class:it is a keywords used to definr the abstract  method or abstract class in java.
+2.a method which does not have any implementation must be declared as an abstract method.
+3.if any class is having any one method as an abstract method then that class must be declared 
+as abstract class.
+
+abstract class Shape {
+	abstract void area();
+}
+class Rectangle extends Shape
+{
+	int l,b;
+	void area()
+	{
+		l=5;
+		b=10;
+		System.out.println("area:"+(l*b));
+	}
+}
+class Circle extends Shape
+{
+float r;
+void area()
+{
+r=10.5f;
+System.out.println("area:"+(3.142*r*r));
+}
+}
+//output:
+//area:50
+//area:346.4055
+
+
+*interface:
+1.it is a collection of all abstract method and if the fields are declaired in interface these are considered as final fields.
+2.to in herit the interface the keyword used is implements.
+3.we can extends only one class but implements any no. of interface.
+
+*object is a cosmic super class in java.
+*every class in java is by default inherited or extended from object class.
+*the object class is present in java.lang.package
+*every class in java implicitely has asn import statements as import java.lang.*
+
+*string:
+1.it is a build in class in java.string is a first class object means without writing new keywords also we can create strings 
+object also.
+2.the string are created  without new keywords are called string literal.
+3**string are immutable (it cannot be change at all).
+4.strings are widely used in java.
+ 
+in the string there are two type are:
+1.stringbuffer-
+2.stringbuilder-
+
+*inner class :
+class defined inside the inner class there are four type.
+1.simple inner class.
+2.static inner class.
+3.method local class.
+4.anaynous inner class.
+
+*exception:
+the error that occurs during the execution of the a program are called runtime error or exception.
+eg:
+1.division by o.
+2.access to an array outside its bounds.
+3.file not found.
+4.data enterd is not in correct found.
+5.invalid  type casting is done.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cookies in Javascript</title>
+</head>
+
+<body>
+	<script>
+		function cookies(){
+			if(document.form.customer.value==""){
+				
+			alert("Enter some values for cookies");
+				return;
+		}
+			cookievalue=escape(document.form.customer.value)+";";
+					document.cookie="name="+cookievalue;
+			document.write("setting Cookies"+ "name=" + cookievalue);
+	
+		}
+	
+	</script>
+	<form name="form" action="#">
+	
+	Enter Name:<input type="text" name="customer">
+		<input type="button" value="Set Cookies" onClick="cookies()">
+	
+	</form>
+</body>
+</html>

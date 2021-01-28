@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+.wrapper {
+ width:600px;
+ background-color:pink;
+ padding:20px;
+ /* Floated elements don't use any height. Adding "overflow:hidden;" forces the
+ parent element to expand to contain its floated children. */
+ overflow:hidden;
+}
+
+.left-sidebar {
+ width:150px;
+ background-color:blue;
+ float:left;
+}
+.content {
+ width:300px;
+ background-color:yellow;
+ float:left;
+}
+.right-sidebar {
+ width:150px;
+ background-color:green;
+ float:right;
+}
+
+
+
+
+</style>
+<div class="wrapper">
+ <div class="left-sidebar">
+ <h1>Left Sidebar</h1>
+ 
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+ </div>
+ <div class="content">
+ <h1>Content</h1>
+ <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque
+nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin
+ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non,
+massa. </p>
+ </div>
+ <div class="right-sidebar">
+ 
+<h1>Right Sidebar</h1>
+ <p>Fusce ac turpis quis ligula lacinia aliquet.</p>
+ </div>
+</div>
+
+
+
+
+
+</body>
+</html>

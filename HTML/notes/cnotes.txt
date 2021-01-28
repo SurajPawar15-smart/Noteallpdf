@@ -1,0 +1,1592 @@
+c programming language:
+programmer------>instruction------>computer (machine).
+*1972 -dennis ritchie.
+*c language 
+1.simple and easy to learn language.
+2.better understanding of computer programming concepts.
+3.efficient ,reliable,high performances.
+4.general purpose language.
+
+how c programming language works?
+c sourse code--->preprocessor(complier c)--->object code.
+ 
+c toolset/toolchain and ide:
+compiler
+preprocessor
+linker
+
+ide:complection process and as their are writting a programm and 
+codeblock
+eclipse
+turbo
+visual studio.
+*installation for c ,c++ programming (windows)
+*constant ,variables,data type ,keywords in c language.
+
+1.constant:alphabets ,numbers and special symbols are combination the former constants variables and keywords.
+a constant is an entity that doent change
+interger constant
+real constant
+character constant
+
+2.variable:is the entity that does changes .the programming we have to store that result of caluclation and it is stored in
+ the computer menory.
+the memory cell can contain integers the floating point and character.type of a variable is nothing but the type of constant 
+that the variable can stored.
+
+3.keywords:by using keywords we can constant means single statements.
+this are the words meaning that already been explained to the c compliler eg.breaks,for,if,int ,float,char etc.
+keywords cannot be used as variable name.
+
+*hellow world:
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+printf("hellow learner");
+return 0;
+}
+
+*variable decalaration using c:
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int age,float weight,char sex;
+age=23;
+weight=50.5;
+sex='m';
+printf("%d %f %c",age,weight,sex);
+getch();
+return 0;
+}
+
+scanf function:
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int age ,float weight;
+printf("enter a your age:");
+scanf("%d ",&age);
+printf("enter a your weight:");
+scanf("%d ",&weight);
+}
+
+
+printf function:
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int age=23;
+printf("enter a your age %d",age);
+getch();
+return 0;
+}
+
+*arithematics operators:
+#include<stdio.h>
+#include<conio.h>
+int main()
+{ int num1,num2,result;
+num1=20;
+num2=100;
+result=num1+num2;
+printf("results %d",result);
+getch();
+return 0;
+}
+
+*logical operator:
+#include<stdio.h>
+#include<conio.h>
+int main()
+{ 
+int age=15;
+if(age<=18&&age>=13)
+{
+printf("u are teenager");
+}
+else{
+printf("u r not teenager");
+}
+getch();
+return 0;
+}
+
+*increment and decrements operator:
+#include<stdio.h>
+#include<conio.h>
+int main()
+{ 
+int x=15;
+printf("x value is%d",x++);
+printf("y value again is %d",x);
+getch();
+return 0;
+}
+
+*ternary operators:
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{ int age=16;
+int x;
+x=(age>=18)?1:0;
+printf("%d",x);
+getch();
+return 0;
+}
+
+*while loop in c:
+#include<stdio.h>
+#include<conio.h>
+int main()
+{ 
+int count=1;
+while(count<=10)
+{
+printf("%d",count);
+count++;
+getch();
+return 0;
+}
+}
+
+*for loop:
+#include<stdio.h>
+#include<conio.h>
+int main()
+{ 
+int count;
+for (count=0;count<=10,count++)
+{
+count++;
+}
+getch();
+return 0;
+}
+
+*do while:
+#include<stdio.h>
+#include<conio.h>
+int main()
+{ 
+int count=1;
+dp{
+printf("hellow \n");
+count++;
+}
+while(count<=10);
+
+getch();
+return 0;
+}
+
+*break:
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int count;
+for (count=1;count<=10;count++)
+{
+printf("%d \n ",count++);
+}
+
+printf("after the for loop \n")
+getch();
+return 0;
+}
+
+*continue statements:
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int count;
+for(count=0;count<=10;count++)
+{
+if(count==2)
+continue;
+printf("%d\n ",count);
+getch();
+return 0;
+
+}
+
+*switch statements:
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int num;
+printf("enter a number");
+scanf("%d",&num);
+switch(num):
+{
+case 1:printf("one \n");
+break;
+case 2:printf("two \n");
+break;
+case 3: printf("three\n");
+break;
+case 4:printf("four \n");
+break;
+default:printf("ok \n");
+}
+getch();
+return 0;
+}
+
+*check weather the charactera are in upper or lower case:
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+char ch;char c='A'
+printf("enter a characters");
+scanf("%c",&ch);
+switch(ch):
+{
+case 'A'....'Z':printf("%c is uppercase ",ch);break;
+case 'a'....'b':printf("%c is in lowercase",ch);break;
+
+default:printf("please enter a alphabate:\n");
+}
+getch();
+return 0;
+}
+
+*
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int num=1500;
+printf("enter a number");
+scanf("%d",&num);
+switch(num):
+{
+case 1000....1500:printf("%d is lies b/w 1000 &1500",num ");
+break;
+case 2000:printf("case 2000");
+break;
+default:printf("default values");
+}
+getch();
+return 0;
+}
+
+*array using:
+#include<iosteam.h>
+#include<conio.h>
+int main()
+{
+int marks={23,34,34,54,34,23};
+float avg[2];
+printf("%d",marks[3]);
+printf("%d",marks[2]);
+printf("%d",marks[1]);
+printf("%d",marks[0]);
+getch();
+return 0;
+}
+
+*function in c:
+#include<iosteam.h>
+#include<conio.h>
+void display();
+int main()
+{
+display();
+getch();
+return 0;
+}
+void display()
+{
+printf("this is printed by a function:");
+}
+
+*parameters functions:
+#include<iosteam.h>
+#include<conio.h>
+int display(int ,int);
+int main()
+{
+display(10,20);
+getch();
+return 0;
+}
+int display(int a,int b)
+{
+int result=a+b;
+print("the result of the %d is %d",a,b,result);
+return (result);
+}
+
+*variable scope:
+#include<iosteam.h>
+#include<conio.h>
+int b=10;
+int main()
+{ 
+int b=20;
+printf("%d \n",b);
+b++;
+printf("%d \n",b);
+return 0;
+}
+
+*pass by value:
+#include<iosteam.h>
+#include<conio.h>
+int b=10;
+int main()
+{
+int x,y;
+x=10,y=20;
+printf("x is %d and y is %d",x,y);
+display(x,y);
+printf("after function is %d and y is %d \n",x,y);
+getch();
+return 0;
+}
+void display()
+{
+printf("a is %d and b is %d \n",a,b);
+}
+
+*define preprocessor direcives:
+#include<iosteam.h>
+#include<conio.h>
+#define LIMIT 10
+int main()
+{
+printf("ENTER THE NAME LIMIT");
+for (count=1;count<=LIMIT,count++)
+{
+printf("%d  \n ",count);
+}
+getch();
+return 0;
+}
+
+*macro using:
+#include<iosteam.h>
+#include<conio.h>
+#define MARKS 100
+int main()
+{
+if(MARKS>=75)
+{
+printf("your marks are greater than 75 \n");
+printf("you have got the grade A \n");
+}
+else{
+printf("your marks are less\n");
+}
+getch();
+return 0;
+}
+
+*stcpy string:
+#include<iosteam.h>
+#include<conio.h>
+
+int main()
+{ 
+char sourse[]="anil shetty";
+char target[25];
+strcpy(target,sourse);
+printf("%s \n ",source);
+printf("%s",target);
+getch();
+return 0;
+}
+
+*string concentnation:
+#include<iosteam.h>
+#include<conio.h>
+{ 
+char sirname[]="shetty";
+char fullname[]="anil";
+strcat(fullname,sirname);
+printf("% s",fullname);
+getch();
+return 0;
+}
+
+*strlen using:
+#include<iosteam.h>
+#include<conio.h>
+{ 
+char s[]={'a','b','c','d','e','f','g','h'};
+char sirname[]="shetty";
+int length,lenght2;
+length=strlen(name);
+printf("the length is %d",lenght);
+printf("the length of %s is %d ",name,lenght);
+printf("the length of %s is %d ",sirname,lenght2);
+getch();
+return 0;
+}
+
+*
+#include<iosteam.h>
+#include<conio.h>
+int main()
+{
+struct Student{
+char name[20];
+int rollno;
+int age;
+};
+int main()
+{
+struct Student anil={"anil",1234,23};
+printf("%s %d %d",anil.name,anil.rollno,anil.age);
+getch();
+return 0;
+}
+
+* structure as an example:
+
+#include<iosteam.h>
+#include<conio.h>
+int main()
+{
+struct Student{
+char name[20];
+int rollno;
+int age;
+};
+int main()
+{
+struct Student anil={"anil",1234,23};
+struct Student sagar={"sagar",1234,23};
+struct Student kapil={"kapil",1234,23};
+printf("%s %d %d",anil.name,anil.rollno,anil.age);
+printf("%s %d %d",sagar.name,sagar.rollno,sagar.age);
+printf("%s %d %d",kapil.name,kapil.rollno,kapil.age);
+getch();
+return 0;
+}
+
+*
+#include<iosteam.h>
+#include<conio.h>
+int main()
+{
+union data{
+char c;
+int x;
+};
+union data var;
+printf("%d",sizeof(union data));
+getch();
+return 0;
+}
+
+*
+#include<iosteam.h>
+#include<conio.h>
+int main()
+{
+struct Person{
+int age;
+char name;
+float height;
+};
+union Student{
+int age;
+char name[6];
+float height;
+};
+printf("%d",sizeof(struct Person));
+printf("%d",sizeof(union Student));
+getch();
+return();
+}
+
+*islower() or isupper():
+#include<iosteam.h>
+#include<conio.h>
+int main()
+{
+char ch;
+printf("enter a character");
+scanf("%c",&c);
+if(islower(ch))
+{
+printf("%c is in lower case \n");
+}
+else{
+printf("%c is not in lower case");
+}
+if(islower(ch))
+{
+printf("%c is in upper case \n");
+}
+else{
+printf("%c is not in upper case");
+}
+getch();
+return 0;
+}
+
+*
+#include<iosteam.h>
+#include<conio.h>
+int main()
+{
+int inpunct(int ch);
+getch();
+return 0;
+}
+int inpunct(int ch)
+{
+ch[]={{},[],()};
+if (ch[0]=={}||ch[1]==[]||ch[2]==())
+{
+print("True");
+}
+else{
+printf("False");
+}
+
+*sqrt and cbrt function:
+#include<iosteam.h>
+#include<conio.h>
+int main()
+{
+printf("square root of 16 is %f \n",sqrt(16));
+printf("cube root of 125 is %f \n",cbrt(125));
+getch();
+return 0;
+}
+
+*ceil,floor,math function,round:
+#include<iosteam.h>
+#include<conio.h>
+int main()
+{
+printf("ceil function %f",ceil(1.9));
+printf("floor fucntion %f",floor(9.9));
+printf("round function %f",round(9.9));
+getch(ch);
+return 0;
+}
+
+*swap without the temp function:
+#include<iosteam.h>
+#include<conio.h>
+int main()
+{
+int a,b;
+printf("enter the two values a and b are:");
+scanf("%d %d",&a,&b);
+printf("before swapping a=%d and b=%b",a,b);
+ a=a+b;
+b=a-b;
+a=a-b;
+printf("after swapping a=%d and b=%b",a,b);
+getch();
+return 0;
+}
+
+*area and circumference:
+#include<iosteam.h>
+#include<conio.h>
+int main()
+{
+float area,cf,r,pi=3.14;
+printf("enter the radius of c");
+scanf("%f",&r);
+area=pi*r*r;
+cf=2*pi*r;
+printf("area of circle is %f",cf);
+getch();
+return 0;
+}
+
+*if(condition)
+{
+if(condition)
+{
+
+}
+else{
+
+
+}
+
+*nested if else:
+if(condition)
+{
+}
+elseif(condition)
+{
+}
+elseif(condition)
+{
+}
+else{
+}
+
+* 
+#include<iosteam.h>
+#include<conio.h>
+int main()
+{
+int a,b,c;
+printf("enter 3 angles of the triangles:");
+scanf("%d %d %d",&a,&b,&c);
+if(a==90||b==90||c==90)
+{
+printf("\n right angle triangle");
+}
+else if(a==60||b==60||c==60)
+printf("\n equilateral triangles");
+}
+else if(a!=0||b!=0||c!=0)
+{
+printf("isolase triangle");
+}
+
+*short circuit evaluation:
+int a=5,b=10;
+if(a>10 && b<20)
+{
+printf("true value");
+}
+
+*postfix:no++ value is used first and then increment.
+prefix:++no value are increment first then used.
+
+*int no=10,x;
+x=++no;
+printf("%d %d",no,x);
+
+*int a=10,b=-5,c;
+c=++a+b--;
+printf("%d %d %d ",a,b,c);
+
+*int a=31
+int a=037;
+printf("%d",a);
+ output:31
+
+*int a=0X1f;
+printf("%d",a);
+output:
+hexdecimal number.
+
+*int a=0X3f;
+int b=0X29;
+int c;
+printf("%X",a & b);
+
+*int a=0X31;
+printf("%X",a);
+printf("%O",a);
+
+*
+#include<iosteam.h>
+#include<conio.h>
+int main()
+{
+int amt;
+printf("enter any amount:");
+scanf("%d",&amt);
+
+n=amt/2000;
+printf("\n 2000X %d",n);
+amt=amt%2000;
+
+n=amt/500;
+printf("\n 500X %d",n);
+amt=amt%500;
+
+n=amt/200;
+printf("\n 200X %d",n);
+amt=amt%200;
+
+n=amt/100;
+printf("\n 100X %d",n);
+amt=amt%100;
+
+n=amt/50;
+printf("\n 50X %d",n);
+amt=amt%50;
+
+n=amt/20;
+printf("\n 20X %d",n);
+amt=amt%20;
+
+*loops:
+1.while.
+2.do while.
+3.for.
+
+*int no1;
+while(no<=10)
+{
+print("%d",no);
+sum=sum+10;
+no++;
+}
+printf("%d",sum);
+
+*int no;i=1,f=1;
+printf("\n enter any no");
+scanf("%d",&no);
+while(i<=no)
+{
+f=f*i;
+i++;
+}
+printf("%d",f);
+printf("factorial of %d=%d",no,f);
+getch();
+return 0;
+}
+
+*table from user:
+int no,i=1;
+printf("enter any no");
+scanf("%d",&no);
+while(i<=10)
+{
+printf("%d x %d=%d",no,i,no*i);
+i++;
+}
+
+*ascii -0 to 255 every keyword have their ascii values.
+0 to 9=>48 to 57.
+A to Z=>65 to 90.
+a to z=>97 to 122.
+*int no=0;
+while(no<=255)
+{
+printf("%d %c",no,no);
+no++;
+}
+
+*
+#include<stdio.h>
+#include<conio.h>
+ void main()
+{
+int no;
+prinft("enter any number");
+scanf("%d ",&no);
+while(no>0)
+{
+l=no%10;
+rev=rev*10+l;
+no=no/10;
+}
+printf("%d",rev);
+}
+
+*
+void main()
+{
+int no=1;
+while(no<=100)
+{
+if(no%7==0)
+{
+printf("z");
+}
+else{
+printf("%d",no);
+}
+
+*int no=1;
+for(;;)
+{
+printf("%d",no);
+if(no>10)
+break;
+no++;
+}
+
+*nested for loops:
+int i,j;
+for(i=1;i<=4;i++)
+{
+for(j=1;j<=5;j++)
+{
+printf("%d",j);
+}
+}
+
+*code to print the 5 to 12 tables :
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+int a,b,no,i;
+for(no=a;no<=b;no++)
+{
+for(i=1;i<=10;i++)
+{
+printf("%d",no*i);
+}
+printf("\n");
+}
+
+*write a program to check the given no is amstrong or not?
+#include<conio.h>
+void main()
+{
+int no,l,sum=0;
+prinft("\n enter any number");
+scanf("%d",&no);
+temp=no;
+while(no>0)
+{
+l=no%10;
+sum=sum+(l*l*l);
+no=no/10;
+}
+printf("the sum %d",sum);
+if(sum==temp)
+{
+printf("the no i s armstrong");
+}
+else{
+printf("the no is not armstrong");
+}
+}
+
+*Q.armstrong between the 100 and 1000 finding?
+int no,l,sum=0.temp;
+for(temp=100,temp<=999,temp++)
+{
+temp=no;sum=0;
+while(no>0)
+{
+l=no%10;
+sum=sum+(l*l*l);
+no=no/10;
+}
+if(sum==temp)
+{
+print("armstrong number");
+}
+else{
+print(" not an armstrong number");
+}
+
+*fibnaccies series:
+
+int a=0;b=1;c,n
+printf("how many turns from fibonanci series");
+scanf("%d",&n);
+printf("%d %d",a,b);
+for(i=3;i<=n;i++)
+{
+c=a+b;
+print("%d",c);
+a=b;
+b=c;
+}
+}
+
+*int us,cs;
+printf("the the sunjects");
+for(i=1;i<=4;i++)
+{
+printf("how many strick you wnat to pick")
+scanf("%d",&us);
+cs=5-us;
+}
+}
+
+*prime or not?
+int no,i;
+printf("enter the no.");
+scanf("%d",&no);
+for(i=2;i<=n;i++)
+{
+if(no%i==0)
+{
+break;
+}
+}
+if(no==i)
+{
+printf("prime")
+}
+else{
+printf("prime not")
+}
+
+*void categories (char)
+void main()
+{
+char ch;
+printf("enter any characters");
+scanf("%c",ch);
+categories(ch);
+}
+void categories(char ch)
+{
+if(ch>="a" && ch<="z")
+{
+printf("uppercase characters");
+}
+else if(ch>="a"&& ch<="z")
+{
+printf("lowercase characters");
+}
+else if(ch>="0"&& ch<="9")
+{
+printf("digit");
+}
+else{
+printf("special symbole");
+
+}
+
+*Q.
+int largerst(int,int,int);
+void main()
+{
+int n1,n2,n3,max;
+printf("enter any three numbers");
+scanf("%d %d %d",&n1,&n2,&n3);
+max=lenght(n1,n2,n3);
+printf("largest=%d",max);
+}
+int largest(int n1,int n2,int n3)
+{
+if(n1>=n2&& n1>=n3)
+{
+return n1;
+}
+else if(n2>=n3)
+{
+return n2;
+}
+else
+{
+return n3;
+}
+}
+
+*Q.
+int factorial(int);
+void main()
+{
+int no,x;
+printf("enter a number");
+scanf("%d",&no);
+x=factorial(no);
+printf("factorial are=%d",x);
+}
+int factorial(int no){
+int i;
+for(i=1;i<=10;i++)
+{
+f=f*i;
+}
+return f;
+}
+
+*Q.
+#include<math.h>
+#include<iostream.h>
+int square(int);
+int check(int);
+void main()
+{
+int no,x;
+printf("enter a number");
+scanf("%d",&no);
+c=check(no);
+if(c==1)
+{
+printf("square root =%d",sqrt(c));
+}
+else{
+s=square(no);
+printf("square=%d",s);
+
+}
+int check(int no)
+{
+if(no>0)
+return 1;
+else
+return 0;
+}
+int square(int no)
+{
+int t;
+t=no*no;
+return t;
+}
+
+*recursive function:
+when a function call again and again .
+show()
+{
+   show()
+{
+
+}
+}
+
+*
+int no=1;
+void main()
+{
+if(no<100)
+{
+printf("%d",no);
+no++;
+main();
+
+}
+
+*
+int factorial(int no)
+{
+if(no==0||no==1)
+return 0;
+else
+return(no*factorial(no-1));
+}
+
+*for loop:
+for(initilization;condition;updation)
+{
+print("%d",&a);
+}
+
+*Q.
+int no,sum=0;
+char ch;
+do{
+printf("enter a number");
+scanf("%d",&no)
+sum=sum+no;
+printf("do you want to add another no?(N/Y));
+scanf("%c",&ch);
+}
+while(ch=="y"||ch=="Y");
+printf("sum of all nos=%d",sum);
+
+Q.
+int fib(int);
+{
+int n,l,no;
+printf("how many terms from fibonues series");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{
+no=fib(i);
+printf("%d",no);
+}
+int fib(int no)
+{
+if(no==1)
+return 0;
+elseif(no==2)
+return 1;
+else
+return (fib(no-1)+fib(no-2));
+}
+
+*array:
+collection of the homogeneous type of the elemensts.sioted in the cohetect memory location.
+
+*Q.
+int no[10],num=0;
+printf("enter any 10 number");
+for(i=0;i<10;i++)
+{
+scanf("%d",&no[i]);
+sum=sum+no[i];
+}
+printf("sum=%d average=%d",sum,sum/10);
+}
+
+*Q.
+print("the array in the reversed order");
+for(i=9;j>=0;j++)
+{
+printf("%d",n[i]);
+}
+
+*Q.
+int temp[7],i,low,high;
+printf("enter the daily temperature for 1 weeks");
+for(i=0;i<7;i++){
+scanf("%d",&temp[i]);
+}
+low=temp[0];
+high=temp[0];
+for(i=1;i<7;i++)
+{
+if(temp[i]<low)
+{
+low=temp[i];
+if(temp[i]>high)
+{
+high=temp[i];
+}
+}
+printf("lowest temperature in week =%d",low);
+}
+
+*Q.linear searching:
+int no[10],i,key,flag=0;
+printf("enter the marks of 10 students:");
+for(i=0;i<10;i++){
+ scanf("%d",&no[i])
+}
+printf("enter the marks to find");
+scanf("%d",&key);
+for(i=0;i<10;i++)
+{
+if(no[i]==key)
+{
+printf("%d marks are at position =%d");
+flag=1;
+break;
+}
+}
+if(flag==0)
+{
+printf("not found");
+}
+
+*
+int no[10],i;
+printf("enter the number");
+for(i=0;i<10;i++)
+{
+scanf("%d",&no[i])
+}
+for(i=0;i<10;i++)
+{
+for(j=0;j<10;j++)
+{
+if(no[i]>no[j])
+{
+temp=no[i];
+no[i]=no[j];
+no[j]=temp;
+}
+}
+}
+printf("the output of the array are:");
+for(i=0;i<10;i++)
+{
+printf("%d",&no[i]);
+}
+
+*Q.bubble sorting:
+int no[10];
+printf("enter any 10 number");
+for(i=0;i<10;i++)
+{
+scanf("%d",&no[i]);
+}
+for(i=0;i<10;i++)
+{ 
+for (j=0;j<9-1;j++)
+{
+if(no[j]>no[j+1])
+{
+temp=no[j];
+no[j]=no[j+1]
+no[j+1]=temp
+}
+}
+}
+printf("the nos in ascreasing order are:");
+for(j=0;j<10;j++)
+{
+printf("%d",no[i]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

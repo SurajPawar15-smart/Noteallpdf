@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ES6 Classes</title>
+</head>
+
+<body>
+	<script>
+	
+	class polygon{
+		constructor(height,width){
+			this.h=height;
+			this.w=width;
+		}
+		test(){
+			console.log("this is height of the polygon",this.h);
+			console.log("this is width of the polygon",this.w);
+		}
+	}
+		var objpoly=new polygon(20,50);
+		objpoly.test();
+	</script>
+</body>
+</html>

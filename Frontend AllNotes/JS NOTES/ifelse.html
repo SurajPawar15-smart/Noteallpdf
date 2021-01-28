@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>if else</title>
+	<script>
+		function grades(){
+			if(document.form.text1.value>=90)
+				alert("grade A+");
+			else
+				if(document.form.text1.value>=80 && document.form.text1.value<90)
+					{
+						alert("Grade A");
+					}
+			else
+				if(document.form.text1.value>=70 && document.form.text1.value<80)
+					{
+						alert("Grade B+");
+					}
+			else
+				if(document.form.text1.value>=60 && document.form.text1.value<70)
+					{
+						alert("Grade B");
+					}
+			else{
+				alert("Grade C");
+			}
+		}
+	</script>
+</head>
+
+<body>
+	
+	
+	<form name="form" action="#">
+	Please Enter your Marks<input type="text" name="text1" value="">
+	<input type="button" value="Check your grade" onclick="grades()"/>
+	</form>
+</body>
+</html>

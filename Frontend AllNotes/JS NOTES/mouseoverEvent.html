@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Mouseover Event</title>
+	<script>
+	function over(){
+		document.write('Mouse over');
+	}
+		function out(){
+			document.write("Mouse Out");
+			
+		}
+	
+	</script>
+</head>
+
+<body>
+	<input type="button" onMouseOut="alert('this is mouse out event')"> Mouse Out event
+	<div onmouseover="over()" onMouseOut="out()">
+	
+	
+	<h2> This is the function body</h2>
+	</div>
+</body>
+</html>

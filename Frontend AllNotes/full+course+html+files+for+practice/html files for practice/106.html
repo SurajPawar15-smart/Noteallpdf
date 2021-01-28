@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+ul {
+ list-style: none;
+ counter-reset: list-item-number; /* self nesting counter as name is same for all levels */
+}
+li {
+ counter-increment: list-item-number;
+}
+li:before {
+ content: counters(list-item-number, ".") " "; /* usage of counters() function means value of
+counters at all higher levels are combined before printing */
+}
+
+</style>
+<ul>
+ <li>Level 1
+ <ul>
+ <li>Level 1.1
+ <ul>
+ <li>Level 1.1.1</li>
+ </ul>
+ </li>
+ </ul>
+
+
+
+
+
+
+
+</body>
+</html>

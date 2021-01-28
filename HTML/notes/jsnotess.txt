@@ -1,0 +1,2882 @@
+****************************************JS***************************************************
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+ document.write("hey now brown cow ");
+</script>
+ </body>
+ </html>
+output:hey now brown cow
+ 
+save:the file with index.html
+
+*comments and statements:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+ document.write("i am love ham"+"<br>"); 
+ document.write("i love bacon too"+"<br>");
+</script>
+</body>
+</html>
+output:i am love ham
+       i love bacon too
+
+*variable:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var bucky=32;
+ document.write(bucky); 
+ </script>
+ </body>
+ </html>
+output:32
+
+
+*different type of variables:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var tuna=20;
+ document.write(tuna); 
+ </script>
+ </body>
+ </html>
+output:20
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var tuna="john said,\"boy do i love bessies\"";
+ document.write(tuna); 
+ </script>
+ </body>
+ </html>
+output:john said "boy do i love bessies"
+
+*var tuna=null;
+var tuna=-20.36;
+var tuna=20.54;
+var tuna ="text in here"
+var tuna=false;
+
+*variable with string:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var name="bucky";
+var age=24;
+
+ document.write(name+"is my name"+"<br>"); 
+ document.write(name+"is my name and my age is "+age);
+ 
+</script>
+ </body>
+ </html>
+output:bucky is my name 
+bucky is my name and my age is 24
+
+*variable as string:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var tuna="i am a fish";
+var bacon="baconator";
+var ham="hamburglarr";
+ document.write(tuna+bacon+ham);
+ 
+</script>
+ </body>
+ </html>
+output:
+i am a fish baconator hamburglarr
+
+*function:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+function funky()
+{
+alert("ouch!!!!");
+}
+ fucky();
+</script>
+</body>
+</html>
+output:ouch!!!!
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+function funky()
+{
+alert("ouch!!!!");
+}
+</script>
+<form>
+<input type="button" value ="touch me" onclick="fucky()">
+</form>
+</body>
+</html>
+
+*using parameters with function:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+function meatball()
+{
+alert();
+}
+meatball();
+function meatballs(x)
+{
+alert("i love"+x);
+}
+meatballs("bacon");
+meatballs("natalie protolics");
+meatballs("good with hunting");
+
+</script>
+</form>
+</body>
+</html>
+
+*function with multiple parameters:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+function apples(one,two)
+{
+document.write(one+"is better than"+two+"<br>");
+}
+apples("countre","beiber");
+apples("straberry","cocunut");
+apples("bucky","hobart");
+
+</script>
+</form>
+</body>
+</html>
+output:
+countre is better than beiber
+straberry is better than cocunut
+bucky is better than hobart
+
+*the return statements:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+function tooeasy()
+{
+return "gametime";
+}
+document.write(tooeasy());
+
+</script>
+</form>
+</body>
+</html>
+output:gametime
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+function addnumber()
+{
+var c=a+b;
+return c;
+}
+document.write(addnumber(3,6));
+
+</script>
+</form>
+</body>
+</html>
+output:9
+
+*calling a function from and other function:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+function dofirst()
+{
+document.write("i am first bo!");
+}
+
+function dosecond()
+{
+document.write("22222!");
+}
+function start()
+{
+dofirst();
+dosecond();
+}
+start();
+</script>
+</form>
+</body>
+</html>
+
+output:
+i am first bo!
+22222!
+
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+function dofirst()
+{
+document.write("i am first bo!");
+dosecond();
+}
+doc
+function dosecond()
+{
+document.write("22222!");
+dofirst();
+}
+
+</script>
+</form>
+</body>
+</html>
+output:
+i am first bo!
+22222!
+
+*global local variable:
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+
+var girl="kersey"
+function sprit()
+{
+document.write(girl);
+}
+sprit();
+document.write(girl);
+</script>
+</form>
+</body>
+</html>
+output:
+kersey
+kersey
+
+
+*!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+
+function sprit()
+{
+var girl="kersey"
+document.write(girl);
+}
+sprit();
+document.write(girl);
+</script>
+</form>
+</body>
+</html>
+output:
+kersey
+kersey
+
+*math operation:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+
+var apple=4+76;
+document.write(apple);
+</script>
+</form>
+</body>
+</html>
+output:
+80
+
+*add some mutliples operators are:
+
+var apple=4*76;
+var apple=4+76+43526+657;
+var apple=54/3;
+var apple=76%3;
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+
+var chop=7;
+chop=chop+1;
+document.write(chop);
+</script>
+</form>
+</body>
+</html>
+output:
+8
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+
+var chop=67;
+chop++;
+document.write(chop);
+</script>
+</form>
+</body>
+</html>
+output:
+67
+
+*assignment operator:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+
+var bucky=24;
+bucky+=54;
+document.write(bucky);
+</script>
+</form>
+</body>
+</html>
+output:
+78
+
+*with some examples:
+bucky-=32
+bucky%=24
+bucky-=24
+bucky/=54
+bucky/+=5
+
+*if statements:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+
+var apples=53;
+var hotdog=53;
+if(apples==hotdogs)
+{
+document.write("yay it working!!!");
+}
+</script>
+</form>
+</body>
+</html>
+output:
+yay it working!!!
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+
+var apples=53;
+var hotdog=99;
+if(apples!==hotdogs)
+{
+document.write("yay it working!!!");
+}
+</script>
+</form>
+</body>
+</html>
+output:
+yay it working!!!
+
+*if else statements:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+
+if(2==2)
+{
+document.write("i love hotpockets");
+}
+else{
+document.write("i love strawnerries"); 
+}
+</script>
+</form>
+</body>
+</html>
+output:
+i love hotpockets
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+if(test)
+{
+document.write("i love hotpockets");
+}
+else{
+document.write("i love strawnerries!"); 
+}
+</script>
+</form>
+</body>
+</html>
+output:
+i love hotpockets
+
+*testing and fridays:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var firstname="bucky";
+var lastname="roberts";
+if(firstname=="bucky")
+{
+if(lastname=="roberts")
+{
+document.write("welcome bucky roberts");
+}
+else{
+document.write("welcome bucky someone"); 
+}
+</script>
+</form>
+</body>
+</html>
+output:
+welcome bucky roberts
+
+*complex condition:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var first="bucky";
+var last="roberts";
+if(first=="bucky")&&(last=="roberts")
+{
+document.write("hey good job buddy");
+}
+</script>
+</form>
+</body>
+</html>
+output:
+hey good job buddy
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var first="tommy";
+var last="roberts";
+if(first=="bucky")||(last=="roberts")
+{
+document.write("bacon");
+}
+
+</script>
+</form>
+</body>
+</html>
+output:
+bacon
+
+
+*switch:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var girl="natalie";
+switch(girl)
+case "natalie":document.write("you must like garden state");
+break;
+case "ashley":document.write("oo fan of twilight eq?");
+break;
+default:document.write("third is the default");
+break;
+</script>
+</form>
+</body>
+</html>
+output:
+you must like garden state
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var girl="emily";
+switch(girl)
+case "natalie":document.write("you must like garden state");
+break;
+case "ashley":document.write("oo fan of twilight eq?");
+break;
+default:document.write("third is the default");
+break;
+</script>
+</form>
+</body>
+</html>
+output:
+third is the default
+
+*loop statement:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+for(x=0;x<=10;x++)
+{
+document.write("i love rebecca block "<br>");
+</script>
+</form>
+</body>
+</html>
+output:
+third is the default
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+for(x=0;x<=10;x+=3)
+{
+document.write("i love rebecca block "<br>");
+</script>
+</form>
+</body>
+</html>
+output:
+i love rebecca block
+i love rebecca block
+i love rebecca block
+
+*while loop:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var x=1;
+while(x<10)
+{
+document.write(x+"how do you like <br>");
+x++;
+}
+</script>
+</form>
+</body>
+</html>
+output:
+1 how do you like
+9 how do you like
+
+*do while:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var x=5;
+do
+{
+document.write(x+"alo!" +"<br>");
+x++;
+}while(x<=20);
+</script>
+</form>
+</body>
+</html>
+output:
+5 alo! 
+
+*event handlers:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<form>
+<input type="button" value="touch me" onclick="alert"("")"/>
+<form>
+</body>
+</html>
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<form>
+<input type="button" value="touch me" onclick="alert('ohh!');alert('two times!');"/>
+<form>
+</body>
+</html>
+
+*on mouse overonload:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head></head>
+<body>
+<a href ="http://thenewboston.com">hover over me!</a>
+</body>
+</html>
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head></head>
+<body>
+<a href ="http://thenewboston.com"onMouseOver="alert('gam!');">Hover over me!</a>
+</body>
+</html>
+
+*_24_objects:properties and methods:
+
+!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var tuna="hey i am autna fish!"
+{
+document.write(tuna.lenght);
+
+}
+</script>
+</form>
+</body>
+</html>
+output:
+20
+
+*creating our objects:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+
+<script type="text/javascript">
+function person(name,age)
+{
+this.name=name;
+this.age=age;
+}
+var bucky =new person("bucky roberts",24);
+var taylor =new person("taylor swift",20);
+</script>
+</head>
+
+<body>
+<script type="text/javascript">
+document.write(bucky.name);
+document.write(taylor.age);
+</script>
+</body>
+
+</html>
+output:
+bucky roberts
+taylor swift
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+
+<script type="text/javascript">
+bucky={name:"bucky roberts",age:24};
+taylor={name:"taylor swift",age:20}
+</script>
+</head>
+
+<body>
+<script type="text/javascript">
+document.write(bucky.name+"loves"+taylor.name+"because she is "+taylor.age);
+</script>
+</body>
+</html>
+output:
+bucky robertsloves taylor swift because she is 20
+
+*adding methodto our objects:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+
+<script type="text/javascript">
+function people(name,age){
+this.name=name;
+this.age=age;
+this.years=years;
+}
+function years()
+{
+var years=67-this.age;
+return years;
+} 
+var natalie=new people("natalie portman",28);
+var bucky =new people("bucky roberts",24);
+
+</script>
+</head>
+<body>
+<script type="text/javascript">
+document.write( natalie.years());
+document.write( bucky.years());
+</script>
+</body>
+</html>
+output:
+natalie portman 39
+bucky roberts 43
+
+*arrays:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var people=new array("bucky","tommy","sarah","hanah")
+document.write(people[0]);
+document.write( people[1]);
+</script>
+</body>
+</html>
+output:
+bucky
+tommy
+
+*there ways to create arrays:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var things=new array(3);
+things[0]="jersey shore";
+things[1]="brain regan";
+things[2]=" thenewbosten";
+document.write(things[0]);
+document.write( things[1]);
+</script>
+</body>
+</html>
+output:
+jersey shore
+brain regan
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var things=new array(3);
+var x=9;
+var tuna=65-54;
+stuff[0]="bacontor";
+stuff[1]="old pumpkins";
+document.write(stuff[1]);
+</script>
+</body>
+</html>
+output:
+old pumpkins
+
+*array properties and values:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+
+var dudes=new array("bucky","dan","randy");
+document.write(dudes.lenght+"<br>");
+
+var chicks=new  array("lisa","eris","hannah");
+var people=dudes.concat(chicks);
+document.write(people[5]+"<br>");
+</script>
+</body>
+</html>
+output:
+3
+hannah
+
+
+*join and pop methods:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var movies=new array("avaatar","goll will","vanilla","figth club");
+var string1=movies.join(" ")  or (" - ")
+document.write(string1);
+</script>
+</body>
+</html>
+output:
+avaatar-goll will-vanilla-figth club
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var movies=new array("avaatar","goll will","vanilla","figth club");
+document.write(movies[3]+"</br>");
+movies.pop();
+document.write(movies);
+</script>
+</body>
+</html>
+output:
+avaatar goll will vanilla
+
+*reverse,push,sort:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var bp=new array("head","shoulders","kness","toes");
+bp.reverse();
+bp.push("tongue","liver");
+bp.sort();
+var string1=bp.sort();
+document.script(string1);
+</script>
+</body>
+</html>
+output:
+toes kness shoulders head tongue liver
+head  kness liver toes tongue shoulders
+
+*add,array elements using a loop:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var pie=prompt("enter your name:","");
+document.write("hellow"+pie);
+</script>
+</body>
+</html>
+output:
+Hellow enter your name:
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var crap=new array(3);
+for(i=0;i<3;i++)
+cap[i]=prompt("add something to the array:");
+}
+document.write(crap[0]+crap[1]+crap[2]);
+</script>
+</body>
+</html>
+output:
+add something to the array:
+add something to the array:
+add something to the array:
+
+*cool,techique to print array elements:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var stuff=new array("apples","pears","bacon","tuna","ham");
+stuff.sort();
+for(i=0;i<stuff.lenght;i++)
+{
+document.write(stuff[i]+"<br>");
+}
+</script>
+</body>
+</html>
+output:
+apples 
+bacon 
+ham 
+pears
+tuna
+
+
+*associative arrays:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var bucky=new array();
+bucky["color"]="blue";
+bucky["food"]="hot pockets";
+document.write("bucky favourite food is"+bunky["food"]);
+document.write("bucky favourite color is"+bucky["color"]);
+</script>
+</body>
+</html>
+output:
+bucky favourite food is hot pockets
+document.write("bucky favourite color is blue
+
+*math objects:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+
+document.write(math.PI);
+document.write(math.E);
+var n=prompt("enter a number"," ");
+var answer =math.sqrt(n);
+alert("the square root of "+n+"is"+answer);
+</script>
+</body>
+</html>
+output:
+
+
+*data object:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+function dosomethings ()
+{
+document.write("tunqa");
+}
+setInterval("dosomething()",1000);
+</script>
+</body>
+</html>
+
+*<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+var now=new Date;
+var hours=new.getHours();
+var minutes=new.getMinues();
+var seconds=new.getSeconds();
+document.write(hours+":"+minutes":"+seconds+"<br>");
+}
+setInterval("printTime()",1000);
+</script>
+</body>
+</html>
+
+*accessing  form:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<form>
+username:<input type="text"/>
+password:<input type="password"/>
+<input type="submit" value="submit!"/>
+</form>
+<script type="text/javascript">
+var x=document.form[0].lenght;
+document.write(x);
+</script>
+</body>
+</html>
+
+*accessing form elements:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<form name="buckyform">
+username:<input type="text" name="username"/>
+password:<input type="password" name="password"/>
+<input type="submit" value="submit!"/>
+</form>
+<script type="text/javascript">
+var x=document.form[0].element[0].name;
+document.write(x);
+</script>
+</body>
+</html>
+
+*simple form validation:
+
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+</head>
+<body>
+<script type="text/javascript">
+function validator()
+{
+if(document.buckyform.thebox.checked)
+alert("yes its checked")
+else
+alert("your better check again and correct it!")
+<script>
+</head>
+<body>
+<form name="buckysform">
+<input type="checkbox" name="thebox"/>
+<input type ="button" value="pressure!"onclick="validator()"/>
+</form>
+</script>
+</body>
+</html>
+
+********************************************javascript notes of greeky shows************************************************
+introduction of javascript:
+it is the program language of html and web.it makes web pages dynamics .it is an interperets programming language with oop concept.
+
+@ two things are necessary to improved for a web developer are:
+*html
+*css.
+
+*javascript history:
+1.1995 by brendan eich(netscape).
+2.mocha
+3.live script
+4.java script
+5.ecma script
+
+*tools:
+1.notepad
+2.notepad++
+3.any text editor.
+
+*advantages of the javascript:
+
+1.validation on browser.
+2.client side execution(user are more interference).
+3.easy language.
+4.user are more interface.
+
+*disadvantage:
+1.less secure.
+2.no hardware access.
+
+*way of adding javascript:
+*inline:
+inline head tag
+inline body tag
+
+*external file:
+inside head tag
+inside body tag
+
+*inline:
+1.inside head tag:
+
+<!doctype html>
+<html>
+<head><hellow js></head>
+
+<script type="text/javascript">
+document.write("hellow greekyshows")
+</script>
+
+<body>
+<h1 style=color:red;>good morning</h1>
+<p style=color:red;> my name is suraj pawar<p>
+
+</body>
+</html>
+
+output:
+good morning
+my name is suraj pawar
+
+*inside body tag:
+
+<!doctype html>
+<html>
+<head><hellow js></head>
+
+<body>
+<h1 style=color:red;>good morning</h1>
+<p style=color:red;> my name is suraj pawar<p>
+
+<script type="text/javascript">
+document.write("hellow greekyshows")
+</script>
+</body>
+</html>
+
+*external a way of adding a java script:
+
+*inside head tag:
+<script src="greek.js" type="text/javascript">
+</script>
+
+*inside body tag:
+<script src="greek.js" type="text/javascript">
+</script>
+
+
+*script tag javascript:
+1.<script>-opening script tag.
+2.src-it an attribute of script tag.it define source location of script file.
+3.geek.js-this our script file.where geek is file names  and js is the extension of js files.
+4.type-it is an attribute of script tag which tells the browser it is js this is optional now a days.
+5.test/javascript-it is type of documents.
+6.document.write-this is function to display data.
+7.</script>-closing script tag.
+
+*how to link more one external js:
+
+<!doctype html>
+<html>
+<head><hellow js></head>
+<script type="text/javascript">
+document.write("hellow greekyshows")
+</script>
+<body>
+<h1 style=color:red;>good morning</h1>
+<p style=color:red;> my name is suraj pawar<p>
+
+<script src="greek.js" type="text/javascript"></script>
+<script src="greek.js" type="text/javascript"></script>
+<script src="greek.js" type="text/javascript"></script>
+
+</body>
+</html>
+
+*how to use inline and external together in js:
+
+<!doctype html>
+<html>
+<head><hellow js></head>
+
+<body>
+<h1 style=color:red;>good morning</h1>
+<p style=color:red;>hi,this is suraj pawar speaking.....<p>
+
+<script type="text/javascript">
+document.write("hellow greekyshows")
+</script>
+
+<script src=""geek1.js" type="text/javascript"></script>
+
+</body>
+</html>
+
+*write functin in js:
+document.write:this is function is used to write arbitary html and contact into page .if we use this function after the html 
+and content into page.if we use this function after the htmp documents is fully loaded will declare all exiting html.it is used 
+only for testing propose.
+
+ex:
+document.write("hellow,world");
+document.write(variable);
+document.write(4+2);
+document.write("hellow world <br>");
+document.write("hellow,world<br>"+variable+"<br>");
+
+<!doctype html>
+<html>
+<head>google</head>
+
+<script>
+var name=""greekshows"
+document.write("hellow world");
+document.write(name);
+document.write(4+2);
+document.write(4);
+document.write("hellow <br>"+name);
+</script>
+
+</head>
+</body>
+</html>
+
+*alert function in js:
+window.alert():this function is used to display data in alert ready should be used only when you freely want to stop everythings 
+and at the user know somethings.
+ex:
+window.alert(variable)
+window.alert("hellow world")
+window.alert(4+2)
+window.alert("hellow worls"+variable);
+
+<!doctype html>
+<html>
+<head>google</head>
+
+<script>
+window.alert("hellow");
+</script>
+
+</head>
+</body>
+</html>
+
+*identifers:
+it is a naming having a few letters ,numbers and special characters(underscore).it is used to identity a variable ,function ,symboles
+constants and so on.
+ex:
+x2,p1,sigma,matadd.
+
+*variable:a variable is an identifier or a name which is used to refer a value .a variable is written with a combination of
+ letters ,numbers and special characters-(inderscores) and $(dollar) with the first letter being an alphabate.
+ex:c,fact,total_amount.
+
+<script>
+var name="geekyshows";
+window.alert(name);
+</script>
+
+notes:
+1.variable an contains combination of the letters,digits,and underscored and dollars sign.
+2.must be given with a letter (a-z) or(A-Z) OR inderscore or dollar sign.
+3.a variable  name  cannot start  with a number.
+4.must not contain any  space characters.
+5.js is case sensitive.
+
+*reserved keywords in js:
+var,delete,for,return , let do,enum,tru and etc.
+
+* data type:
+1.in the js we not need to specified type of the variable because it is dynamics used by js.
+2.it used to hold any type of the variables likes strings,number,boolean etc.
+3.string, boolean,number ,undefined ,null are primitive  data type.
+array,object,repexpression are non primitive type.
+
+*declaration variable and initilization variables:
+1.declaration variable:a variable  declared without a value will value undefined
+var roll;
+var name;
+var price
+
+2.initilization variables:
+ var roll;
+roll=100
+var name;
+name="greekyshows" or var name="greekshows"
+or
+var price =123.54;
+1.strings are written inside dounles quotes or single quotes.
+2.number are written quotes. 
+3.if you put number in quotes it will be traeted as a text stings.
+
+*initilization variales:
+var ans=true;
+var result=false;
+
+<!doctype html>
+<html>
+<head><title>google</title></head>
+</head>
+<body>
+
+<script>
+var roll;
+document.write(roll);
+</script>
+
+</body>
+</html>
+
+*<!doctype html>
+<html>
+<head><title>google</title></head>
+</head>
+<body>
+
+<script>
+var x=10,y=20,z=30;
+document.write(x);
+document.write(y);
+document.write(z);
+
+</script>
+
+</body>
+</html>
+
+*comments:
+1.single line comments./*...............*/
+2.multi line comments.//
+<!doctype html>
+<html>
+<head><title>google</title></head>
+</head>
+<body>
+
+<script>
+var wife="jio";
+document.write(wifi);
+/* this is comments blah sd sad ssdas*/
+</script>
+
+</body>
+</html>
+
+*javascript operators:
+1.arithematic operator.
+2.comparision operator.
+3.logical operator.
+4.relation assignments
+5.bitwise operators 
+6.assignments operators.
+
+*prompt methods getting input from the user:
+prompt():the browser provide a built in function which is be used to get input from the user ,named propt the visitor for return 
+the input.
+
+prompt("enter your name:","name")
+prompt("enter your rollno:",roll)
+<script>
+var a=prompt("enter your name:",greekshows);
+document.write(a);
+</script>
+</body>
+</html>
+
+*which one is good approach to write js:
+1.inline.
+2.external.
+
+*inline code:
+<!doctype html>
+<html>
+<head><title>inline</title></head>
+<style>
+p{color:red;
+ }
+ h1{
+ color:#F0E68C;
+ }
+ </style>
+
+ <script>
+ document.write("hellow");
+ document.write("hellow");
+ document.write("hellow");
+ document.write("hellow");
+ </script>
+
+ </head>
+ <body>
+ <h1>this is suraj pawar</h1>
+ <p>i am a programmer</p>
+ </body>
+ </html>
+
+*external code:
+<!doctype html>
+<html>
+<head><title>inline</title>
+<style>
+p{color:red;
+ }
+ h1{
+ color:#F0E68C;
+ }
+ </style>
+ <script src="greek.js">
+ </script>
+ </head>
+ 
+ <body>
+ <h1>this is suraj pawar</h1>
+ <p>i am a programmer</p>
+ </body>
+ </html>
+
+*if statemnets in js:
+it is used to execute an instruction or block of instruction only if condition is fuf-fields.
+
+<!doctype html>
+<html>
+<head><title></title></head>
+
+<script>
+ var a=10;
+ if(a==10)
+ document.write("you entered:"+a);
+</script>
+</head>
+
+*else if statements:
+
+<!doctype html>
+<html>
+<head><title></title></head>
+
+<script>
+ var a=10;
+ if(a==10)
+ document.write("you entered:"+a);
+ else
+ document.write("sorry wrong values!!!");
+</script>
+</head>
+
+*switch statements:
+
+<!doctype html>
+<html>
+<head><title></title></head>
+<script>
+var day=2;
+switch(day)
+{
+case 1:
+ document.write("sun");
+ break;
+case 2:
+ document.write("moon");
+ break
+ default:
+ document.write("sorry");
+</script>
+</head>
+</body>
+</html>
+
+*for loop:
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+<script>
+var i=0;
+for(i=0;i<5;i++)
+{
+ document.write(i+"<br>");
+}
+</script>
+
+</body>
+</html>
+
+*nested if else:
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+<script>
+for(i=0;i<5;i++)
+{
+ document.write("outer loop");
+ document.write(i);
+ document.write("<br>")
+}
+for(j=0;j<5;j++)
+{
+document.write("inner loop");
+document.write(j);
+document.write("<br>")
+}
+</script>
+</body>
+</html>
+
+*while loops:
+
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+<script>
+var i=0;
+while(true)
+{
+if(i==3)
+{
+break;
+}
+}
+document.write(i);
+i++;
+}
+</script>
+</body>
+</html>
+
+*do while:
+
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+
+<script>
+var i=0;
+do
+{
+document.write(i);
+i++;
+}
+while(i<5);
+
+</script>
+</body>
+</html>
+
+*function in js:
+
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+
+<script>
+function display() //function creating
+{
+document.write(i);
+i++;
+}
+display();    //function call
+
+</script>
+</body>
+</html>
+
+*function and parameters:
+
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+
+<script>
+function display(name1,name2) //function creating
+{
+document.write(name1);
+document.write(name2);
+}
+display("welcome","greekyshow");    //function call
+
+</script>
+</body>
+</html>
+
+*function arguments missing in js:
+
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+
+<script>
+function display(a,b,c,d) //function creating
+{
+document.write("a:"+a,"b:"+b,"c"+c,"d"+d);
+}
+display(10,20,30);    //function call
+
+</script>
+</body>
+</html>
+
+*arguments objects:
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+
+<script>
+function add(num1,num2) //function creating
+{ 
+argument[0]="hellow";
+document.write(argument[0]+"");
+document.write(argument[1]);
+}
+add("greeky","world");    //function call
+
+</script>
+</body>
+</html>
+
+*default paraments:
+
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+
+<script>
+function add(a,b,c=70) //function creating
+{ 
+document.write("a:"+a);
+document.write("b:"+b);
+document.write("c:"+c);
+}
+add(10,20,30);    //function call
+
+</script>
+</body>
+</html>
+
+*rest paramenters:
+
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+
+<script>
+function show(a,...args) //function creating
+{ 
+document.write("a:"+"<br>");
+
+document.write(args);
+}
+show(10,20,30,40,50);    //function call
+
+</script>
+</body>
+</html>
+
+*return statements:
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+
+<script>
+function add(a,b) //function creating
+{ 
+return(a+b)	;
+}
+add(10,20);    //function call
+
+</script>
+</body>
+</html>
+
+*global scope:
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+
+<script>
+var i="i am global variable"; //function creating
+function shows()
+{ 
+document.write(i+"<br>");
+}
+show();    //function call
+
+</script>
+</body>
+</html>
+
+*variable hosting:
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+
+<script>
+var a=10
+document.write(a);
+var b=20
+document.write(a+""+b);
+
+</script>
+</body>
+</html>
+
+*closure in js:
+
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+
+<script>
+function show()
+{
+var j="j a local variable to outer function";
+document.write(j+"<br>");
+function innerfun()
+{
+var k="k is a local function";
+document.write(k+"<br>");
+document.write(j+"<br>");
+}
+innerfun();
+show();
+
+</script>
+</body>
+</html>
+
+*passing anonymous functions:
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+
+<script>
+function disp(myfun)
+{
+document.write(disp("greekyshow"));
+return myfun();
+}
+</script>
+
+</body>
+</html>
+
+*arrow function:
+
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+<script>
+var myfun=functionshow()
+{
+document.write("greekshow");
+};
+var myfun=()=>
+{
+document.write("greekyshows");
+}
+var myfun2=function()
+{
+document.write("greekyshow");
+}
+</script>
+</body>
+</html>
+
+*immediately involked function:
+
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+<script>
+(function(){document.write("hellow")})();
+</script>
+</body>
+</html>
+
+*type of operator:
+
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+<script>
+var a=13;
+document.write(typeof(a)+"<br>")
+document.write(typeof("hellow")+"<br>")
+</script>
+</body>
+</html>
+
+*undefined:
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+<script>
+var a;
+document.write(a+"<br>");
+documnet.write(typeof(b)+"<br>");
+document.write(b+"<br>");
+
+</script>
+</body>
+</html>
+
+*null:
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+<script>
+var a=null;
+document.write(a+"<br>");
+document.write(typeof(a)+"<br>");
+</script>
+</body>
+</html>
+
+*var,let,const
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+<script>
+var a=10;
+let b=20;
+const c=30;
+document.write(a+"<br>");
+document.write(b+"<br>");
+document.write(c+"<br>");
+</script>
+</body>
+</html>
+
+*oops:
+1.encapsulation.
+2.abstrction.
+3.inheritance.
+4.polymorphism.
+
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+<script>
+var fees={
+rahul: 100
+sumit:200
+rohan:300
+total:function(){
+return(100+200+300);
+}
+};
+
+*declaration of object:
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+<script>
+var free={}
+fees["rahul"]=100;
+fees["sumit"]=200;
+fees["rohan"]=300;
+document.write(fees["sumit"])
+document.write(fees["rahul"])
+document.write(fees["rohan"])
+</script>
+</body>
+</html>
+
+*object constructor:
+
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+<script>
+var free={}
+fees["rahul"]=100;
+fees["sumit"]=200;
+fees["rohan"]=300;
+document.write(fees.sumit);
+</script>
+</body>
+</html>
+
+*acessing object properties:
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+<script>
+var fees={rahul:100,sumit:200,rohan:100};
+var fees={};
+fees["rahul"]=100
+document.write(fees.rahul);
+</script>
+</body>
+</html>
+
+*accessing method of the objects:
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+<script>
+var fees={
+rahul=100;
+sumit=200;
+rohan=300;
+
+total:function(){
+return(100+200+300);}
+document.write(fees.total());
+</script>
+</body>
+</html>
+
+*deleting properties:
+<!doctype html>
+<html>
+<head><title></title></head>
+<body>
+<script>
+var fees={rahul:100,sumit:200};
+document.write(fees.rahul+""+fees.sumit);
+delete fees.rahul;
+document.write(fees);
+</script>
+</body>
+</html>
+
+*constructor:
+<script>
+function mobile()
+{
+this.model="3310"
+this.price=function()
+{
+document.write(this.model+"price of 3000");
+}
+var samsung=new mobile();
+samsung.price();
+</script>
+ 
+*
+type of operator:
+<body>
+<script>
+function mobile(model_no)
+{
+this.mobel=model_no;
+this.memory=4;
+}
+var samsung =new mobile ("galaxy");
+var nokia=new mobile ("3310");
+if(typeof nokia.memory!=="undefined")
+{
+document.write("available")
+}
+else{
+document.write("available")
+}
+
+</script>
+
+*for in loop:
+<script>
+function mobile(mobile_no)
+{
+this.model=model_no;
+this.color="white"
+this.ram="4gb"
+this.price=function()
+{
+document.write(this.model+"price rs.3000<br>");
+};
+};
+var samsung=new mobile("galaxy");
+var nokia=new mobile("3310");
+for(var spaces in nokia)
+if(typeof.nokia[spaces]!==function)
+{
+document.write(nokia[spaces]+"<br>");
+}
+</body>
+</html>
+
+*prototype inheritance:
+function mobile()
+{
+this.a=10;
+}
+var m=new mobile();
+function samsung()
+{
+this.b=20;
+}
+var s =new samsung();
+</script>
+</body>
+</html>
+
+*default constructor:
+
+class mobile {
+constructor ()
+{
+this.mobile="galaxy"
+}
+show()
+{
+return this.model+"prices rs 3000";
+}
+}
+var nokia =new mobile();
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

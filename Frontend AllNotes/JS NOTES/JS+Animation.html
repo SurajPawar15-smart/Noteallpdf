@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JS Animation</title>
+	<style>
+		#animation{
+			width: 50px;
+			height: 50px;
+			position: absolute;
+			background-color: royalblue;
+		}
+	
+	
+	</style>
+</head>
+
+<body>
+	<script>
+	
+	var imgobj=null;
+		function init(){
+			imgobj=document.getElementById('myImage');
+		imgobj.style.position='relative';
+		imgobj.style.left='0px';}
+		function moveright(){
+			imgobj.style.left=parseInt(imgobj.style.left)+10+'px';
+		
+		}			window.onload=init;
+
+	
+	</script>
+	<form>
+	<img id="myImage" src="../DOM Javascript/dom.jpg">
+		<p> Click on the button to move your image</p>
+		<input type="button" value="click me to move" onClick="moveright();">
+	
+	</form>
+	<script>
+	
+	function move(){
+		var elem=document.getElementById("animation");
+		var pos=0;
+		var id=setInterval(frame,10);
+		function frame(){
+			if(pos==350){
+				clearInterval(id);
+				
+			}
+			else{
+				pos++;
+				elem.style.top=pos+'px';
+				elem.style.left=pos+'px';
+			}
+		}
+		
+	}
+	
+	
+	</script>
+	<button onClick="move()"> Click me to move</button>
+	<div id="animation"></div>
+</body>
+	
+</html>

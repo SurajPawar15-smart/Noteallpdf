@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2020 by kropfgames (http://jsbin.com/malezuh/3/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Company Name</title>
+<style id="jsbin-css">
+html,
+body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.block
+{
+  color: white;
+  background-color: black;
+  padding: 5%;
+}
+
+.block-1
+{
+  background-color: #324376;
+  
+}
+
+.full-page
+{
+  height: 100vh;
+}
+
+.carousel-placeholder
+{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  color: white;
+  background-size: cover;
+}
+
+.carousel-placeholder-1
+{
+  background-color: #f76c5e;
+}
+
+.carousel-placeholder-2
+{
+  background-color: #324376;
+}
+
+.carousel-placeholder-3
+{
+  background-color: #586ba4;
+}
+
+
+
+
+
+
+
+
+
+
+</style>
+</head>
+  
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <svg class="bi bi-x-diamond" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 010-2.098L6.95.435zm1.4.7a.495.495 0 00-.7 0L1.134 7.65a.495.495 0 000 .7l6.516 6.516a.495.495 0 00.7 0l6.516-6.516a.495.495 0 000-.7L8.35 1.134z" clip-rule="evenodd"/>
+        <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+        <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+    </svg>
+  
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbar">
+    <ul class="navbar-nav ml-auto">
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#services-overview">Overview</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#featured-products-carousel">Featured</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+          
+    </ul>
+  </div>
+  
+  </nav>
+  
+  
+  <div id="services-overview" class="py-5 text-center block block-1">
+    
+    <div class="py-5">
+      <svg class="bi bi-x-diamond" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.482 1.482 0 010-2.098L6.95.435zm1.4.7a.495.495 0 00-.7 0L1.134 7.65a.495.495 0 000 .7l6.516 6.516a.495.495 0 00.7 0l6.516-6.516a.495.495 0 000-.7L8.35 1.134z" clip-rule="evenodd"/>
+          <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z" clip-rule="evenodd"/>
+          <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z" clip-rule="evenodd"/>
+      </svg>
+    </div>
+    
+    <h1 class="py-5">Company Name</h1>
+    <p class="lead">Put your company description here, with calls to action and an incentive to sign up to your newsletter or contact you.</p>
+    <p>
+      <a href="#featured-products-carousel" class = "btn btn-primary my-5 px-4 py-2">Learn More →</a>
+    </p>
+    
+  </div>
+  
+  <div id="featured-products-carousel" class="carousel slide" data-ride="carousel">
+    
+    <ol class="carousel-indicators">
+      
+      <li data-target="#featured-products-carousel" data-slide-to="0" class="active">
+      </li>
+      
+      <li data-target="#featured-products-carousel" data-slide-to="1">
+      </li>
+      
+      <li data-target="#featured-products-carousel" data-slide-to="2">
+      </li>
+      
+    </ol>
+    
+    <div class="carousel-inner">
+      
+      <div class="carousel-item active image-container">
+        <div class="carousel-placeholder carousel-placeholder-1">
+        </div>
+        
+        <div class="container">
+          
+          <div class="carousel-caption text-left">
+            
+            <h2>Product 1.</h2>
+            <p>Your product description here.</p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="#" role="button">
+                Learn more
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--item-->
+      
+      <div class="carousel-item">
+        
+        <div class="carousel-placeholder carousel-placeholder-2">
+        </div>
+        
+        <div class="container">
+          
+          <div class="carousel-caption">
+            
+            <h2>Product 2.</h2>
+            <p>Your product description here.</p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="#" role="button">
+                Learn more
+              </a>
+            </p>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+      <!--item-->
+      
+      <div class="carousel-item">
+        
+        <div class="carousel-placeholder carousel-placeholder-3">
+        </div>
+        
+        <div class="container">
+          
+          <div class="carousel-caption text-right">
+            
+            <h2>Product 3.</h2>
+            <p>Your product description here.</p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="#" role="button">
+                Learn more
+              </a>
+            </p>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+      <!--item-->
+      
+    </div>
+    <!--carousel-->
+    
+  </div>
+  <!--featured products-->
+  
+  <div id="services">
+    
+  </div>
+  
+  <section id="contact" class="contact">
+    
+  </section>
+  
+  <footer>
+    
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+</body>
+  
+</html>

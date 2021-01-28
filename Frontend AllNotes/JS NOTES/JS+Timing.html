@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>JS Timers</title>
+	<style>
+		#clock{
+			background:#000;
+			padding: 20px;
+			margin: 20px 0;
+			color: lawngreen;
+			display: block;
+			font: 48px monospace;
+			
+		}
+	
+	
+	</style>
+</head>
+
+<body>
+	<script>
+	function myfunction(){
+		alert('hello world');
+	}
+		
+	
+	
+	
+	</script>
+	<button onClick="setTimeout(myfunction,3000)"> Click Me</button>
+	<script>
+	var intervalID;
+		function showtime(){
+			var d=new Date();
+			document.getElementById("clock").innerHTML=d.toLocaleTimeString();
+		}
+		function stopclock(){
+			clearInterval(intervalID);
+		}
+		var intervalID=setInterval(showtime,1000);
+		
+	
+	
+	
+	</script>
+	<p> The current time on your computer is <span id="clock"></span></p>
+	<button onClick="stopclock();"> Stop Clock</button>
+</body>
+</html>

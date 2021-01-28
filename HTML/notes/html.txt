@@ -1,0 +1,6499 @@
+**********************************html(hyper text markup language)*************************************************************
+*type of language:
+
+1.low level language:binarg number=(0 or 1 byte).
+(machine language),written in binary format:operating system ,major electroic kit.
+2.middle level language:
+written in a binary and english word format.driver application ex-motherboard,pendrive.
+3.high level language:
+written in english format application software(website,android,computer).
+
+1.system software or os:name of the system software:
+
+windows xp,7,8.
+android
+ios
+mac
+linux
+unix
+solaris.
+
+*problem in low level programming:
+
+1.you have to written in binary ex:0101001.
+2.binary coding is machine machine dependent.
+*complier convert our english word in binary code. 
+
+2.language categories:
+
+a.Compiler language:run by compiler software.ex.c language ,jave ,net etc.
+b.interpeter:run by  web browser.ex-html,css,javascript,etc.
+
+*some importants point of the html:
+*html is a markup language not a programming language because html cannot control the behaviour of our software and we cant
+ generate our ideas in html language.
+*html cannot the behaviour of our software and we cant generated our ideas in html languages.
+*html is used to develop web pages.
+*html is used to some things which is write in web page.
+
+Q.what is the use of html language?
+basic use:
+1.html is used to develop web pages.
+2.html is used to something write on web pages.
+
+Q.what is webpage?
+
+websites pages are known as webpage and a webpage is created in html language.
+ex:background side is yellow and contain are write in that as a black .
+
+*type of webpage:
+1.static webpage:simple loop of user interface.
+2.dynamic webpage :attractive look of user interface with advanced features.
+
+Q.what is tag and use of tag?
+a text which is marked by angle brackest.ex:<html> and a tag defines the place of our content on webpage.
+<>= opening tag.
+</>=closing tag.
+<wap>              tags: contain palce are showe in the given html page.
+</wap>
+
+*points to be remember:about <tag>
+
+1.closing the tag started is necessary.
+2.any tay starts with <> brackect and locked with </>.
+3.if we start a tag like <html> so simply lock like </html>.
+
+syntax: <!doctype html>
+        <html>
+        <title>home</title>
+        <body>     //webpage activate
+        this is my first coding
+        </body>    //webpage deactivate
+        </html>
+
+*html document type declaration and complete structure:
+
+*<!doctype>
+<html>
+<head>
+<title>google</title>
+</head>
+<body>
+
+   <h1><this is my first coding></h1>
+   <h2>this is my new laptop</h2>
+
+</body>
+</html>	
+
+*1.<!doctype>:document type declaration.
+ 2.html complete structure.
+
+*<!doctype>
+<html>
+<head>
+<title>html</title>
+</head>
+<body>
+this is my life
+</body>
+</html>
+
+3.html heading and paragraphs tags:
+*headings and paragraph 1.<p>
+1.<h1> heading
+2.<h2>
+3.<h3>
+4.<h4>
+5.<h5>
+6.<h6>
+
+*<!doctype html>
+<html>
+<head>
+<title>google</title>
+</head>
+<body>
+   <h1>my name is suraj pawar</h1>
+   <h2>my name is pranay pawar</h2>
+   <h3> my name is rani pawar</h3>
+   <h4>my name is sanjeev pawar</h4>
+   <h5> my name is sham pawar</h5>
+   <h6>my name is ram pawar</h6>
+</body>
+</html>	
+	
+output:	
+my name is suraj pawar
+
+my name is pranay pawar
+
+my name is rani pawar
+
+my name is sanjeev pawar
+
+my name is sham pawar
+
+my name is ram pawar.
+
+*<!doctype html>
+<html>
+<head>
+<title>google</title>
+</head>
+<body>
+
+   <h1><center>WWW.WAPINSTITUTE.COM</center></h1>
+   <p>i am the student of wap institute so that y i am creating this websites</p>
+
+</body>
+</html>	
+	
+
+*<!doctype html>
+<html>
+<head>
+<title>google</title>
+</head>
+<body>
+    <h1><center>wap institute is so popular are firmed in mumbai region </center></h1>
+    <p>as i know that wap instituting are growen as day by bays .as many features are we see as in growing and useful day by day</p>
+</body>
+</html>	
+	
+output:	
+wap institute is so popular are firmed in mumbai region. 
+as i know that wap instituting are growen as day by bays .as many features are we see as in growing and useful day by day.
+
+4.html button and horizontal tag:<button>  and <hr> =(horizontal line tag)
+
+*<!doctype html>
+<html>
+<head>
+<title>google</title>
+</head>
+<body>
+
+<h1><center>wap institute.com</center></h1>
+<hr>
+<center>
+<button>HOME</button>
+<button>IMAGES</button>
+<button>VIDEOS</button>
+<button>AUDIO</button>
+<button>ABOUT US</button>
+</center>
+<p>as i know that wap instituting are growen as day by bays .as many features are we see as in growing and useful day by day</p>
+
+</body>
+</html>
+
+OUTPUT:
+wap institute.com
+HOME IMAGES VIDEOS AUDIO ABOUT US 
+as i know that wap instituting are growen as day by bays .as many features are we see as in growing and useful day by day.
+
+5.HTML elements:an html elements usually consist of a start tag and end tag,with the content inserted in between .
+example:
+<h1>content goes here...</h1>
+
+*<!doctype html>
+<html>
+<head>
+<title>google</title>
+</head>
+<body>
+   <h1><center>welcome in my home</center></h1>
+</body>   
+</html>	
+
+output:
+welcome in my home
+	
+6.html attribute:attribute for only <body>
+*it are always specified in the start tag.
+
+<!doctype html>
+<html>
+<head>
+<title>attributes</title>
+</head>
+<body bgcolor="red">
+   
+</body>   
+</html>	
+
+ output:
+on the output we getting the red whole color.
+
+*attributes for <body>:
+three things are required in attributes are:
+1.bgcolor="red".
+2.background="bg.jpg"
+3.text="red".	
+
+*only whole background color are become in red are formed.
+<!doctype html>
+<html>
+<head>
+<title>google</title>
+</head>
+<body bgcolor="red" >
+   
+</body>   
+</html>	
+	
+*this is were firstly u make one folder and then put one image and then saved with .jpg format and o/p are form.	
+<!doctype html>
+<html>
+<head>
+<title>google</title>
+</head>
+<body bgcolor="red" background="download.jpg" text="red" >
+   
+   <h1><center>this is my new home</center></h1>
+    <p>i read in wap institute</p>
+</body>
+</html>
+
+*attribute for <hr>:
+1.color="red"
+2.width="80%"
+3.size="5"
+4.align="left","right","center".
+
+<!doctype>
+<html>
+<head>
+<title>google</title>
+</head>
+<body>
+   
+   <h1><center>this is my new home</center></h1>
+   <hr color="red" width="80%" size="10" align="center">
+   <p>wap stands for window application and programming institute</p>
+</body>
+</html>
+
+output:
+         this is my new home
+________________________________________
+
+wap stands for window application and programming institute
+
+*img tag and its attribute:[donot lock the img tag]
+attribute for<img>tag:
+1.width="600"
+2.height="600"
+3.alt=""image_name"
+
+*<!doctype>
+<html>
+<head>
+<title>google</title>
+</head>
+<body>
+   <h1>html image</h1>
+<hr width="70" >
+<center>
+<img src="bg.jpg" width="880" height="420" alt="bg">
+</center>
+<hr width="70%">
+<h4>developed by :wap student</h4>
+</body>
+</html>
+
+*<!doctype html>
+<html>
+<head>
+<title>google</title>
+</head>
+<body>
+   
+   <h1><center>this is my new home</center></h1>
+   <hr  width="80%" >
+
+   <center>
+   <img src="bg.jpg" width="200" height="200">
+   </center>
+    
+   <hr width="70%">
+   <h4>developed by wap institute</h4>
+
+</body>
+</html>
+
+*html formating tag:
+
+1.<b>:bold text.
+2.<i>:italic tag
+3.<u>:underlined text.
+4.<em>:emphasized text
+5.<strong>:strong text
+6.<small>:small text
+7.<mark>:heighlight text
+8.<ins>:inserted text
+9<del>:strike through text
+10.<sup>:superscript
+11.<sub>:subscript
+
+*<!doctype>
+<html>
+<head>
+<title>google</title>
+</head>
+<body>
+   
+   <b><center>this is my new home</center></b>
+   <i><center>this is my new home</center></i>
+   <u><center>this is my new home</center></u>
+   <mark><center>this is my new home</center></mark>
+   <del><center>this is my new home</center></del>
+   <small><center>this is my new home</center></small>
+   <em><center>this is my new home</center></em>
+   <strong><center>this is my new home</center></strong>
+   <p>
+    a<sub>2</sub>
+    a<sup>2<sub>
+
+   </p>   
+</body>
+</html>
+
+output:
+this is my new home
+ 
+this is my new home
+ 
+this is my new home
+ 
+this is my new home
+ 
+this is my new home
+ 
+this is my new home
+ 
+this is my new home
+ 
+this is my new home
+ 
+a2 
+
+17.*html quotations tag and address tag:
+1.<q>:marks with dual quotes ex:"my first quotation"
+2.<address>:defines contact information.
+
+
+*<!doctype html>
+<html>
+<head>
+<title>google</title>
+</head>
+<body>
+   <q>this is my new home</q>
+   <address>ragurunagar <br>
+   khed<br>
+   pune<br>
+   401101
+</address>
+</body>
+</html>
+
+output:
+“this is my new home” 
+ragurunagar 
+ khed
+ pune
+ 401101 
+
+*html <font>tag: <font>myedited text</font>
+attribute for <font>
+
+1.color="red"
+2.size="20"
+3.face="verdana"
+
+
+*<!doctype html>
+<html>
+<head>
+<title>google</title>
+</head>
+<body>
+   
+  <h1><font color="red" size="4" face="verdana">this is my new home</font></h1>
+   
+</body>
+</html>
+
+output:
+this is my new home.
+
+*html  links: [image connectivity as when we click the button it automatically image are open]
+anchor tag<a>
+attributes for<a>tag:
+1.href="penguin.jpg"
+2.download="download" -as when we click the button automatically the image or movies or etc things are downloads.
+
+*<!doctype html>
+<html>
+<head>
+<title>google</title>
+</head>
+<body>
+   
+  <a href="hg.jpg" >this is my new home</a>
+   
+</body>
+</html>
+
+*<!doctype>
+<html>
+<head>
+<title>google</title>
+</head>
+<body>
+   
+  <a href="hg.jpg" download="download">this is my new home</a>
+</body>
+</html>
+
+*1.html website develooment part1:web application:
+1.<h1>to</h6>
+2.<p>
+3.<b>
+4.<img>
+5.<marquee>
+6.<hr>
+7.<button>
+8.<br>
+9.<pre>
+
+*html lists:
+html lists are two types:
+1.unordered list(unnumbered list):
+small circle,circle,square...
+2.ordered list(numbered list):
+1 2 3.....ABC......abc.....(i)(ii)(iii).....
+for ex:
+
+list of cources:
+__________________________
+1.software engg.
+2.web development.
+3.robotics.
+4.ethical hacking.
+5.fishing.
+
+*unnumbered lists:
+it defines with <ul>tag
+syntax:
+<ul>
+<li>your list goes here</li>
+</ul>
+
+*<!doctype html>
+<html>
+<head>
+<title>home</title>
+</head>
+<body >
+<h1 font color="red">wap institution cources</h1>
+<hr>
+<ul> or <ol>
+<li><font color="blue">software engg</font></li>
+<li><font color="cyan">web development</font></li>
+<li><b>robotics</b></li>
+<li><i>ethical hacking</i></li>
+<li><super>fishing</super></li>
+</ul> or </ol>
+  
+</body>
+</html>
+
+output:
+wap institution cources
+____________________________________________
+•software engg
+•web development
+•robotics
+•ethical hacking
+•fishing
+
+*attribute for <ul>tag:
+1.type="cicle" or "square"
+syntax:
+<ul type="square">
+<li your  list goes here</li>
+</ul>
+
+*<!doctype html>
+<html>
+<head>
+<title>home</title>
+</head>
+<body >
+<h1>wap institution cources</h1>
+<hr>
+<ul type="square">
+ <li> your  list goes here</li>
+ <li>robotics</li>
+ <li>ethical hacking</li>
+ <li>fishing</li>
+</ul>
+</body>
+</html>
+
+output:
+wap institution cources
+________________________________________________
+? your list goes here
+?robotics
+?ethical hacking
+?fishing
+
+
+*<ol>tag and its attributes:
+1.type="A" "a" "I" "i"
+2.start="S" "t" "IX" "x"
+
+syntax:
+<ol type="i">
+<li>go to hell</li>
+<li>you are saved your life</li>
+</ol>
+
+*<!doctype html>
+<html>
+<head>
+<title>home</title>
+</head>
+<body >
+<h1>wap institution cources</h1>
+<hr>
+
+<ol type="i"or "A" or"I" or "1" start="4" >
+<li>go to hell</li>
+<li>you are saved your life</li>
+<li> your  list goes here</li>
+<li>robotics</li>
+<li>ethical hacking</li>
+<li>fishing</li>
+</ol>
+
+</body>
+</html>
+
+output:
+wap institution cources
+_________________________________________
+i.go to hell
+ii.you are saved your life
+iii. your list goes here
+iv.robotics
+v.ethical hacking
+vi.fishing
+
+
+*nested elements and lists:
+
+Q.what is nested elements?
+collection of similar elements are knows as nested elements.
+ex:<ul><ul></ul></ul>
+Q.WHAT IS THE USED OF NESTED LIST?
+if u want to make categories list so, you have to use nested list.
+examples of categorisation lists:
+1.computer.
+2.software.
+3.hardware.
+
+*<!doctype html>
+<html>
+<head>
+<title>home</title>
+</head>
+<body >
+<h1>wap institution cources</h1>
+<hr>
+<ul>
+ <li>GENDER</li>
+<ul>
+ <li>FEMALE</li>
+ <li>MALE</li>
+</ul>
+</ul>
+</body>
+</html>
+
+output:
+wap institution cources
+_________________________________
+•GENDER
+?FEMALE
+?MALE
+
+*<!doctype html>
+<html>
+<head>
+<title>home</title>
+</head>
+<body >
+<h1>wap institution cources</h1>
+<hr>
+<ul>
+<li>GENDER</li>
+<ul>
+<li>FEMALE</li>
+<li>MALE</li>
+</ul>
+</ul>
+<ol>
+<li>SUBJECT</li>
+<ol type="a">
+<li>maths</li>
+<li>science</li>
+</ol>
+</ol>
+</body>
+</html>
+
+output:
+wap institution cources
+_______________________________________
+•GENDER
+   ?FEMALE
+   ?MALE
+1.SUBJECT
+   a.maths
+   b.science
+
+*html media:
+any type of graphics and sound files are known as media .
+
+example:
+1.audio:audio players.
+2.video:videos players.
+3image:images
+4.flash:used for advertisments.
+5.pdf:used for text files.
+
+1.audio api integration:
+src=it means which 
+*audio player in your browser.
+*tags for audio:
+<audio>.. ......</audio>
+
+*attributes for audio:
+src="wap.mp3"
+controls="controls"
+
+*advanced attributes:
+autoplay ="autoplay"
+muted="muted"
+loop="loop"
+
+*<!doctype html>
+<html>
+<head>
+<title>audio</title>
+</head>
+<body >
+<h1>ONLINE AUDIO PLAYERS</h1>
+<hr>
+<audio src="wap.map3" controls="controls" autoplay="autoplay" muted="muted" loop="loop">
+</audio>
+</body>
+</html>
+
+*video api intigration:
+tag for video intigration
+<video></video>
+attributes for <video>tag
+src="wap.mp4"
+controls="controls"
+width="400"
+height="400"
+
+*<!doctype html>
+<html>
+<head>
+<title>audio</title>
+</head>
+<body >
+<h1>VIDEO API INTIGRATION</h1>
+<hr>
+<video src="wap.mp4" controls="controls" width="400" height="400"autoplay="autoplay" muted="muted" loop="loop">
+</video>
+</body>
+</html>
+
+*advanced attribites for <video></video>tags:
+advanced attributes for<video>tag:
+autoplay="autoplay"
+muted="muted"
+loop="loop"
+
+*html table:
+a table is an arrangement of information in rows and coloumns.
+ex:suppose you have lots of student and you want to manage information of all students so you can use table like this:
+
+Q.where do we use table?
+1.to manage information an record of anythings in systematics ways.
+2.we use the table to create the framework of any website.
+
+*html table coding:
+syntax:
+
+<table>
+   <tr>
+       <td>your content here.....</td>
+  </tr>
+</table>
+
+*<!doctype html>
+<html>
+<head>
+<title>audio</title>
+</head>
+<body>
+<table width="50" height="50" border="2">
+<tr><td>1</td></tr>
+<tr><td>2</td></tr>
+</table>
+</body>
+</html>
+
+
+*html table coding:
+rows <tr>and coloums<td>:
+
+*<!doctype html>
+<html>
+<head>
+<title>audio</title>
+</head>
+<body>
+<table width="300" height="200" border="1">
+
+<tr><td><center>NAME</center></td><td><center>CLASS</center></td><td><center>ROLL</center></td></tr>
+<tr><td><center>SAURAV</center></td><td><center>10</center></td><td><center>123</center></td></tr>
+<tr><td>,<center>GAUTAM</center></td><td><center>10</center></td><td><center>124</center></td></tr>
+
+</table>
+</body>
+</html>
+
+output:
+NAME 
+
+CLASS 
+
+ROLL 
+
+
+SAURAV 
+
+10 
+
+123 
+
+,
+GAUTAM 
+
+10 
+
+124 
+
+*attribute for <table> and <td> tag:
+<table>
+*weight="200"
+*height="200"
+*border="1"
+*bordercolor="red"
+*bgcolor="pink"
+*background="a.jpg"
+*cellspacing="5"
+
+<td>:
+*weigth="200"
+*height="200"
+*bgcolor="pink"
+*background="a.jpg"
+*colspan="2"
+*rowspan="2"
+
+*use of the <th> tag:(table heading)
+
+*html form:
+when you want to collect some data from the site visitor.
+for example:
+1.firstname:
+2.lastname:
+3.emailid:
+4.mobileno:
+
+Q.WHERE WHERE WE USE FORM?
+*email id creation
+*online admission
+*apply online
+*ecommerce portal.
+
+input field in form:
+*name
+*father name
+*first name
+*last name
+*emailid
+*password 
+*dob
+*andmany more
+
+*form syntax:
+<form>
+your input field here
+</form>
+
+*<input>:don't lock
+attribute for input field
+type="text"
+name="any name"
+
+input field making:
+firstname
+lastname
+
+*<!doctype html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<form>
+firstname<br>
+<input type="text" name="firstname"><br>
+lastname<br>
+<input type="text" name="lastname"><br>
+</form>
+</body>
+</html>
+
+output:
+firstname
+______________
+lastname
+______________
+
+* write a html code by using the submit button and password button:
+*<!doctype html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<form>
+
+username<br>
+<input type="text" name="username"><br>
+password<br>
+<input type="password" name="password"><br>
+<input type="submit" value="login" >
+
+</form>
+</body>
+</html>
+
+
+*<!doctype html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<form>
+
+dob<br>
+<input type="dob" name="dob"><br>
+mobile<br>
+<input type="number" name="mobile"><br>
+<input type="submit" value="login">
+
+</form>
+</body>
+</html>
+
+output:
+dob
+__________
+mobile
+__________
+login.
+
+*radio buttons and dropdownlist:
+gender:@male @female.
+marital status:@married @unmaried.
+           or
+1.gender:male,female.
+2.marital status:married,unmarried.
+3.login(submit).
+
+*<!doctype html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<form>
+gender:<input type="radio" name="gender" value="male">male
+<input type="radio" name="gender" value="female">female
+<input type="radio" name="gender" value="other">other
+</form>
+</body>
+</html>
+
+*dropdown list:
+gender:
+      male
+      female
+      other
+
+*<!doctype html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<form>
+
+gender<br>
+<select name="gender">
+<option value="male">male</option>
+<option value="female">female</option>
+<option value="other">other</option>
+</select>
+
+</form>
+</body>
+</html>
+
+*text area:
+address
+
+*<!doctype html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+
+address<br>
+<textarea cols="100" rows="10">
+</textarea>
+
+</body>
+</html>
+
+*checkbox:
+1.select course:
+    a.web design 
+    b.software eng
+
+*<!doctype html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<form>
+
+1. select cources<br>
+<input type="checkbox" name="select cources" value="web design">web design
+<input type="checkbox" name="select cources" value="software engg">software engg
+
+</form>
+</body>
+</html>
+
+*design a form width <fieldset> as login us:
+*<!doctype html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<form>
+<fieldset >
+<legend>login us</legend>
+
+username<br>
+<input type="text" name="username"><br><br>
+password<br>
+<input type="password" name="password"><br><br>
+<input type="checkbox" value="Remember me">Remember me!
+<input type="submit" value="login">
+
+</fieldset>
+</form>
+</body>
+</html>
+
+
+*placeholder ,size,required:
+
+*<!doctype html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<form>
+<fieldset>
+
+<legend>login us<legend>
+username<br>
+<input type="text" name="username" placeholder="type your name here" size="30" required="required"><br><br>
+passwors<br>
+<input type="password" name="password" placeholder="type your name here" size="30" required="required"><br><br>
+<input type="checkbox" value="Remember me">Remember me!
+<input type="submit" value="login">
+</fieldset>
+
+</form>
+</body>
+</html>
+
+*complete form design:
+<!doctype html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<form>
+<table bgcolor="">
+<tr>
+<td>
+<font face="calibri" size="4">Firstname</font><br>
+<input type="text" name="firstname" placeholder="EX-MR  ,  MISS">
+</td>
+<td>
+<font face="calibri" size="4">Lastname</font><br>
+<input type="text" name="Lastname" placeholder="EX- PAWAR">
+</td>
+</tr>
+
+<tr>
+<td>
+<font face="calibri" size="4">Dob</font><br>
+<input type="date" name="Dob">
+</td>
+
+<td>
+<font face="calibri" size="4">Gender</font><br>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+</td>
+</tr>
+
+<tr>
+<td>
+<font face="calibri" size="4">Mobile</font><br>
+</td>
+<td></td>
+</tr>
+
+<tr>
+<td>
+<input type="number" name="mobile" placeholder="first mobile number">
+</td>
+<td>
+<input type="number" name="mobile" placeholder="another mobile number">
+</td>
+</tr>
+
+<tr>
+<td>
+<font face="calibri" size="4" >Email id</font> 
+</td>
+<td></td>
+</tr>
+
+<tr>
+<td colspan="2">
+<input type="email" name="email id" size="45"></td>
+</tr>
+
+<tr>
+<td>
+<font face="calibri" size="4"> Address</font>
+</td>
+<td></td>
+</tr>
+
+<tr>
+<td colspan="2">
+<textarea rows="3" cols="39"</td>
+</textarea>
+</tr>
+
+<tr>
+<td>
+<font face="calibri" size="4"> Select any special course</font>
+</td>
+<td>
+<select name="cources">
+<option value="software engineering">Software Engineering</option>
+<option value="Electrical engineering">Electrical Engineering</option>
+<option value="Mechanical  engineering">Mechanical Engineering</option>
+<option value="Civil  engineering">Civil Engineering</option>
+<option value="IT engineering">IT Engineering</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>
+<font face="calibri" size="4">upload your marksheet here</font>
+</td>
+<td>
+<input type="file" accept=".jpg">
+</td>
+</tr>
+
+
+<tr>
+<td>
+<input type="checkbox" name="accept" value="if all information are true">
+<font face="calibri" size="4">if all information are true</font>
+</td>
+<td></td>
+</tr>
+
+<tr>
+<td>
+<input type="submit" value="Admit now">
+</td>
+</tr>
+
+</form>
+</body>
+</html>
+
+*
+<table width="1024" height="768" bgcolor="#0060ff"></table>
+<tr>
+<td>
+hhhhh
+</td>
+</tr>
+
+<table width="1024" height="500" bgcolor="white">
+<table>
+<tr>
+<td bgcolor="#ddd">home</td>
+<td bgcolor="#ddd">admission</td>
+<td bgcolor="#ddd">download</td>
+<td bgcolor="#ddd">courses</td>
+<td bgcolor="#ddd">contact</td>
+</tr>
+</table>
+<fieldset>
+<legend><b>about wap</b>></legend>
+<p>
+II,III</p>
+</fieldset>
+</table>
+<table width="1024" height="80" bgcolor="0060ff">
+</table>
+
+*css:
+css is a style sheet language used for descibing the presentation of a documents written in a markup  languaage.
+
+designing principle:
+1.sensieve effective colors.
+2.silk and swift page.
+3.html5 intigration .
+4.silk and swift page
+5.smooth sensor
+6.xtensible webpage.
+
+*css version:
+
+*there are two version ofcss:
+1.css2
+2.css3
+
+*what can we do in css 2?
+1.specially used to webpage desiging.
+2.it have long method for desinging.
+
+*what can we do in css3?
+it is used to adding motion grapics.
+1.animation .
+2.transition.
+3.visual effect.
+it is also used for making responsible s web application.
+
+*cascading style sheet:
+
+1.properties are the way to start your coding in css langusages.
+2.about properties:
+*a property must have a value.
+*a property defines your ideas that you want to do. 
+
+*how to identify properties?
+property:value.
+
+*list some properties:
+
+properties   :   values
+width        :   200px
+height       :   200px
+border       :   1px solid red
+background-color:red
+
+*what is stylesheet?
+
+the method of implemetation properties and values are known as stylesheet.
+there are three of stylesheet:
+1.inline stylesheet.
+2.internal stylesheet.
+3.external stylesheet.
+
+1.inline stylesheet:
+properties:values
+width:200px
+height:200px
+border:1px solid red
+background-color:red
+
+syntax:
+<tagname style="properties:values">saurab sir</tagname>
+examples:
+<button style="width:200px">saurab sir</button>
+
+*inline stylesheet coding:
+<!doctype html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<button  style="width:200px;">saurab sir</button>
+</body>
+</html>
+
+*<!doctype>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<button  style="width:200px; height:90px; background-color:red; border:5px solid red">saurab sir</button>
+</body>
+</html>
+output:
+one button are come in output as the red color.
+
+*css integration:html5 using
+*page structure:
+
+<!doctype html>
+<html lang="en-US">       // english us language.
+<head>
+<meta charset="utf-8">    //meta tagpage related all information are send to the server for diff inform diff attributes are required
+<title>home</title>        //meta page charater inf give to server alpha character(a,b,c),alpha numeric(?,\) characters,or numeric character(0,8,9).
+</head>
+<boby>
+</html>
+
+*complete properties for background:
+
+properties:          value
+background-color:    red
+backgroung-image:    url(wap.jpg)
+background-position: top left,top center,top right,center.
+background-repeat:   repeat,non-repeat
+
+
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>css</title>
+</head>
+<body>
+<button style="widht:300px; height:300px; background:red; background-image=url(logo.jpg); background-size:250px 300px; background-repeat
+:no-repeat; backgroundposition:center">saurab sir</button>
+
+</html>
+</body>
+
+*semantic element:predefined block level tags of html5.
+
+name of semantic elements tags:
+*<div>    type of content              </div>
+*<header> header content of any website</header>
+<nav>     menu content of any wedsite  </nav>
+*<section>full content of any website  </section>
+*<footer> ending content of any websites</footer>
+*<aside>  left and right side content of any websites</aside>
+
+*semantic elements means the predefined  block level tags of html:
+like:
+1.header.
+2.section.
+3.footer.
+
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>sematic elements</title>
+</head>
+<body>
+<header style="width:100%; height:80px; border:2px solid red;">welcome to my first classroom</header>
+<section style="width:100%;height:500px;border:2px solid red;">wap stands for windows application and programmers institute</section>
+<footer style="width:100%;height:80px;border:2px solid red;">powerd</footer>
+</body>
+</html>
+
+*webpage layout:
+
+*properties:value
+1.width:100px
+2.height:100px
+3.border:1px solid red
+4.float:left,right
+5.margin:20px
+6.Margin-left:20px
+7.Margin-right:20px
+8.Margin-top:20px
+9.Margin-bottom:20px
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>sematic elements</title>
+</head>
+<body>
+<header style="width:100%;height:150px;border:1px solid red;">wap institute
+</header>
+<nav style="width:100%;height:150px;border:1px solid red;margin-top:10px;float:left;margin-left:10px;">Home</nav>
+<nav style="width:100%;height:150px;border:1px solid red;margin-top:10px;float:left;margin-left:10px;">Image</nav>
+<nav style="width:100%;height:150px;border:1px solid red;margin-top:10px;float:left;margin-left:10px;">Results</nav>
+<nav style="width:100%;height:150px;border:1px solid red;margin-top:10px;float:left;margin-left:10px;">Contact</nav>
+</body>
+</html>
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>sematic elements</title>
+</head>
+<body>
+<header style="width:100%;height:150px;border:1px solid red;">wap institute
+</header>
+<nav style="width:100%;height:150px;border:1px solid red;margin-top:10px;float:left;margin-left:10px;">Home</nav>
+<nav style="width:100%;height:150px;border:1px solid red;margin-top:10px;float:left;margin-left:10px;">Image</nav>
+<nav style="width:100%;height:150px;border:1px solid red;margin-top:10px;float:left;margin-left:10px;">Results</nav>
+<nav style="width:100%;height:150px;border:1px solid red;margin-top:10px;float:left;margin-left:10px;">Contact</nav>
+<section style="width:100%;height:550px;border:1px solid red;margin-top:10px;float:left;margin-top:10px;">wap institute for window and application programming</section>
+<footer style="width:100%;height:550px;border:1px solid red;margin-top:10px;float:left;margin-top:10px;">developed by :saurab singh</footer>
+
+</body>
+</html>
+
+*word and text properties:
+*properties:values are
+
+1.color:red
+2.font-size:40px
+3.font-family:verdana
+4.font-weight:bold,normal
+5.font-style:itali,oblique
+6.text-align:left,right,center,justify
+7.text-transform:uppercase,lowercase,capitalise
+8.text-shadow:2px 2px 2px red
+9.line-height:20px
+10.letter-spacing:10px
+11.word-spacing:10px
+
+*internal stylesheet:
+
+<head>
+<style>
+
+selector{properties:values}
+
+</style>
+</head>
+
+*what are difference between the :
+
+1.Inline stylesheet:
+In  this type of inline stylesheet we use style attribute to activate css properities and values.
+2.internal stylesheet:
+in  this type of the internal stylesheet we use style tag to activate css properties and valuess.
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>internal stylesheet</title>
+<style>
+
+p1{color:red;}
+h2{color:blue}
+
+</style>
+</head>
+<body>
+<h1 style="color:red;">wap institute</h1>
+<p>my name is suraj pawar</p>
+<p>i am student od wap institute</p>
+<p>i am a student od wap institute</p>
+<h2>sdff</h2>
+<h2>sdff</h2>
+<h2>sdff</h2>
+<h2>sdff</h2>
+</body>
+</html>
+
+output:
+wap institute
+
+my name is suraj pawar.
+
+i am student od wap institute.
+
+i am a student od wap institute.
+
+sdff
+
+sdff
+
+sdff
+
+sdff
+
+*shorthand properties:css3 are used.
+
+margin:20px
+
+*longhand properties:css2 are used.
+
+margin-left:20px
+margin-right:20px
+margin-top:20px
+margin-bottom:20px
+
+note:margin,padding,border are the example of short hand properties.
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>internal stylesheet</title>
+<style>
+
+header{
+width:400px;
+height:400px;
+border:5px solid red;
+}
+nav{
+width:300px;
+height:350px;
+border:1px solid blue;
+}
+
+</style>
+</head>
+<body>
+</body>
+</html>
+output: square shape border are formed.
+
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>internal stylesheet</title>
+<style>
+
+header{
+width:400px;
+height:400px;
+border:1px solid red;
+}
+nav{
+width:300px;
+height:200px;
+border:5px solid yellow;
+margin-left:10px;
+margin-top:20px;}
+
+</style>
+</head>
+<body>
+<header>
+<nav></nav>
+</header>
+</body>
+</html>
+
+*short hand property:
+
+border:1px solid red
+
+*long hand property:
+
+border-width:1px;
+border-style:solid;
+border-color:red;
+border-top:1px solid red;
+border-bottom:1px solid red;
+border-left:1px solid red;
+border-right:1px solid red;
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>internal stylesheet</title>
+<style>
+
+div{
+width:400px;
+height:400px;
+border-left:1px solid red;
+border-right:1px solid green;
+border-top:1px solid blue;
+border-bottom:1px solid black;
+}
+
+</style>
+</head>
+
+<body>
+<div></div>
+</body>
+</html>
+
+*css border styling:
+border-style:solid,dotted,dashed,groove,ridge,inset,outset,none.
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>internal stylesheet</title>
+<style>
+
+div{
+width:700px;
+height:400px;
+border-width:40px;
+border-style:solid;
+border-color:red;
+}
+button{
+width:200px;
+height:60px;
+margin:50px;
+border-style:none;}
+
+</style>
+</head>
+<button>click here<button>
+<body>
+<div></div>
+</body>
+</html>
+
+*css potrait page design:
+1.landscape page.
+2.potrait page.
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>internal stylesheet</title>
+<style>
+body{background-color:#EFEFEF;}
+div{
+width:1220px;
+height:470px;
+border-color:white;
+margin:0 auto;
+border-top:40px groove red;
+border-bottom:40px ridge red;
+}
+</style>
+</head>
+<div></div>
+<body>
+
+</body>
+</html>
+
+*css padding:
+
+1.short hand property:
+    padding:20px
+2.long hand property:
+padding-left:20px
+padding-right:20px
+padding-top:20px
+padding:bottom:20px
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>internal stylesheet</title>
+<style>
+
+div{
+weidth:30px;
+height:50px;
+border:2px solid red;
+padding-left:20px;
+padding-right:20px;
+padding-top:20px;
+padding-bottom:20px;
+}
+
+</style>
+</head>
+<body>
+<div>WAP</div>
+</body>
+</html>
+
+*float css:
+float property  define which are used for the horizontal direction.
+float:left or right.
+for example: are the boxes are in the line are aline.
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>internal stylesheet</title>
+<style>
+
+div{
+weidth:100px;
+height:40px;
+border:2px solid red;
+float:left;  // all  5 box are alined at horizontally.
+margin:10px;  // in b/w the space are 5 blocks are some space.
+}
+</style>
+</head>
+
+<body>
+<div>1</div>
+<div>2</div>
+<div>3</div>
+<div>4</div>
+<div>5</div>
+
+</body>
+</html>
+
+*css display:
+
+display:block, inline, inline-block, none.
+
+1.(block display):
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>internal stylesheet</title>
+<style>
+
+span{
+weidth:100px;
+height:100px;
+border:2px solid red;
+display:block;
+}
+
+</style>
+</head>
+<body>
+<span></span>
+</body>
+</html>
+
+*css display:(inline display)
+HOME GAME VIDEO
+
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>internal stylesheet</title>
+
+<style>
+h1{ display:inline;
+
+}
+</style>
+
+</head>
+<body>
+<h1>HOME</h1>
+<h1>GAME</h1>
+<h1>VIDEO</h1>
+<h1>AUDIO</h1>
+
+</body>
+</html>
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>internal stylesheet</title>
+
+<style>
+li{ display:inline-block;
+weidth:100px;
+height:40px
+border:2px solid red
+}
+</style>
+
+</head>
+<body>
+<ul>
+<li>HOME</li>
+<li>GAME</li>
+<li>VIDEO</li>
+<li>AUDIO</li>
+</ul>
+</body>
+</html>
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>internal stylesheet</title>
+
+<style>
+img{ display:none;
+weidth:500px;
+height:500px
+border:2px solid grey
+}
+</style>
+
+</head>
+<body>
+<img src="desert.jpg">
+</body>
+</html>
+
+*External stylesheet:
+css list:
+1.short hand property:
+life-style:square inside url(1.jpg)
+
+2.long hand property:
+life-style-type:square,circle,none,upper-roman,lower-alpha.
+life-style-position:inside ,outside.
+life-style-image:ur(1.jpg)
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>internal stylesheet</title>
+
+<style>
+ul{
+list-style-tyle:square or upper-roman;
+}
+</style>
+
+</head>
+<body>
+<ul>
+<li>html</li>
+<li>css</li>
+</ul>
+</body>
+</html>
+
+output:
+•html
+•css
+
+*I.html
+II.css
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>internal stylesheet</title>
+
+<style>
+ul{
+list-style-type:upper-roman;
+list-style-image:url(1.jpg);
+list-style-position:output;
+}
+</style>
+
+</head>
+<body>
+<ul>
+<li>html</li>
+<li>css</li>
+</ul>
+</body>
+</html>
+
+*css border -radius:
+1.short han property:
+
+border-radius:40px;
+
+2.long hand property:
+
+border-top-left-radius:40px;
+border-top-right-radius:40px;
+border-top-top-radius:40px;
+border-top-bottom-radius:40px
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>border radius</title>
+
+<style>
+div{
+weidth:200px;
+height:200px;
+border:10px solid red;
+border-top-left-radius:40px;
+border-bottom-right-radius:40px;
+border-top-right-radius:150px;
+border-bottom-left-radius:150px;
+}
+</style>
+
+</head>
+<body>
+<div></div>
+</body>
+</html>
+
+*css box shadow:
+
+box-shadow:0px 0px 0px #323232
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>border radius</title>
+
+<style>
+div{
+weidth:200px;
+height:200px;
+background-color: red;
+box-shadow:0px 5px 10px #323232;
+}
+</style>
+
+</head>
+<body>
+<div></div>
+</body>
+</html>
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>border radius</title>
+
+<style>
+div{
+weidth:200px;
+height:200px;
+background-color: red;
+box-shadow:20px 5px 40px #323232;
+}
+img{
+weight:350px;
+height:350px;
+border:5px solid red;
+box-shadow:0px 5px 10px red;
+margin:70px
+}
+</style>
+
+</head>
+<body>
+<div></div>
+<img src="2.jpg"
+</body>
+</html>
+
+*css navbar,nav,menu:
+home  image  video   movie  aboutus.
+
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>border radius</title>
+
+<style>
+ul{
+list-style:none;
+padding:0px;// remaining spacing are removed.
+margin:0px; // same .
+}
+
+</style>
+</head>
+<body>
+<ul>
+<li>home</li>
+<li>image</li>
+<li>video</li>
+<li>movie</li>
+<li>about us</li>
+<li>dance</li>
+</ul>
+</body>
+</html>
+
+output:
+home
+image
+video
+movie
+about us
+dance
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>border radius</title>
+
+<style>
+ul{
+list-style:none;
+padding:0px;
+margin:0px;
+background-color:#323232;
+padding-top:20px;
+padding-bottom:20px;
+font-size:10.5px;
+}
+body{
+padding:0px;
+margin:0px;
+}
+li{
+display:inline;
+color:white;
+padding:18px;
+font-family:calibri;
+}
+
+</style>
+</head>
+<body>
+<ul>
+<li>home</li>
+<li>image</li>
+<li>video</li>
+<li>movie</li>
+<li>about us</li>
+<li>dance</li>
+</ul>
+</body>
+</html>
+
+output:
+home image video movie aboutus dance
+ 
+*css menu shape design:
+
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>border radius</title>
+
+<style>
+ul{
+list-style:none;
+padding:0px;
+margin:0px;
+background-color:#323232;
+padding-top:20px;
+padding-bottom:20px;
+border-radius:40px 0px 40px 0px;
+}
+body{
+padding:0px;
+margin:0px;
+}
+li{
+display:inline;
+color:white;
+padding:18px;
+font-family:calibri;
+}
+</style>
+
+</head>
+<body>
+<ul>
+<li>home</li>
+<li>image</li>
+<li>video</li>
+<li>movie</li>
+<li>about us</li>
+<li>dance</li>
+</ul>
+</body>
+</html>
+
+*css menu shape content design:
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>border radius</title>
+<style>
+ul{
+list-style:none;
+padding:0px;
+margin:0px;
+background-color:#323232;
+padding-top:20px;
+padding-bottom:20px;
+border-radius:40px 0px 40px 0px;
+}
+body{
+padding:0px;
+margin:0px;
+}
+li{
+display:inline;
+color:white;
+padding:18px;
+font-family:calibri;
+background-color:#323232;
+border-radius:40px 0px 40px 0px;
+}
+</style>
+</head>
+<body>
+<ul>
+<li>home</li>
+<li>image</li>
+<li>video</li>
+<li>movie</li>
+<li>about us</li>
+<li>dance</li>
+</ul>
+</body>
+</html>
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>border radius</title>
+
+<style>
+ul{
+list-style:none;
+padding:0px;
+margin:0px;
+background-color:#323232;
+padding-top:20px;
+padding-bottom:20px;
+border-radius:40px 0px 40px 0px;
+}
+body{
+padding:0px;
+margin:0px;
+}
+li{
+display:inline;
+color:white;
+padding:18px;
+font-family:calibri;
+background-color:white;
+color:red;
+box-shadow:0px 5px 10px #ddd;
+border-radius:40px 0px 40px 0px;
+}
+</style>
+
+</head>
+<body>
+<ul>
+<li>home</li>
+<li>image</li>
+<li>video</li>
+<li>movie</li>
+<li>about us</li>
+<li>dance</li>
+</ul>
+</body>
+</html>
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>border radius</title>
+
+<style>
+ul{
+list-style:none;
+padding:0px;
+margin:0px;
+background-color:#323232;
+padding-top:20px;
+padding-bottom:20px;
+border-radius:40px 0px 40px 0px;
+margin-top:20px;
+}
+body{
+padding:0px;
+margin:0px;
+}
+li{
+display:inline    or inline-block  or block;
+color:white;
+padding:18px;
+font-family:calibri;
+background-color:white;
+color:red;
+box-shadow:0px 5px 10px #ddd;
+border-left:4px solid red;
+border-right:4px solid red;
+border-radius:10px;
+margin:20px
+}
+</style>
+
+</head>
+<body>
+<ul>
+<li>home</li>
+<li>image</li>
+<li>video</li>
+<li>movie</li>
+<li>about us</li>
+<li>dance</li>
+</ul>
+</body>
+</html>
+
+*css id and class selector:
+ for example: 
+<h1 id="name">hello wap</h1>
+
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>border radius</title>
+
+<style>
+h1{
+color:red;
+}
+#wap{
+color:blue;
+}
+#sap{
+color:green;
+}
+#nap{
+color:yellow;
+}
+</style>
+
+<body>
+<h1>wap institute </h1>
+<h1 id="wap">wap institute</h1>
+<h1 id="sap">wap institute</h1>
+<h1 id="nap">wap institute</h1>
+</body>
+</html>
+
+output:
+wap institute 
+
+wap institute
+
+wap institute
+
+wap institute
+
+*<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>border radius</title>
+
+<style>
+h1{
+color:red;
+}
+.wap{
+color:blue;
+}
+.sap{
+color:green;
+}
+.nap{
+color:yellow;
+}
+</style>
+
+<body>
+<h1>wap institute </h1>
+<h1 class="wap">wap institute</h1>
+<h1 class="sap">wap institute</h1>
+<h1 class="nap">wap institute</h1>
+</body>
+</html>
+
+*<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>border radius</title>
+
+<style>
+div{
+width:100%;
+height:180px;
+border:1px solid red;
+}
+#one{
+weidth:100%;
+height:100px;
+border:1px solid red;
+}
+#two{
+weidth:100%;
+height:40px;
+border:1px solid red;
+}
+#three
+{
+weidth:100%;
+height:40px;
+border:1px solid red;
+}
+#four
+{weidth:100%;
+height:180px;
+border:1px solid red;
+}
+
+</style>
+<body>
+<h1>wap institute </h1>
+<div id="one">wap institute</div>
+<div id="two">wap institute</div>
+<div id="three">wap institute</div>
+<div id ="four">wap institute</div>
+</body>
+</html>
+
+*cellbox and collapsed table:
+
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<title>border radius</title>
+
+table{
+width:400px;
+height:400px;
+border:1px solid red;
+border-collapse:aollapse;
+}
+
+td{
+border:1px solid yellow;
+}
+</head>
+<body>
+<table width="400" height="400" border="1px">
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</body>
+</html>
+
+*css table with id integration:
+cellbox and collapsed table:
+
+1.border-collapse:collapse.
+2.border-spacing:10px.
+
+*css table complete:
+
+border-collapse:collapse
+border-spacing:10px
+caption-side:top,bottom.
+empty-cells:hide,show;
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>border-radius</title>
+
+<style>
+table{
+width:700px;
+height:60px;
+border:1px solid red;
+caption-side:bottom;
+}
+td{
+border:1px solid yellow;
+}
+
+</style>
+</head>
+<body>
+<table>
+<caption>class x record</caption>
+<tr>
+<td>name</td>
+<td>class</td>
+<td>roll</td>
+</tr>
+
+<tr>
+<td>saurab</td>
+<td>x</td>
+<td>12</td>
+</tr>
+
+*css table design:
+
+<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>border-radius</title>
+
+<style>
+table{
+width:700px;
+height:60px;
+border:1px solid red;
+caption-side:bottom;
+empty-cells:hide;
+font-family:calibri;
+background-color:yellow;
+}
+td{
+border:1px solid yellow;
+background-color:white;
+}
+th{
+border:1px solid yellow;
+background-color:white;
+}
+tr{
+font-size:20px;
+}
+#one{
+font-size:20px;
+}
+#two{
+font-size:20px;
+
+}
+
+</style>
+</head>
+<body>
+<table>
+<caption>class x record</caption>
+<tr id="one">
+<td>name</td>
+<td>class</td>
+<td>roll</td>
+</tr>
+
+<tr id="two">
+<td >saurab</td>
+<td>x</td>
+<td>12</td>
+</tr>
+</table>
+</body>
+</html>
+
+*css pseudo classes:
+
+pseudo class is user to define a special state of an elements.
+link<a>                *          form input
+:hover                :hover      :focus
+:active               :active
+:link
+:visited
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>form</title>
+
+<style>
+button{
+width:120px;
+height:50px;
+border:none;
+border:1px solid #ccc;
+background:0px 0px 0px #ddd;
+}
+button:hover{
+color:red;
+font-size:20px;
+height:200px;
+transition:0.5s;
+}
+</style>
+
+</head>
+<body>
+<button>
+click here
+</button>
+</body>
+</html>
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>form</title>
+
+<style>
+ul{
+list-style:none;
+}
+li{
+display:inline;
+font-family:calibri;
+font-size:20px;
+background-color:white;
+box-shadow:0px 0px 5px grey;
+}
+li{
+color:red;
+border-radius:40px;
+transition:1.5s;
+}
+a{
+color:#323232;
+text-decoration:none;
+}
+</style>
+
+</head>
+<body>
+<ul>
+<li><a href="#">home</li>
+<li><a href="#">image</li>
+<li><a href="#">movie</li>
+<li><a href="#">video</li>
+<li><a href="#">about us</li>
+</ul>
+</body>
+</html>
+
+*css psudo classes:
+*link<a>
+:hover
+:active
+:link
+:visited
+
+*(all html elements)
+:hover
+:active
+:focus
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>form</title>
+
+<style>
+a{
+text-decoration:none;
+color:black;
+}
+a:hover{
+color:red;
+font-size:20px;
+text-shadow:2px 2px 2px green;
+}
+a:active{
+font-size:100px;
+}
+</style>
+
+</head>
+<a href ="https://www.google.co.in">
+click here to open google</a>
+<body>
+
+</body>
+</html>
+
+*css click or focus event intigration:
+
+<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>form</title>
+
+<style>
+button{
+width:100px;
+height:40px;
+background-color:#323232;
+border:none;
+color:white;
+}
+button:focus{
+background-color:deepink;
+border-radius:40px;
+box-shadow:0px 0px 5px #ddd;
+outline:none;
+}
+
+</style>
+</head>
+<body>
+<button>click me</button>
+</body>
+</html>
+
+*
+<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>form</title>
+
+<style>
+p::first-letter{
+color:blue;
+background-color:yellow;
+}
+</style>
+
+</head>
+<body>
+<p>
+wap stands for window application and programming institute<br>
+wap stands for window application and programming institute<br>
+wap stands for window application and programming institute
+</p>
+</body>
+</html>
+
+output:
+
+wap stands for window application and programming institute
+ wap stands for window application and programming institute
+ wap stands for window application and programming institute 
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>form</title>
+
+<style>
+p::after{
+content:"my name is saurab";
+color:red;
+}
+</style>
+
+</head>
+<body>
+<p>
+wap stands for window application and programming institute<br>
+</p>
+
+</body>
+</html>
+
+*
+<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>form</title>
+
+<style>
+p::before{
+content:"my name is saurab";
+color:red;
+}
+</style>
+</head>
+
+<body>
+<p>
+wap stands for window application and programming institute<br>
+
+</p>
+
+</body>
+</html>
+
+output:
+
+my name is saurab wap stands for window application and programming 
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>form</title>
+
+<style>
+p::selection{
+background-color:yellow;
+color:red;
+}
+</style>
+
+</head>
+<body>
+<p>
+wap stands for window application and programming institute<br>
+</p>
+<h1>
+wap stands for window application and programming institute
+</h1>
+</body>
+</html>
+
+
+output:
+
+wap stands for window application and programming institute
+wap stands for window application and programming institute 
+
+*css max-width and min width:
+both properties are used to make responsibility shape .
+
+syntax:
+max-width:200px;
+min-width:200px;
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>max width</title>
+
+<style>
+div{
+}
+#one{
+min-width:1400px;
+height:100px;
+border:2px solid red;
+}
+#two{
+min-width:1400px;
+height:100px;
+border:2px solid green;
+margin-top:10px;
+}
+
+</style>
+</head>
+<body>
+<div id="one"></div>
+<div id="two"></div>
+
+</body>
+</html>
+
+*css position:
+
+*property:value
+position:relative absolute fixed
+position child properties:
+left:20px
+right:20px
+top:20px
+bottom:20px
+z-index:-1
+clip:rect(0px,0px,0px,0px)
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>max width</title>
+
+<style>
+#one{
+width:200px;
+height:200px;
+border-color:yellow;
+margin-top:50px;
+}
+#two{
+width:200px;
+height:200px;
+border:green;
+margin-top:10px;
+}
+
+</style>
+</head>
+<body>
+<div id="one"></div>
+<div id="two"></div>
+
+</body>
+</html>
+
+
+*
+<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>home</title>
+
+<style>
+h1{
+position:relative;
+margin-top:100px
+}
+</style>
+
+</head>
+<body>
+<h1>wap institute</h1>
+<h1>computer science institute</h1>
+</body>
+</html>
+
+output:
+wap institute
+
+computer science institute
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>home</title>
+
+<style>
+#one{
+width:300px;
+height:300px;
+border:4px solid black;
+float:left;
+margin-left:20px;
+}
+#relative{
+width:150px;
+height:150px;
+background-color:red;
+}
+#absolute{
+width:150px;
+height:150px;
+background-color:yellow;
+}
+</style>
+
+</head>
+<body>
+<div id="one">
+<div id="relative"></div>
+<h1>relative box</h1>
+</div>
+<div id="two">
+<div id="absolute"></div>
+<div>absolute box</div>
+</div>
+</body>
+</html>
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>home</title>
+
+<style>
+#one{
+width:300px;
+height:300px;
+border:4px solid black;
+float:left;
+margin-left:20px;
+}
+#relative{
+width:150px;
+height:150px;
+background-color:red;
+position:relative;
+top:100px;
+}
+#absolute{
+width:150px;
+height:150px;
+background-color:yellow;
+position:absolute;
+top:100px;
+}
+
+</style>
+</head>
+<body>
+<div id="one">
+<div id="relative"></div>
+<h1>relative box</h1>
+</div>
+
+<div id="two">
+<div id="absolute"></div>
+<div>absolute box</div>
+</div>
+
+
+</body>
+</html>
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>home</title>
+
+<style>
+#one{
+width:200px;
+height:200px;
+background-color:red;
+position:absolute;
+}
+#two{
+width:200px;
+height:200px;
+background-color:yellow;
+position:absolute;
+left:100px;
+top:100px;
+}
+#three{
+width:200px;
+height:200px;
+background-color:blue;
+position:absolute;
+left:100px;
+}
+
+</style>
+</head>
+<body>
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+</body>
+</html>
+
+*<head>
+<meta charset="utf-8">
+<title>home</title>
+
+<style>
+div{
+width:150px;
+height:150px;
+background-color:red;
+position:absolute;
+top:0;
+}
+h1{
+position:absolute;
+z-index:1;
+}
+</style>
+</head>
+<body>
+<h1> wap institute</h1>
+<div><div>
+</body>
+</html>
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>home</title>
+
+<style>
+body{
+padding:0;
+margin:0;
+background-color:#efefef;
+}
+ul{
+list-style:none;
+padding:0;
+margin:0;
+background-color:white;
+padding-top:20px;
+padding-bottom:20px;
+position:fixed;
+width:100%;
+top:100px;
+}
+li{
+display:inline;
+padding:30px;
+font-family:sans-serif;
+text-transform:capitailze;
+color:white;
+}
+#section{
+width:1200px;
+height:768px;
+margin:0 auto;
+background-image:url(man.jpg)
+}
+</style>
+
+</head>
+<body>
+<ul>
+<li>home</li>
+<li>audio</li>
+<li>vedio</li>
+<li>movies</li>
+<li>download</li>
+<li>about us</li>
+</ul>
+<div id="section"></div>
+</body>
+</html>
+
+*css form:
+we cant make form by using css we only design a form by using css.
+username:
+password:
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>home</title>
+
+<style>
+div{
+width:300px
+height:300px
+background-color:white;
+box-shadow:0px 0px 10px grey;
+margin:0 auto;
+border:1px solid #323232;
+padding:20px;
+
+}
+form{
+font-family:sans-serif;
+text-transform:capitalize
+font-weidth:bold;
+font-size:30px;
+t
+}
+input[type=text]
+{
+width:100%;
+padding-top:20px;
+padding-botton:20px;
+margin-top:5px;
+}
+input[type=password]
+{
+width=100%;
+padding-top:20px;
+padding-botton:20px;
+margin-top:5px;
+}
+input[type=submit]
+{
+weidth:110px;
+height:40px;
+text-transform:capitalize;
+font-size:18px;
+}
+
+</style>
+</head>
+<body>
+<div>
+<form>
+username<br>
+<input type="text" name="username"><br><br>
+password<br>
+<input type="password" name="password">
+<br><br>
+<input type="submit" value="login">
+</form>
+</div>
+
+</body>
+</html>
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>home</title>
+
+<style>
+body{
+padding:0;
+margin:0;
+}
+div{
+width:300px;
+height:370px;
+background-color:#FF0232;
+margin: 0 auto;
+box-shadow:0px 0px 12px #323232;
+padding:20px;
+}
+form{
+color:white;
+font-size:18px;
+font-family:sans-serief;
+}
+input[type=text]
+{width:100%;
+padding-top:12px;
+padding-bottom:12px;
+margin-top:8px;
+border:none;
+padding-left:5px;
+}
+select{
+width:100%;
+padding-top:12px;
+paddinf-bottom:12px;
+border:none;
+margin-top:8px;
+
+}
+input[type=submit]
+{
+padding:15px;
+border:none;
+background-color:white;
+border-radius:20px;
+float:right;
+margin-top:8px;
+
+}
+h1{
+padding:0;
+margin:0;
+text-align:center;
+color:white;
+font-family:calibri;
+}
+
+</style>
+</head>
+<body>
+<div>
+<h1>eduacation form</h1>
+<hr color="white">
+<form>
+firstname<br>
+<input type="text" name="firstname" placeholder="type your text here"><br><br>
+lastname<br>
+<input type="text" name="lastname"placeholder="type your text here"><br><br>
+
+country<br>
+<select name="country">
+<option value="india">india</option>
+<option value="usa">usa</option>
+<option value="pak">pak</option>
+</select>
+<br></br>
+<input type="submit" value="submit now">
+</div>
+</body>
+</html>
+
+*css search and placeholder form design
+<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>home</title>
+
+<style>
+inptu[type=search]
+{
+width:170px;
+padding:15px;
+border:none;
+border:3px solid #323232;
+border-radius:4px;
+background-image:url(search.png);
+background-size:30px 30px ;
+background-repeat:no-repeat;
+background-position:center right;
+
+}
+input[type==search]:focus{
+outline:none;
+width:500px;
+transition:0.5s;
+}
+input[type=search]::placeholder
+{
+color:red;
+font-family:calibri;
+font-size:15px;
+}
+</style>
+</head>
+<form> 
+<input type="serach" name="search" placeholder="search this site" >
+</form>
+</body>
+</html>
+
+*css opacity property:
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>opacity</title>
+<style>
+img{
+opacity:0.5
+}
+body{background-image:url(d.jpg)
+}
+</style>
+</head>
+<body>
+<img src="b.jpg" width ="720" height="480">
+</body>
+</html>
+
+*css dropdown menu:
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>dropdown</title>
+<style>
+ul{
+list-style:none;
+padding:0;
+margin:0;
+}
+li{
+display:inline-block;
+border:0.5px solid #ccc;
+padding:20px;
+width:130px:
+text-align:center;
+}
+
+a{
+color:#323232;
+text-decoration:none;
+font-family:sans-serif;
+}
+#drophover:hover#dropdown{
+display:block;
+}
+#dropdown{
+width:130px;
+height:130px;
+padding:20px;
+background-color:white;
+box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);
+position:absolute;
+top:70px;
+left:0px;
+display:none;
+text-align:left;
+}
+
+</style>
+</head>
+<body>
+<ul  > 
+<li><a href="#">home</a></li>
+<li><a href="#">image</a></li>
+<li><a href="#">videos</a></li>
+<li><a href="#">movies</a></li>
+<li id="drophover"><a href="#">downloads</a>
+<div id="dropdown">
+<a href="#">new songs</a>
+<hr>
+<a href="#">new videos</a>
+<hr>
+<a href="#">new movies</a>
+<hr>
+<a href="#">new funny</a>
+
+<div>
+</li>
+</ul>
+<img src="b.jpg">
+
+</body>
+</html>
+
+*css box sizing property:
+
+<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>box-sizing</title>
+
+<style>
+div{
+width:780px;
+height:60px;
+border:2px solid red;
+font-size:25px
+text-align:center;
+padding:10px;
+box-sizing:border-box;
+}
+</style>
+
+</head>
+<body>
+<div>wap institute is athe one of the biggest inthe to solved our problems </div>
+</body>
+</html>
+
+*website layout:(two coloumn layout)
+<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>layout</title>
+
+<style>
+body{
+padding:0;
+margin:0;
+}
+#header{
+width:100%;
+height:150px;
+background-color:yellow;
+float:left;
+}
+
+#nav{
+width:100%;
+height:40px;
+background-color:black;
+float:left;
+}
+#aside{
+width:15%;
+height:700px;
+background-color:yellow;
+float:left;
+}
+#section{
+width:85%;
+height:150px;
+background-color:red;
+float:left;
+
+}
+#footer{
+width:100%;
+height:40px;
+background-color:black;
+float:left;
+}
+</style>
+
+</head>
+<body>
+<div id="header"></div>
+<div id="nav"></div>
+<div id="aside"></div>
+<div id="section"></div>
+<div id="footer"></div>
+
+</body>
+</html>
+
+*css 3 is a motion graphics language:
+<h1>wap institute</h1>
+color:red
+properties:
+1.long hand properties:css2
+backgroung-color:older newer browser.
+2.short hand properties:css3
+backgroung:latest browser
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>background properties</title>
+
+<style>
+body{
+background-image:url(a.png);
+background-repeat:no-repeat;
+background-size:500px 500px;
+background-position:top right;
+background-attachment:fixed;
+}
+</style>
+
+</head>
+<body>
+<h1>ddddddddddddddddddddddddddddddddddddddddddd</h1>
+<h1>ddddddddddddddddddddddddddddddddddddddddddd</h1>
+<h1>ddddddddddddddddddddddddddddddddddddddddddd</h1>
+<h1>ddddddddddddddddddddddddddddddddddddddddddd</h1>
+<h1>ddddddddddddddddddddddddddddddddddddddddddd</h1>
+<h1>ddddddddddddddddddddddddddddddddddddddddddd</h1>
+</body>
+</html>
+
+*!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>background properties</title>
+
+<style>
+body{
+background:url(a.png)no-repeat top right;
+background-size:200px 200px
+}
+</style>
+</head>
+<body>
+
+</body>
+</html>
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>background multiple</title>
+
+<style>
+div{
+width:720px;
+height:400px;
+margin:0 auto;
+box-shadow:url(flower.png),url(pic.png)
+background-size:200px 200px 200px 200px
+background-repeat:no-repeat,no-repeat;
+background-position:top right,top right;
+
+}
+h1{
+padding:0;
+margin:0;
+font-family:screen real;
+font-size:60px;
+float:right;
+margin-top:50px;
+}
+</style>
+
+</head>
+<body>
+<div>
+<h1>wap institute</h1>
+</body>
+</html>
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>background multiple</title>
+
+<style>
+body{
+padding:0;
+margin:0;
+background:url(b.jpeg);
+background-size:1280px 720px;
+}
+#bg{
+width:1280px;
+height:720px;
+float:left;
+background:rgb(0,0,0,0.7);
+}
+#mobile{
+width:90%;
+height:230px;
+border:30px solid white;
+margin:50px auto;
+border-radius:30px;
+}
+h1{
+color:white;
+padding:0;
+margin:0
+font-size:100px;
+font-family:scream real;
+text-align:center;
+padding-top:20px;
+}
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>calculator</title>
+<style>
+
+#linear{
+width:400px;
+height:400px;
+float:left;
+~webkit-background:linear-gradient(red,green,blue,yellow);
+~o-background:linear-gradient(red,green,blue,yellow);
+background:linear-gradient(red,green,blue,yellow);
+background:linear-gradient(red,green,blue,yellow);
+}
+#radial{
+width:400px;
+height:400px;
+float:left;
+
+~webkit-background:linear-gradient(red,green,blue,yellow);
+~o-background:linear-gradient(red,green,blue,yellow);
+background:linear-gradient(red,green,blue,yellow);
+background:linear-gradient(red,green,blue,yellow);
+
+
+
+<style>
+<title>css3 </title>
+
+</head>
+<body>
+<div id="bg">
+<div id="mobile">
+<h1>cofeeshop.com</h1>
+</div>
+
+</body>
+</html>
+
+*<style>
+<title>css3 </title>
+
+</head>
+<body>
+<div id="bg">
+<div id="mobile">
+<h1>cofeeshop.com</h1>
+</div>
+
+</body>
+</html>
+
+*gradient:
+gradient is a multi color graphics.
+1.linear gradient.
+2.radial gradial.
+google chrome:26.0 and 10.0
+internet explorer:10.0
+firefox:16.0 and 3.6
+opera:12.1 and 11.1
+safari:6.1 and 5.1
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>home</title>
+
+<style>
+div{
+width:500px;
+height:500px;
+float:left;
+background:red;
+transition:height 2s;
+transition:height 2s;
+}
+div:hover{
+width:500px;
+height:500px;
+}
+
+</style>
+<body>
+<div></div>
+</body>
+<html>
+</html>
+
+*transition effect on menus:
+<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>home</title>
+
+<style>
+ul{
+list-style:none;
+padding:0;
+margine:0;
+}
+li{
+display:inline-block'
+width:100px;
+height:100px;
+border:1px solid red;
+margin:10px;
+text-align:center;
+font-family:sans-serif;
+padding-top:90px;
+box-sizing:border-box;
+}
+a{
+color:@323232;
+text-decoration:none;
+}
+li:hover{
+border:none;
+border-top:10px solid red;
+border-bottom:10px solid blue;
+border-left:10px solid green;
+border-right:10px solid yellow;
+border-radius:50%;
+~webkit-transition:0.5s;
+transition:0.5s;
+}
+</style>
+
+<body>
+<ul>
+<li><a href="#">home </a></li>
+<li><a href="#"> image </a></li>
+<li> <a href="#">video </a></li>
+<li><a href="#">movies</a></li>
+<li><a href="#">download</a></li>
+
+</ul>
+</body>
+<html>
+</html>
+
+*css transition delay and transition timing function property :
+transition-delay:5s;
+transition-timing-function:ease
+1.ease:specifies a transition effect with a slow start,then fast then end slowly (this is default).
+2.linear:specifies a transition effect with the same speed from start to end.
+3.ease-in:specifies a transition effect with a slow start.
+4.ease-out:specifies a transition effect with a slow end.
+5ease-in-out:specifies a transition effect with a slowstart and end.
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>home</title>
+
+<style>
+div{
+width:200px;
+height:200px
+background:red;
+}
+div:hover{
+width:500px;
+~webkit-transition:1s;
+transition:1s;
+
+transition-delay:1s;
+~webkit-transition-timing-function:linear;
+
+}
+</style>
+<body>
+<div>
+</div
+</body>
+
+</html>
+
+*transformation with rotate method hoster by wap institute:
+tranform:rotate(),sketch(),skew(),translate()
+
+<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>home</title>
+<style>
+div{
+width:200px;
+height:200px
+background:red;
+~webkit-transform:rotate(60deg);
+~ms-transform:rotate(60deg);
+transform:rotate(60deg);
+margin:50px;
+}
+div:hover{
+~webkit-transform:rotate(60deg);
+~ms-transform:rotate(360deg);
+transform:rotate(60deg);
+~webkit-transition:1s
+transition:1s;
+}
+</style>
+<head>
+<body>
+<div>
+</div
+</body>
+</html>
+
+*parameters in transform values:
+tranform:rotate(360deg),sketch(),skew(),translate()
+<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>home</title>
+<style>
+div{
+width:200px;
+height:200px
+background:blue;
+margin:50px;
+}
+div:hover{
+~webkit-transform:rotatey(360deg);
+~ms-transform:rotatey(360deg);
+transform:rotate(60deg);
+~webkit-transition:1s
+transition:1s;
+}
+</style>
+<head>
+<body>
+<div>
+</div
+</body>
+</html>
+
+*<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>css3</title>
+<style>
+div{
+width:200px;
+height:200px;
+backgroung:red;
+}
+div:hover
+{
+~ms-transform:translate(500px);
+~webkit-transform:translate(500px);
+transform:translate(500px);
+~webkit-transition:0.5s;
+transition:0.5s;
+}
+</style>
+<head>
+<body>
+<div>
+<h1>wap institute</h1>
+</div
+</body>
+</html>
+
+*linghand properties:
+properties:values
+animation-name:name
+namimation-duration:5s
+animation-itrition-count:5,infinite.
+
+shorthand properties:
+properties:values
+animation:name5sinfinite;
+
+animationelement selector:
+@KEYFRAMES
+{
+
+}
+
+*!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>ANIMATION</title>
+<style>
+body{
+background:red;
+animation-iteration-count:infinite;
+animation-name:wap;
+animation-duration:5s;
+}
+@keyframes wap{
+0%{background:red}
+25%{background:yellow}
+50%{background:green}
+75%{background:cyan}
+100%{background:blue}
+</style>
+<head>
+<body>
+<div>
+<h1>wap institute</h1>
+</div
+</body>
+</html>
+
+*css slideshows animation hosted by wap institute :
+*uo changes image with fade effect.
+
+
+<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+
+<style>
+body{
+background:#efefef;
+animation-iteration-count:infinite;
+animation-name:wap;
+animation-duration:5s;
+}
+div{
+width:720px;
+height:480px;
+border:10px solid white;
+margin:0 auto;
+box-shadow:0px 0px 15px #323232;
+background:url(image/a.jpg);
+backgroung-size:720px 480px;
+animation-name:wap;
+animation-duration:10s;
+animation-iteration-count:infinite;
+
+
+}
+@keyframes wap{
+0%{background:url(images/a.jpg);background-size:720px 480px;}
+25%{background:url(images/b.jpg);background-size:720px 480px;}
+50%{background:url(images/c.jpg);background-size:720px 480px;}
+75%{background:url(images/d.jpg);background-size:720px 480px;}
+100%{background:url(images/e.jpg);background-size:720px 480px;}
+</style>
+<title>animation</title>
+</head>
+<body>
+<div>
+
+</div
+</body>
+
+*used before displaying webpage:
+<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+
+<style>
+div{
+width:180px;
+height:180px;
+border:20px solid #ccc;
+border-radius:50%;
+margin:100px auto;
+border-top:20px solid red;
+animation-name:wap;
+animation-duration:1s;
+animation-iteration-count:infinite;
+animation-timing-function:linear;
+}
+@keyframes wap{
+0%{transform:rotate(0deg);}
+
+100%{transform:rotate(360deg);}
+
+
+
+
+}
+</style>
+<title>animation</title>
+</head>
+<body>
+<div>
+
+</div
+</body>
+</html>
+
+*slide image automation one by one:
+<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>slide</title>
+<style>
+body{
+background:#efefef;
+}
+#page{
+width:720px;
+height:480px;
+border:5px solid white;
+margin:0 auto;
+box-shadow:0px 0px 15px grey;
+overflow:scroll;
+}
+#slider{
+width:2880px;
+height:480px;
+position:relative;
+animation-name:wap;
+animation-duration:12s;
+animation-iteration-count:infinite;
+}
+@keyframes wap{
+0%{top:0px;left:0px}
+20%{top:0px;left:0px}
+30%{top:0px;left:-720px}
+40%{top:0px;left:-720px}
+50%{top:0px;left:-1440px}
+60%{top:0px;left:-1440px}
+70%{top:0px;left:-2160px}
+80%{top:0px;left:-2160px}
+}
+img{
+float:left;
+}
+</style>
+
+</head>
+<body>
+<div id="page">
+<div id="slider">
+<img src="images/a.jpg" width="720" height="480">
+<img src="images/b.jpg" width="720" height="480">
+<img src="images/c.jpg" width="720" height="480">
+<img src="images/d.jpg" width="720" height="480">
+</div>
+</div>
+</body>
+</html>
+
+*css moving stars animation:
+moving stars under text.
+<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>slide</title>
+<style>
+h1{
+font-size:100px;
+text-align:center;
+font-family:scream real;
+background:url(star.jpg);
+color:rgba(255,255,255,0.1);
+~webkit-background-clip:text;
+animation-name:wap;
+animation-duration:0.5s;
+animation-iteration-count:infinite;
+animation-timing-function:linear;
+}
+@keyframes wap{
+0%{background-position:top 0 left 0}
+100%{background-position:top 0 left 300px}}
+}
+</style>
+
+</head>
+<body>
+<h1>SWEETUS MEDIA</h1>
+
+</body>
+</html>
+
+*******************************************************************end*********************************************************
+*introduction of html:
+<html>
+
+<body>
+
+ hellow world...<br>
+ india <br>
+ hi
+<b>boldtext</b>
+<i>italic</i>
+<u>under line </u>
+<b><i><u>all text style</u></i></b>
+
+</body>
+
+</html>
+
+
+output:
+hellow world...
+ india 
+ hi
+boldtext
+italic
+under line 
+all text style 
+
+*understanding html attributes ,values and some basics html tags:
+<html>
+
+<body bgcolor="red">
+<h1>heading 1</h1>
+<h2>heading 2</h2>
+<h3>heading 3</h3>
+<h4>heading 4</h4>
+<h5>heading 5</h5>
+<h6>heading 6</h6>
+<br>
+<p>paragraph tag</p>
+<br>
+<hr>
+<hr>
+<hr>
+</body>
+
+</html>
+
+
+
+*font tag and how to use font tag in html:
+<html>
+<body>
+
+<font size=30 color="red" face="verdana">hello from lession 3</font>
+
+</body>
+</html>
+
+output:
+html lession hello from lession 3.
+
+*using anchor tag in html:
+<html>
+<body>
+
+<a href="lession3.html"> go to lession 3 page </a>
+
+</body>
+</html>
+
+*using img tag in html:
+
+<!doctype html>
+<html>
+<body>
+
+<img  alt="image loading error"
+src="desert.jpg" wight=300 height=400>
+<img src="koala.jpg" width=300 height=400>
+
+</body>
+</html>
+
+*<!doctype html>
+<html>
+<body>
+
+<a href="desert.jpg"><img src="desert.jpg" wight=300 height=400></a>
+<a href="koala.jpg"><img src="koala.jpg" width=300 height=400></a>
+
+</body>
+</html>
+
+*using table tag:
+<!doctype html>
+<html>
+<body>
+<table border=1>
+<tr>
+   <td>number</td>
+   <td>name</td>
+</tr>
+<tr>
+   <td>1</td>
+   <td>suraj</td>
+</tr>
+<tr>
+   <td>2</td>
+   <td>rakesh</td>
+</tr>
+</table>
+</body>
+</html>
+
+*<!doctype html>
+<html>
+<body>
+<table border=1 bgcolor="yellow" align="center">
+<tr>
+   <td>number</td>
+   <td>name</td>
+</tr>
+<tr>
+   <td>1</td>
+   <td>suraj</td>
+</tr>
+<tr>
+   <td>2</td>
+   <td>rakesh</td>
+</tr>
+</table>
+</body>
+</html>
+
+*<!doctype html>
+<html>
+<body>
+<table border=1 bgcolor="yellow" align="center">
+<tr >
+   <th colspan=2>number</td>
+   
+</tr>
+<tr>
+   <td>1</td>
+   <td>suraj</td>
+</tr>
+<tr >
+   <td>2</td>
+   <td>rakesh</td>
+</tr>
+</table>
+</body>
+</html>
+
+*<!doctype html>
+<html>
+<body>
+<table border=1 bgcolor="yellow" align="center">
+<tr >
+   <th colspan=2>number</td>
+   
+</tr>
+<tr>
+   <td rowspan=2>1</td>
+   <td>suraj</td>
+</tr>
+<tr >
+   
+   <td>rakesh</td>
+</tr>
+</table>
+</body>
+</html>
+
+*using html form elements:
+<!doctype html>
+<html>
+<body>
+<form action ="submit.php" method="GET">
+ username:<input type="text"><br>
+ password:<input type="password"><br>
+ gender:<input type="radio">male
+        <input type="radio">female<br>
+language:<input type="checkbox">gujarati
+         <input type="checkbox">hindi
+		  <input type="checkbox">english<br>
+address:<textarea></textarea> <br>
+<input type="submit" value ="register">		  
+		  <input type="reset" >	
+</form>
+</body>
+</html>
+
+*embed abd video tag in html:
+1.embed=control,seakbar,audio controller.
+no full screen option in embed tag.
+its can auto play automaticly.
+2.video=full screen option,but it not automatically on or no auto play.
+loop are repeated the video 2 times.
+
+<!doctype html>
+<html>
+<body>
+<embed src="my.mp4" width="300" height="300">
+</body>
+</html>
+
+<!doctype html>
+<html>
+<body>
+<video  width="300" height="300" controls="controls" autoplay="autoplay"
+loop="2">
+<source src="my.mp4" type="video/mp4">
+</body>
+</html>
+
+*play audio using audion and bgsound:
+<!doctype html>
+<html>
+<body>
+<audio src="song.mp3" autoplay controls>
+<bgsound src="song.mp3">
+</body>
+</html>
+
+*superscript,subscript and special symbols in html:
+<!doctype html>
+<html>
+<body>
+
+hellow<sup>superscript<sup>
+a<sup>2</sup>b<sup>2</sup>=c<sup>2</sup><br>
+log<sub>2</sub>45
+special character symbols <br>
+&copy; to company name <br>
+hello &nbsp;&nbsp;&nbsp;&nbsp;  world
+username:&nbsp;&nbsp;&nbsp <input type="text"><br>
+ a &lt;b<br>
+ c &gt;c<br>
+&quot;hellow &quot;
+&apos; helow &apos;<br>
+&reg; to company name
+a &larr;b
+a &rarr; b
+&uarr;
+&darr;
+&Delta;a +&Delta;b=&Delta ; c<br>
+&Gamma;
+
+</body>
+</html>
+
+*form elements:
+<html>
+<body>
+<form>
+
+select color<input type="color"><br>
+select date<input type="date"><br>
+select number<input type="number" min=1 max=10><br>
+enter email address<input type="email"><br>
+enter url<input type="url"><br>
+<input type="submit">
+
+</form>
+</body>
+</html>
+
+*list tag:
+html list
+order list=><ol></ol>
+unorder list=><ul></ul>
+
+<html>
+<body>
+
+department
+<ul type="square"> or disc or circle.
+<li>computer</li>
+<li>monitor</li>
+<li>keyboard</li>
+</ul>
+language
+<ol type="a">
+ <li>gujarati</li>
+ <li>hindi</li>
+ <li> english</li>
+</ol>
+
+</body>
+</html>
+
+*nesting of list:
+<ul>
+   <li>java</li>
+    <ul>
+         <li>core java</li>
+         <li>android java</li>
+    </ul>
+   <li>php</li>
+   <li>asp.net</li>
+</ul>
+
+*<html>
+<body>
+
+department
+<ul type="square"> 
+<li>computer</li>
+<li>monitor</li>
+<li>keyboard</li>
+</ul>
+language
+<ol type="a">
+<li>gujarati</li>
+<li>hindi</li>
+<li> english</li>
+
+</ol>
+<ul>
+   <li>java</li>
+    <ul>
+         <li>core java</li>
+         <li>android java</li>
+    </ul>
+   <li>php</li>
+   <li>asp.net</li>
+</ul>
+
+</body>
+</html>
+
+*head,title,meter,del,mark and ins tagin html:
+
+<html>
+<head>
+<title>lession number 13</title>
+</head>
+<body>
+status <meter low="45" min="10" max="100" value="40"> </meter>
+color is <del>red<del> <ins>blue</ins>
+</body>
+</html>
+
+*text formatting:
+<html>
+<head>
+<title>lesson number</title>
+</head>
+<body>
+
+text formatting html tags<br>
+<em>em text format</em><br>
+<strong>strong text format</strong><br>
+<code>code text format</code><br>
+<samp> samp text format<samp><br>
+<kbd> keyboard text format</kbd><br>
+<var> variable text format</var><br>
+<tt> teletype of text</tt><br>
+this is <mark>red</mark>color
+
+</body>
+</html>
+
+*fieldset and legend tag in html:
+<fieldset>tag=>draw a boxground group of items.
+
+<html>
+<body>
+<fieldset>
+<form>
+username<input type="text"><br>
+password<input type="password"><br>
+<input type="submit" value ="login">
+</form>
+</fieldset>
+</body>
+</html>
+
+*<html>
+<body>
+<fieldset style="width:270px;">
+<legend>login form</legend>
+<form>
+username<input type="text"><br>
+password<input type="password"><br>
+<input type="submit" value ="login">
+</form>
+</fieldset>
+</body>
+</html>
+
+*abbr and datalist tag in html:
+<html>
+<body>
+<abbr title="this is html lession">html</abbr>
+</body>
+</html>
+
+*<html>
+<body>
+
+<abbr title="this is html lession">html</abbr><br>
+<abbr title="this is preprocessor">php</abbr><br>
+
+<input list="my">
+<datalist id="my">
+<option value="computer">
+<option value="information ">
+<option value="mechanical">
+</datalist>
+
+</body>
+</html>
+
+*details an d summary tag:
+
+<html>
+<body>
+
+<details>
+<summary>show my detail</summary>
+<p>my name is this</p>
+<p> contact number</p>
+<p> email address</p>
+</details>
+
+</body>
+</html>
+
+*thead,tbody and tfoot tags in html:
+<html>
+<body>
+<table border=2>
+<thead>
+<tr>
+<td>month</td>
+<td>saving</td>
+</tr>
+</thead>
+</table>
+</body>
+</html>
+
+*<html>
+<body>
+<br><br><br>
+<center>
+<table border=2>
+
+<thead bgcolor="red">
+<tr>
+<td>month</td>
+<td>saving</td>
+</tr>
+</thead>
+
+<tfoot bgcolor="green">
+<tr>
+<td>total</td>
+<td>100</td>
+</tr>
+</tfoot>
+
+<tbody bgcolor="pink">
+<tr>
+<td>jan</td>
+<td>30$</td>
+</tr>
+<tr>
+<td>feb</td>
+<td>40$</td>
+</tr>
+<tr>
+<td>march</td>
+<td>50$</td>
+</tr>
+<tr>
+<td>april</td>
+<td>60$</td>
+</tr>
+</tbody>
+
+</table>
+</center>
+</body>
+</html>
+
+*image map in html:
+<html>
+<body>
+
+<img  usemap="#mymap" src="gujrat.jpg" width="600" height="600" border="3" alt="error">
+<map name="mymap">
+<area shape="rect " coords="100,100,300,300" href ="kachguj.jpg">
+<area shape="rect " coords="150,400,300,500" href ="jamguj.jpg">
+<area shape="circle" coords="500,500,50" href ="guj1.jpg">
+<area shape="poly " coords="200,200,300,300,200,400" href ="guj2.jpg">
+</map>
+
+</body>
+</html>
+
+*figure and figcaption:
+<html>
+<body>
+
+<figure>
+<img src="desert.jpg" width ="300" height="300">
+<figcaption>
+figure 1 wonderful desert
+</figcaption>
+</figure>
+</body>
+</html>
+
+*<html>
+<body>
+<table border=3>
+<tr>
+<td>
+<figure>
+<img src="desert.jpg" width ="300" height="300">
+<figcaption>
+figure 1 wonderful desert
+</figcaption>
+</figure>
+</td>
+
+
+<td>
+<figure>
+<img src="koala.jpg" width ="300" height="300">
+<figcaption>
+figure 1 wonderful  koala
+</figcaption>
+</figure>
+</td>
+</tr>
+</table>
+
+<figure>
+<img src="desert.jpg" width ="300" height="300">
+<figcaption>
+figure 1 wonderful desert
+</figcaption>
+</figure>
+
+<figure>
+<img src="koala.jpg" width ="300" height="300">
+<figcaption>
+figure 1 wonderful  koala
+</figcaption>
+</figure>
+</body>
+</html>
+
+*bdo(bidirection override ) and caption tag(assign the caption to table):
+<html>
+<body>
+bdo tag: bi direction override<br>
+caption tag:assign the caption to table<br>
+
+<bdo dir="rtl">hellow<>/bdo>
+</body>
+</html>
+
+*<html>
+<body>
+bdo tag: bi direction override<br>
+caption tag:assign the caption to table<br>
+
+<bdo dir="rtl">hellow from html in hindi</bdo>
+<br><br><br><br>
+<table border=3>
+<caption> channel information table<caption>
+<tr>
+<td>name <td>
+<td>address<td>
+</tr>
+<tr>
+<td>html in hindi<td>
+<td>india<td>
+</tr>
+
+</body>
+</html>
+
+*hr tag:
+horizontal tag
+
+<html>
+<body>
+student management
+<hr>
+</body>
+</html>
+
+*<html>
+<body>
+student management
+<hr color="red" width="300px" align="right">
+hellow
+<hr color="blue" width="300px" align="left">
+<br><br><br><br>
+<hr color="pink">
+<marquee>html in hindi youtube channnel...!!!!</marquee>
+<hr color="pink">
+world
+<hr color="green" width="300px">
+</body>
+</html>
+
+*<html>
+<body>
+
+<center>student management</center>
+<hr color="red" width="300px" align="center">
+hellow
+<br><br><br><br>
+<hr color="pink">
+<marquee>html in hindi youtube channnel...!!!!</marquee>
+<hr color="pink">
+
+
+</body>
+</html>
+
+*pre and templete tagin html:
+<html>
+<body>
+<pre>
+this is html channel
+html is used to make web pages
+html run in  web browser
+</pre>
+templete tag start
+<template>
+hello world
+<img src="my.jpg">
+<input type="text">
+</template>
+templete tag finish
+</body>
+</html>
+
+*svg tag(svg=scalable vector graphics):
+<html>
+<body>
+
+<svg width="200" height="200">
+<circle cx="100" cy="100" r="80"stroke="green" fill="yellow"/>
+<text x="50" y="50">circle shape...!!!</text>
+</svg>
+
+<svg width="200" height="200">
+<rect  width="100" height="100" r="80"stroke="green" strock-width="5" fill="yellow"/>
+<text x="50" y="50">rectanagle shape...!!!</text>
+</svg>
+
+<svg width="200" height="200">
+<line x1="5" y1="5" x2="100" y2="100" stroke="green"strock-width="5" fill="yellow"/>
+</svg>
+
+<text x="50" y="50">hello world...!!!</text>
+</body>
+</html>
+
+*introduction to css and using internal css:
+cascading style sheet:
+1.internal=> are used in head tag only.
+2.inline 
+3.external.
+
+*<html>
+<body>
+<p>hellow world</p>
+<p> html</p>
+<p> java programming</p>
+</body>
+</html>
+
+*<html>
+<head>
+<style>
+p{
+background-color:red;
+}
+body{
+background-color:lightpink;
+
+
+}
+
+</style>
+</head>
+<body>
+internal css<br>
+<p>hellow world</p>
+<p> html</p>
+<p> java programming</p>
+</body>
+</html>
+
+*inline css:
+<html>
+<head>
+<style>
+p{
+background-color:pink;
+}
+
+</style>
+</head>
+<body>
+inline css<br>
+
+<p>hellow world</p>
+<p style="background-color:green;"> html</p>
+<p style="background-color:yellow;"> java programming</p>
+<p>india</p>
+<p>gujrati</p>
+</body>
+</html>
+
+*external css:
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="my.css">
+</head>
+<body>
+<p>hello</p>
+<p>world</p>
+</body>
+</html>
+
+*my.css file should be saved *.
+body{
+background-color:green;
+}
+p{
+	background-color:yellow;	
+}
+h1{
+	background-color:pink;
+}
+
+*element and id selector:
+<html>
+<head>
+<style>
+p{
+backgroung-color:pink;
+color:yellow;
+}
+body{
+backgroung-color:;
+
+}
+h1{
+
+backgroung-color:pink;
+
+}
+</style>
+</head>
+<body>
+element selector
+<p>hello<p>
+</body>
+</html>
+
+*<html>
+<head>
+<style>
+p{
+background-color:pink;
+color:yellow;
+}
+body{
+backgroung-color:green;
+
+}
+h1{
+
+backgroung-color:pink;
+
+}
+#heading1{
+background-color:red;
+color:lightyellow;
+
+}
+#para1{
+background-color:yellow;
+color:red;
+text-align:center;
+
+}
+</style>
+</head>
+<body>
+element selector
+<p>hello<p>
+<h1 id="heading1">html lesson</h1>
+<p1 id="para1">html lesson</p1>
+</body>
+</html>
+
+*class selector :
+<html>
+<head>
+<style>
+.cen{
+background-color:yellow;
+color:red;
+text-align:center;
+}
+</style>
+</head>
+<body>
+<p class="cen">hello world...!!!</p>
+<p class="cen">india</p>
+<h1 class="cen">heading</h1>
+<h2 class="cen">heading</h2>
+<h3 class="cen">heading</h3>
+<h4 class="cen">heading</h4>
+</body>
+</html>
+
+*grouping elements together:
+<html>
+<head>
+<style>
+p,h1,h2{
+background-color:pink;
+color:red;
+text-align:center;
+}
+
+</style>
+</head>
+<body>
+element selector
+<p>html program<p>
+<h1>guijrat</h1> 
+<h2>india</h2>
+</body>
+</html>
+
+*div tag and  css :
+<html>
+<head>
+<style>
+div{
+
+
+}
+</style>
+</head>
+<body>
+
+<div>
+computer 
+
+</div>
+</body>
+</html>
+
+*<html>
+<head>
+<style>
+div{
+width:200px;
+height:100px;
+background-color:lightblue;
+border-radius:10px;
+}
+</style>
+</head>
+<body>
+<div>
+<marquee direction="up" width:100% height:100%>
+computer<br>
+it<br>
+civil<br>
+mechanical<br>
+</marquee>
+</div>
+<div><>
+</body>
+</html>
+
+*background style:
+<html>
+<head>
+<style>
+body{
+background-image:url("image1.jpg");
+background-repeat:no-repeat;
+background-position:right top;
+background-attachment:fixed;
+background-color:green;
+}
+</style>
+</head>
+<body>
+<p>hellow world</p>
+<p>hellow world</p>
+<p>hellow world</p>
+<p>hellow world</p>
+<p>hellow world</p>
+<p>hellow world</p>
+<p>hellow world</p>
+<p>hellow world</p>
+<p>hellow world</p>
+<p>hellow world</p>
+<p>hellow world</p>
+</body>
+</html>
+
+*gradient effect in css:
+<html>
+<head>
+<style>
+body{
+background-image:repeating-linear-gradient( to right ,red,green,yellow,);
+background-image:radial-gradient(circle,red,green,yellow,);
+background-image:repeating-radial-gradient( circle,red,green 10 %,yellow 20%);
+background-image:linear-gradient( -90deg,red,green,yellow,);
+background-image:linear-gradient( 30deg,red,green,yellow,);
+}
+</style>
+</head>
+<body>
+
+
+</body>
+</html>
+
+*border in css:
+<html>
+<head>
+<style>
+p.p1{
+border-style:solid;
+border-width:10;
+border-color:red;
+
+}
+p.p2{
+border-style:dotted  blue ;
+border-width:2px 10px 5px 25px;
+border-color:red yellow green black;
+}
+p.p3{
+border-style:dashed;
+border-top-style:dotted
+border-bottom-style:solid
+border-right-style:dashed
+border-left-style:groove
+}
+p.p4{
+border-style:double;
+border-left:6px solid red;
+}
+p.p5{
+border-style:groove;
+border:5px solid green;
+border-radius:10px;
+}
+p.p6{
+border-style:ridge;
+}
+p.p7{
+border-style:inset;
+}
+p.p8{
+border-style:outset;
+}
+</style>
+</head>
+<body>
+<p class="p1">html and css in hindi</p>
+<p class="p2">html and css in hindi</p>
+<p class="p3">html and css in hindi</p>
+<p class="p4">html and css in hindi</p>
+<p class="p5">html and css in hindi</p
+<p class="p6">html and css in hindi</p>
+<p class="p7">html and css in hindi</p>
+<p class="p8">html and css in hindi</p>
+</body>
+</html>
+
+*margin,padding and login form in css:
+margin:space around component.
+padding:b/w content and border of component.
+
+<html>
+<head>
+<style>
+div{
+width:100px;
+height:100px;
+border:1px solid red;
+background-color:blue;
+margin:50px 50px 20px 30px;
+padding:20px;
+}
+input{
+padding:5px;
+margin:3px;
+border:1px solid red;
+border-radius:10px;
+background-color:lightred;
+
+}
+</style>
+</head>
+<body>
+margin:space around components<br>
+padding:b/w the content and border of component<br>
+<div>
+username<input type="text"><br>
+password<input type="password" ><br>
+<input type="submit ">
+</div>
+</body>
+
+*text formatting:
+
+<html>
+<head>
+<style>
+p{
+color:red;
+text-transform:uppercase;    lowercase or capitalize
+text-indent:100px;
+text-decoration:underline;
+letter-spacing:5px;
+word-spacing:20px;
+text-shadow:3px 3px black;
+text-direction:rtl;
+}
+</style>
+</head>
+<body>
+<p>html and css in hindi</p>
+</body>
+
+*font formationg in css:
+<html>
+<head>
+<style>
+p{
+color:blue;
+font-family:arial;
+font-style:italic;
+font-size:30px;
+font-weight:bold;
+}
+</style>
+</head>
+<body>
+<p>html and css in hindi</p>
+</body>
+</html>
+
+*creating menu using css and hyperlink  in css:
+anchor tag: to go from one page to another page.
+<html>
+<head>
+<style>
+a{
+text-decoration:none;
+color:red;
+background-color:yellow;
+padding:5px;
+}
+a:hover{
+color:blue;
+text-decoration:underline;
+font-size:10px;
+background-color:red;
+}
+a:visited{
+color:
+
+}
+a:active{
+
+}
+p{
+border:2px solid red;
+background-color:yellow;
+text-align:center;
+border-radius:3px;
+}
+
+</style>
+</head>
+<body>
+
+<p>
+<a href="home.html">Home</a>
+<a href="about.html">About us</a>
+<a href="contact.html">Contact us </a>
+</p>
+
+</body>
+</html>
+
+*opacity in css:
+<html>
+<head>
+<style>
+img{
+opacity:0.5;
+width:100px;
+height:300px;
+}
+img:hover{
+opacity:0.7;
+width:100px;
+height:200px;
+
+*webpage design in html:
+<html>
+<head>
+<style>
+.main_div{
+width:100%;
+height:100%;
+background-color:pink;
+
+}
+.inner_1{
+width:100%;
+height:20%;
+background-color:red;
+
+}
+.inner_2{
+width:100%;
+height:10%;
+background-color:yellow
+}
+.inner_3{
+width:100%;
+height:60%;
+background-color:green;
+}
+.inner_4{
+width:100%;
+height:10%;
+background-color:lightblue;
+}
+font{
+color:red;
+text-shadow:2px 2px 5px black;
+}
+p{width:100%;
+text-align:center;
+border:2px solid red;
+background-color:yellow;
+border-radius:3px;
+height:100%;
+}
+a:hover{
+color:yellow;
+background-color:red;
+}
+</style>
+</head>
+<body>
+<div class="main_div"></div>
+
+<div class="inner_1">
+<br><br>
+<h1 align="center">html and css in hindi</h1>
+<font size=30 align="center">html webpage design</font>
+</div>
+<div class="inner_2">
+
+<p>
+<br>
+<a href="home.html">Home</a>
+<a href="about.html">About us</a>
+<a href="contact.html">Contact us </a>
+</p>
+</div>
+<div class="inner_3">
+<table width="100%" height="100%" border=1>
+<tr>
+<td width="70%"</td>
+<td>
+username<input type="text"><br>
+password<input type="password"><br>
+<input type="submit">
+
+
+</td>
+</tr>
+
+
+</table>
+</div>
+<div class="inner_4">
+</div>
+</body>
+</html>
+
+*css counter:
+
+<html>
+<head>
+<style>
+body{
+counter-reset:section;
+}
+h2::before{
+counter-increment:section;
+content:"section" counter(section)":";
+}
+
+</style>
+</head>
+<body>
+<h1>css counter</h1>
+<h2>intriduction to html</h2>
+<h2>body tag</h2>
+<h2>image tag</h2>
+<h2>div tag</h2>
+<h2>image tag</h2>
+<h2>anchor tag</h2>
+</body>
+
+*css column count:
+
+<html>
+<head>
+
+<style>
+.mudiv{
+
+column-gap:50px;
+column-rule-width:10px;
+column-rule-style:solid;
+column-count:3;
+column-width:100px;
+column-rule-color:blue;
+column-rule:10px double green;
+
+}
+
+
+</style>
+</head>
+<body>
+<div class="mydiv">
+
+hi,this is suraj pawar speacking!!!! M SIMULATOR IN PYTHON sername: user2Pin code: 2222 F YOU FIND ANY ERRORS OR ANY PROBLEMS RELATED THIS PROGRAM, FEEL FREE TO CONTACT US *****  
+ LEAVE A COMMENT IF YOU LOVED OUR WORK FOR MORE PROJECTS :- https://projectworlds.in/ NK YOU FOR DOWNLOADING :) 
+</div>
+
+</body>
+</html>
+
+*transformation in css:
+
+<html>
+<head>
+
+<style>
+.mudiv{
+width:500px;
+height:170px;
+background-color:pink;
+border:1px solid red;
+transform:translate(50px,100px);
+transform:rotate(-90deg);
+transform:rotate(30deg
+border:1px solid red;
+transform:scale(2,3);
+transform:skewX(30deg);
+}
+
+
+</style>
+</head>
+<body>
+2d transform method <br>
+translate(100px,50px)
+rotate(20deg)
+scale(2,2)
+<div class="mydiv">
+
+hi,this is suraj pawar speacking!!!! M SIMULATOR IN PYTHON sername: user2Pin code: 2222 F YOU FIND ANY ERRORS OR ANY PROBLEMS RELATED THIS PROGRAM, FEEL FREE TO CONTACT US *****  
+ LEAVE A COMMENT IF YOU LOVED OUR WORK FOR MORE PROJECTS :- https://projectworlds.in/ NK YOU FOR DOWNLOADING :) 
+</div>
+
+</body>
+</html>
+}
+
+</style>
+</head>
+<body>
+<img src="image.jpg">
+<img src="image.jpg">
+<img src="image.jpg">
+<img src="image.jpg">
+<img src="image.jpg">
+</body>
+</html>
+
+*text and box shadow in css:
+text-shadow:2px(horizontal) 2px(vertical) 5px(blur effect) black
+<html>
+<head>
+<style>
+h1{
+text-shadow:2px 2px 5px blue,2px 2px 2px black;
+color:red;
+
+}
+div{
+width:200px;
+height:200px;
+box-shadow:2px 2px 5px green;
+background-color:blue;
+
+}
+
+</style>
+</head>
+<body>
+text-shadow<br>
+box-shadow<br>
+<h1>html hellow world</h1>
+<div>
+</div>
+
+</body>
+</html>
+
+*creating the webpage using css:
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

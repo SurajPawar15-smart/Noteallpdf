@@ -1,0 +1,2215 @@
+*************************************************python notes**********************************************************************
+
+*python language:
+
+used of python :
+1.ai,software development,web devM,gui  used at every were so that y it is called as 
+general purpose language.
+2.interpreted ,oop.high level language.
+3 in the year java=1995
+4. in the year python =1989, are so easy or simple .
+guido van russon:
+ british comedy movies as a monty circus.
+
+*version:
+python 1.0-jan 1994
+python 2.0-oct 2000
+python 3.0-dec 2008
+python 2.x
+python 3.x
+
+*code: computer are do the things for us. as the 0 or 1 as the  machinary language.
+
+1.data science, AI,pycharm.
+2.web developer-HTML,CSS and angular js.
+3.interpeter means line by line execution of the program .
+4.dynamic language- at run time are formed.
+5.frameword of python-django,flask,jupiter,database(mysql).
+6.anaconda ide are including the spyder and jupiter.
+
+
+*PYTHON:
+
+1.it is an interperted dynamic high languagage object orieneted language which is available on multiple plateform 
+and multiple operation system.
+2.python is loosly coupled language.
+3.python is one of the foundation of LAMP/WAMP(linux,apache,mysql,python).
+4.Guido van rossum develpoed python languages in late 1991 early at a nation research institute for mathematics and 
+computer science netherland.
+5.python is derived from many languages like C,C++,UNIX,SHELL and other  scripting languages.
+
+*Advantages of python:
+
+1.easy to debugger and maintain the code.
+2.easy to update with an application code.
+3.error can be fixed quickly without need for complete redistribution.
+4.can be embedded in other language.
+
+*used of python:
+
+1.python is full of the build prebuild library us maths,os,numy,maplotlip etc.
+
+*python version:
+
+1.python 2.x.
+2.python 3.x.latest version  [3.7.4]
+
+*Python Interperter:
+
+1.lexing is breaking a line of a code into tokens.
+2.parsing can takes those tokens and generates a structure that shows there relationship to each other.
+3.python creates abstrated (AST) syntax trees as per the tokens.
+4.the complier take the (AST) as turns it into a one or more code objects.
+5.finally interpeter text each code objects,loaded into memory and excute the code 'bit run'.
+6.'bit code' is a python interperter  having size of 500 lines.
+
+*Downloading python:
+
+https://www.python.org/download/
+download python(3.7.3/3.7.4)
+command promt also we can used.
+www.jetbrain.com/pychame/download/community/download.
+
+*Python Basics:
+
+1.Comments:
+whenever we are writing code its necessary to put at list " 20% " of a comment is a program.python allows to put 
+comments using  (#) symbols by commented sentances.
+for ex:
+ #program of an even and odd number.
+
+2.Identation:
+In other languages a statements blocks is given by open closed brackets but ,in python donot provide any brackects to indicates or 
+code.all the statements with in acode,all the statements with in a block should be identation at same space.
+for ex:
+	num=int(input("enter a number:"))
+	   if(num%2==0):
+    	      print("even number")
+	   else:
+    	      print("odd number")
+#output:
+#enter a number:12
+#even number
+
+
+3.python reverse words or keywords:
+a keywords are the words which meanings is already define by a language.python supports keywords as and,as ,in, pass,break,
+continue,elif etc.
+
+4.Mutline statements:
+as the python statements gets end with line,but as per need of programmer wants multiline statements then use back slach symbols(\).
+for ex:
+	num1=num2=num3=10#multiple assignments.
+	or
+        sum=num1+\
+    	num2+\
+    	num3
+	print("total sum of a given number are:",sum)#multiline statements.
+#output:
+#total sum of a given number are: 30
+
+5.Quatation:
+to display strings uses quatations as:
+for ex:
+	print("Enter a information list:")#are using to spain the stringacross multiple lines.
+	print("""
+	1.Principle.
+	2.HOD.
+	3.Teachers.
+	4.Students.
+	5.Watchman.
+      	""" )
+#output:
+#Enter a information list:
+
+#1.Principle.
+#2.HOD.
+#3.Teachers.
+#4.Students.
+#5.Watchman.
+
+6.Data type and variable:
+
+python is loosly type language.it donot allowed you to define the data type for given variable.as we initilization value 
+python takes datatypeas per the value,for ex:in above example x is a variable which name reverved memory location to stored 
+the value the declaration automatically when you assign to a variables.
+for ex:
+	x=12.5
+	print(type(x))
+	<class 'float'>
+
+7.Multiple assignments:
+for ex:
+	num1=num2=num3=10#multiple assignments.
+        rollno,name,percent=11,"rahul",87.9.
+
+
+8.input/output with the python:
+to accept input from a used python facilities function input .it always written string to variable as a programmeer and it can 
+convert it in or float.
+for ex:
+	num=int(input("please enter a number:"))
+	   if(num%4==0):
+    	      print("*num is a leap year*")
+	   else:
+    	      print("*num is not a leap year*")
+#output:
+#please enter a number:2000
+#*num is a leap year*
+
+9.Type function:
+this function tells about the data type of an variable programmer can change type of variable using type function.
+for ex:
+	x=10
+	print(type(x))
+	<class'int'>
+
+10.operator:
+aritiy:means the no.of values or variables related to the operators is called arity of operator.if the no.of values area one 
+then,it is called as uniary operator and if the no.of values are related to operator are two then it is calle as binary operator.
+there are different type of operators are operator :
+
+1.uniary:bitwisenot(~),postive(+),negative(-).for ex:-5,in this one operator and one operand.
+2.binary:for ex:7-5 as in this given expression there is one operator and two operand.
+a.arthematics:+,-,*,/.%.
+b.comparison:<,>,<=,>=,!=.
+c.assignment:=,=+,-=,*=,/=,%=,//=
+d.logical:and,or,not
+e.bitwise:&,|,^(x-or).
+f.membership:in,not in.
+g.identity:is,isnot.
+ 
+Q.Write a python codeto accept principle amount,rate of interest,and no. of years from a user from a user and print simple interest.
+
+#Calculation the SI by using python code.
+	p=int(input("enter a principle amount:"))
+	r=int(input("enter a rate amount:"))
+	y=int(input("enter a year amount:"))
+	SI=(p*r*y)/100
+	print("the total simple interest are:",SI)
+#ouput:
+#enter a principle amount:10000
+#enter a rate amount:234
+#enter a year amount:2
+#the total simple interest are: 46800.0
+
+Q.write a python code to accept radius fron user and print area os circle,same way length &breath from a user and print square.
+
+#area of an circle and rectangle.
+	r=int(input("enter a circular radius:"))
+	l=int(input("enter a length:"))
+	b=int(input("enter a breadth:"))
+	  	ar=l*b
+	print("enter a area of an circle:",ar)
+		ac=3.14*r*r
+	print("enter a rectange area:",ac)
+#output:
+#enter a circular radius:2
+#enter a length:3
+#enter a breadth:2
+#enter a area of an circle: 6
+#enter a rectange area: 12.56
+
+Q.write a program to accept base and index from user and print power of that.
+
+#calculate the power of an given number.
+	b=int(input("enter a base"))
+	i=int(input("enter a index"))
+		p=b**i
+	print("power of an given number is:",p)
+#output:
+#enter a base3
+#enter a index2
+#power of an given number is: 9.
+
+*Escape sequence:in the print function to formate the output we can used string literals as escape sequence.this sequence are 
+combination of back slach and a letter or system.
+for ex:
+\n = new line   \' =single quote.  \r =carriage returns.
+\b =back line   \" =double quotes. \v =vertical tab.
+\t =tab
+for ex:
+#escape sequence.
+	print("welcome \t advanto \r lucky to learn python")
+#output:
+#lucky to learn python.
+ 
+*Multiple statements of single line:
+to write multiple statements on single line we have to used semicolon(;)
+for ex:
+	>>x=5;y=10;sum=x+y;print(sum)
+ 
+Q.how to do a new project in pychame?
+
+untitled file- right click-new python filename.
+new project name -basics.py- right click then new project.
+
+Q.write a python code to accept five subject marks from the user and then calculated total and percetage and print the result?
+	
+	s1=int(input("enter a subject marks1:"))
+	s2=int(input("enter a subject marks2:"))
+	s3=int(input("enter a subject marks3:"))
+	s4=int(input("enter a subject marks4:"))
+	s5=int(input("enter a subject marks5:"))
+		total=s1+s2+s3+s4+s5
+	print("sum of a total subjects are:",total)
+		per=total/5
+	print("percentage of a student:",per)
+#output:
+#enter a subject marks1:60
+#enter a subject marks2:70
+#enter a subject marks3:70
+#enter a subject marks4:80
+#enter a subject marks5:80
+#sum of a total subjects are: 360
+#percentage of a student: 72.0.
+
+*Control flow or condition code flow:
+
+1.the ability to change the behaviour of a code based on certain information in the environment (variables,conditions or input)is 
+know as condition code flow.
+2.as we are the ability to change the order of a program so,that it moves back and return a block od code is known as "looping code 
+ flow".
+3.python supports condition code flow using keywords as if,if-else,if-elif-else.
+a.if condition statements:
+syntax:
+a.    if(expression):
+         statements blocks
+         statements blocks
+         statements blocks
+ex: 
+	amt=int(input("enter a amount"))
+		if(amt>2000):
+    	print("can open account")
+		if(amt<2000):
+    	print("can't open account")
+#output:    
+#enter a amount3000
+#can open account.
+
+b.if-else condition statements:
+ syntax: if(condition):
+            statements blocks
+         else:
+            statements blocks
+for ex:
+	num=int(input("enter a number:"))
+	if(num%2==0):
+    	print("even number")
+	else:
+    	print("odd number")
+#output:
+#enter a number:12
+#even number.
+
+Q.Write a python code to check wether used enter number is b/w 2 and 7.
+	
+        num=int(input("enter a number:"))
+	 	if(num>2 and num<7):
+    	print("the no. is b/w 2 and 7")
+	else:
+    	print("the no. is not b/w 2 and 7")
+#output:
+#enter a number:5
+#the no. is b/w 2 and 7.
+
+Q.writr a python code to check user enter  year is leap or not?
+	
+        num=int(input("please enter a number:"))
+		if(num%4==0):
+    	print("*num is a leap year*")
+	else:
+    	print("*num is not a leap year*")
+#output:
+#please enter a number:2000
+#*num is a leap year*
+
+Q.writr code to check wheather a user entered number is positive ,negative  or zero.
+	
+        num=int(input("enter a number:"))
+		if(num>0):
+    	print("number is a positive")
+		elif(num<0):
+    	print("number is a negative")
+	else:
+    	print("number is zero")
+#output:
+#enter a number:14
+#number is a positive.
+
+Q.write a code to accept number from user and print max from them.
+	
+        num2=int(input("enter a anyother nummber"))
+	num3=int(input("enter a anyother number"))
+		if(num1>num2 and num1>num3):
+    	print("no.is max",num1)
+		elif(num2>num3):
+    	print("no.is max" ,num2)
+	else:
+    	print("no. is max",num3)
+#output:
+#enter a number6
+#enter a anyother nummber8
+#enter a anyother number3
+#no.is max 8.
+
+*Loops:
+1.as per the conditiona whenever programmer wants a statements blocks to execute again and again at that time used loop.
+2.python supports while and for loop.
+3.as per the need anyone can nest the loops.
+
+1.for loop:python allows different type of formating of for loop.
+syntax:
+ 	for value in set_of_value:
+        	statements blocks
+ 	for k in 1,2,3,4:
+        	print(k)
+as set of values is less than 5 or smaller we can used above type of for loop,but if used want to print or do operations
+ with 100 values the we have to used a function as range.
+
+*range function:
+
+it will allows u to define a set of values over which the for loop can execute and loop as your value list is in a sequencially order.
+Syntax:
+range(start,stop[,step])
+
+*xrange function:
+
+range() and xrange() are two functions that could be used to iterate a certain 
+number of times in for loops in Python. In Python 3, there is no xrange , but the range function behaves like xrange in Python 2.
+If you want to write code that will run on both Python 2 
+and Python 3, you should use range().
+
+import sys
+a=range(1,10000)
+x=xrange(1,10000)#xrange is not in python 3 keywords.
+print("the size allocated using range() is:")
+print(sys.getsizeof(a))
+print("the size allocated using xrange() is:")
+print(sys.getsizeof(x))
+
+
+*use of range with for loop:
+
+syntax:
+for var in range(start,end)       for k in range(1,10)
+   statements blocks                   print(k)
+   statements blocks
+in range function starts value is included while stop value is executed,state[step]is optional arguments and if programmer 
+wants increments in loop other then one value.
+
+
+
+Q.write a code to print total of 1 to 20 number.
+	
+	total=0
+	for k in range(1,21):
+    		total=total+k
+    	print("the total number is:",total)
+#output:
+#the total number is: 1
+#the total number is: 3
+#the total number is: 6
+#the total number is: 10
+#the total number is: 15
+#the total number is: 21
+#the total number is: 28
+#the total number is: 36
+#the total number is: 45
+#the total number is: 55
+#the total number is: 66
+#the total number is: 78
+#the total number is: 91
+#the total number is: 105
+#the total number is: 120
+#the total number is: 136
+#the total number is: 153
+#the total number is: 171
+#the total number is: 190
+#the total number is: 210.
+
+Q.write a python code to print table of user enter number ?
+
+	num=int(input("enter a number"))
+	print("""table""")
+		for k in range (1,11):
+    	tot=num*k
+    	print("the table of a given number is:",tot)
+#output:
+#enter a number12
+#table
+#the table of a given number is: 12
+#the table of a given number is: 24
+#the table of a given number is: 36
+#the table of a given number is: 48
+#the table of a given number is: 60
+#the table of a given number is: 72
+#the table of a given number is: 84
+#the table of a given number is: 96
+#the table of a given number is: 108
+#the table of a given number is: 120.
+
+Q.write a code to accept base and index from user and print its power?
+		
+	b=int(input("enter a  base of the number"))
+	i=int(input("enter a index of the number"))
+	ans=1
+	for k in range(1,i+1):
+    		ans=ans*b
+	print("power is :",ans)
+#output:
+#enter a  base of the number2
+#enter a index of the number3
+#power is : 8.
+
+Q.write a python code to check wheather a used enter number is prime or  not?
+		
+	num=int(input("enter a number"))
+	for i in range(2,num):
+    	   if(num%2==0):
+               print(" number is not prime")
+               break
+    	if(k+1==num):
+        print("prime no.")
+#output:
+#enter a number60
+#not prime.
+
+Q.write a python code for a fib series?
+
+	num=int(input("enter a number of elements do u wants:"))
+	x=0
+	y=1
+	for num in range(0,num):
+    	  if(num<=1):
+        	z=num
+    	  else:
+        	z=x+y
+        	x=y
+        	y=z
+    	print(z,end=" ")
+#output:
+#enter a first number6
+#0 1 1 2 3 5 
+
+or
+
+x=int(input("how many number of fibonancci series:"))
+a=0
+b=1
+print(a)
+print(b)
+for i in range(3,x+1):
+    c=a+b
+    a=b
+    b=c
+    print(c)
+#output:
+#how many number of fibonancci series:10
+#0
+#1
+#1
+#2
+#3
+#5
+#8
+#13
+#21
+#34
+
+*While loop:
+
+In sum of the program we can't predict number of iteration or how many times you have execute the loop.for loop is not 
+sufficients in this situation.python provide while loop to handle this situation.
+syntax while:
+  while(expression):
+        statements blocks;
+        statements blocks;
+
+Q.write a program to calculates the sum of digits of user center number?
+	
+	num=int(input("enter a number:"))
+	sum=0
+	while(num>0):
+    	    rem=num%10
+    	    sum=sum+rem
+    	    num=num//10
+    	print("sum of digits are:",sum)
+#output:
+#enter a number:34
+#sum of digits are: 4
+#sum of digits are: 7
+ 
+Q.write a python code to calculated number of digits of user entered number?
+	
+        num=int(input("enter a number"))
+	count=0
+	while(num>0):
+    	   rem=num%10
+    	   count=count+1
+    	   num=num//10
+    	print("the sum of digit is:",count)
+#output:
+#enter a number426
+#the sum of digit is: 1
+#the sum of digit is: 2
+#the sum of digit is: 3.
+
+Q.write a code  to check wheather user number is armstrong or not?
+
+num=int(input("enter a number"))
+no=num
+sum=0
+while(num>0):
+    rem=num%10
+    sum=sum+(rem**3)
+    num=num//10
+if(no==sum):
+    print("no of armstrong")
+else:
+    print("no.is not an armstrong")
+#output:
+#enter a number153
+#no. of armstrong.
+
+Q.print all armstrongs b/w 100 to 500?
+
+num=int(input("enter a number"))
+print("number should be display b/w 100 to 500:")
+for i in range(100,500):
+    num=i
+    sum=0
+    while(num>0):
+        rem=num%10
+        sum=sum+(rem**3)
+        num=num//10
+    if(sum==i):
+        print("no. is armstrong",i)
+#output:
+#enter a number153
+#number should be display b/w 100 to 500:
+#no. is armstrong 153
+#no. is armstrong 370
+#no. is armstrong 371
+#no. is armstrong 407
+
+Q.write  a program to check weather user enter a number is palindrom or not?
+#palindrome of a number:
+num=int(input("enter a nummber:"))
+k=num
+rev=0
+while(num > 0):
+    rem=num%10
+    rev=(rev*10)+rem
+    num=num//10
+if rev==k:
+    print("number is pralindrom")
+else:
+    print("number is not palindrome")
+#output:
+#enter a nummber:12321
+#number is pralindrom
+
+        OR
+#palindrome of a string:
+str=input("enters a string")
+x=(str[::-1])
+print(x)
+if str==x:
+    print("palindrome")
+else:
+    print("not palindrome")
+#output:    
+#enters a stringmam
+#mam
+#palindrome
+
+*function:
+need of function:
+
+1.to create seperate module as per the logic.
+2.to avoid repetation of a code.
+defination:
+a block of code that performs act the acting is called as function .it can take zero or more arguments and can write a value.
+in python a function is write with a keyword as def.then the python interpeted encounter def statements it knows moves that it is 
+not supposed to actually execute the code.
+Syntax:
+ 	def_function_name(arguments/parameter):
+	"""function docstring"""
+	function suite or statements
+	return(values)
+
+*rules for function in python:
+
+1.function block begins with keyword "def" followed by function name and paranthesis() and input parameter should be placed with 
+in this paranthsis.
+2.function docstring and return statements are optional statements.
+3.the code block with in everyfunction starts with a coolen(:) and its is indepent.
+4.function defintion should be before call to the function
+
+*there are two type of functions:
+
+1.built-in:this is function are defined by python for example: print(),input().
+2.user define function:the function which are defined by user is called as user defined function.
+
+Q.write a python code to accept two numbers from user pass its to function and print maximun from them?
+
+def funmax(n1,n2):
+ if (n1>n2):
+     print("first no is max",n1)
+ elif(n2>n1):
+     print("second no is max",n2)
+
+ else:
+     print("both are zero")
+
+num1=int(input("enter a first number:"))
+num2=int(input("enter a second number:"))
+funmax(num1,num2)
+#output:
+#enter a first number:12
+#enter a second number:32
+#second no is max 32.
+
+Q.write a program to accept a number from user and print wheather they are even or odd?
+
+def funeven(n1):
+ if (n1%2==0):
+     print("number is prime",n1)
+ else:
+     print("number is odd")
+if __name__=='__main__':
+ n1=int(input("enter a first number:"))
+
+ funeven(n1)
+#output:
+#enter a first number:12
+#number is prime 12.
+
+Q.write a program code to accepts a number from user and check whether is positive,negative and zero and check for a prime number.
+
+def funeven(n1):
+ if (n1%2==0):
+     print("*number is even",n1)
+ else:
+     print("*number is odd",n1)
+def funpos(n1):
+ if (n1>0):
+     print("*no is positive",n1)
+ elif(0<n1):
+     print("*no is negative",n1)
+def funprime(n1):
+    if(n1%2==0):
+        print("*num is not prime",n1)
+    else:
+        print("*num is odd ",n1)
+if __name__=='__main__':
+ n1=int(input("enter a number"))
+ funeven(n1)
+ funpos(n1)
+ funprime(n1)
+#output:
+#enter a number90
+#*number is even 90
+#*no is positive 90
+#*num is not prime 90.
+
+***********************1...application of breakfast menu:******************************************************************
+total=0
+def funpoha():
+    ch1=int(input("enter no.of dish"))
+    p=15
+    sum=ch1*p
+    print("total amount of poha ",sum)
+    return(sum)
+def funidli_c():
+    ch1=int(input("enter no.of dish"))
+    p=20
+    sum=ch1*p
+    print("total amount of idli_chutany ",sum)
+    return(sum)
+def funidli_sambhar():
+    ch1=int(input("enter no.of dish"))
+    p=30
+    sum=ch1*p
+    print("total amount of idhi_sambhar ",sum)
+    return(sum)
+def funtea():
+    ch1=int(input("enter no.of dish"))
+    p=10
+    sum=ch1*p
+    print("total amount of tea ",sum)
+    return(sum)
+def funcoffee():
+    ch1=int(input("enter no.of dish"))
+    p=20
+    sum=ch1*p
+    print("total amount of coffee",sum)
+    return(sum)
+print("**************************BREAKFAST MENU ITEMS*************************************")
+print("""
+1.pohe----------------$15
+2.idli chutany--------$20
+3.idli sambar---------$30
+4.tea-----------------$10
+5.coffee--------------$20
+""")
+a='y'
+while(a=='y'):
+    obj=int(input("enter a number"))
+    if(obj==1):
+        total=total+funpoha()
+    elif(obj==2):
+        total=total+funidli_c()
+    elif(obj==3):
+        total=total+funidli_sambhar()
+    elif(obj==4):
+        total=total+funtea()
+    else:
+        total=total+funcoffee()
+    a=input("do you want to continue")
+    print("your total bill is",total)
+
+*sequence:
+1.it provide some means of allowing multiply data items together  in a storage unit but as seperate entity.
+2.python have different sequence as:
+1.list[]   2.tuple()   3.dictionary{}.
+
+
+*list:
+
+1.In a real world we need a data with different  type as a collection for example:bill of mall contain customer no, customer 
+name,item name,quatity price etc.
+2.a list is a collection of order objects may not be of same type.list are created using "square brackets" and its objests are 
+,seperated by commas for eg:
+for ex:
+
+1.  cities=["pune","nashik","mumbai"]
+2   cust=[1,"rahul",7776901845,"pune",3456.56]
+
+*accessing list:
+1.whole list:          print(cities)
+2.index wise access:   print(cust[0]) OR print(cust[1])
+3.each object wise:    for k in cities:
+                          print(k)
+
+*list slicing:
+1.print(cust[1:4])
+ ["rahul",7776901845,"pune"]
+2.print(cust[:2])
+ [1,"rahul"]
+
+
+*updating list element or list object using:one can update the list object-
+1.cust[3]="mumbai"
+  print(cust)
+ [1,"rahul",7776901845,"mumbai",3456.56]
+
+
+
+*we can create an the empty and then add the elements in the list array list methob as"append".
+for ex:
+stud=[]
+stud.append(11)               [11]
+stud.append("raju")           [11,"ankit"]
+stud.append(76)               [11,"aniket",76]
+print("the give list is:")
+print(stud)
+#output:
+#the give list is:
+#[11, 'raju', 76]
+
+*list may contain others and it is called as list of list's or matrix.
+for ex:
+[11, 'raju',[ 76, 23], 'kings', 87].
+
+*deleting object from list:
+
+their are two methods to deleting object from list-
+1.using remove: cust.remove("rahul")
+2.using del:   del(cust[2])
+3.del(cust)   #total list deleted.
+
+*searching in list:
+to search an object or elements in the list you have to use in operator.it return "true" on success and "false" on failure.
+for ex:
+list=[22,23,24,25,26,27]
+print(22 in list)
+print(90 in list)
+#output
+#True
+#False
+
+Q.write a code in python accept a no. of students from user,accept each student name and create a list .print total no.vowels 
+in each name.
+
+limit=int(input("enter no. of student:"))
+stud=[]
+for k in range(0,limit):
+  nm=input("enter the name")
+  stud.append(nm)
+  print("stud list=",stud)
+  cnt=0
+for k in stud:
+  for j in k:
+    if j in['a','e','i','o','u']:
+      cnt+=1
+print("%s contain %d vowel"%(k,cnt))
+#output:
+#enter no. of student:2
+#enter the namesuraj
+#stud list= ['suraj']
+#enter the namepranay
+#stud list= ['suraj', 'pranay']
+#pranay contain 4 vowel
+
+*list common operation:
+
+1.s1*s2=concatenates two sequence i.e.list.
+2.s*n,n*s=n copies of sequences.
+3.len(s)=given length of sequences.
+4.min(s)=given smallest elements of sequence.
+5.max(s)=given largest elements of sequence.
+6.count(x:object)=return the number of times elements x appers in list.
+7.extend(l:list)=appends all the elements of l in list.
+8.index(x:object)=return index of the first occurence of elements in list.
+9.insert(index:int,x:object)=insert an element x at given index.
+10.reverse=reverse the list.
+11.sort=sort the elements in the list in ascending order
+12.pop(i)=removes the elements at the gives position and return it.
+
+*list compression:
+it is a way of mapping a list into another list by appling a function to each elements of list.
+ 
+for ex:
+L=[2,4,8,10,12]
+m=[element *4 for element in L]
+print(m)
+#output:
+#[8, 16, 32, 40, 48].
+
+*mapping list:
+map is a built in function and it is used to apply user define function to each elements .for ex:
+
+def calvowel():
+    statements blocks 
+names=["rakesh","raju","raj"]
+result=map(calvowel,names)
+print(result)
+
+*joining and splitting with list and string:
+
+1.join:it is a function of string,which joins list objects together an create its strings.
+for ex :
+      	L=["raju","sapna","shipra","sonu"]
+	s="".join("%s"%k for k in L)
+	print(s)
+#output:
+#rajusapnashiprasonu
+
+2.split:this is a function of strings which splits the strings into a object of list.
+for ex:
+s="hi how are you"
+l=s.split(" ")
+print(l)
+#output:
+#['hi', 'how', 'are', 'you']
+
+Q.create a list for a customer accept his name ,address and age.after accept college name,college address and insert it into the list?
+
+a='yes'
+while(a=="yes"):
+    cust=[]
+    nm=input("enter name=")
+    ad=input("enter address=")
+    ag=input("enter age=")
+    cust.append(nm)
+    cust.append(ad)
+    cust.append(ag)
+    clg=[]
+    cn=input("college name=")
+    cd=input("college address=")
+    clg.append(cn)
+    clg.append(cd)
+    cust.insert(3,clg)
+    print("cust list=",cust)
+    a=input("do you wnat to add cust=")
+#output:
+#enter name=suraj
+#enter address=rajgurunagar
+#enter age=13
+#college name=SIT
+#college address=Sinhgad Institute Of Technology,Lonavala.
+#cust list= ['suraj', 'rajgurunagar', '13', ['SIT', 'inhgad nstitute f echnology,onavala.']]
+#do you wnat to add cust=yes.
+
+
+Q.accept full address from user calculated no.of words and sort then as per ascending of there alphabate?
+
+add=input("enter a address")
+address=add.split(" ")
+print(address)
+total=len(address)
+print("total words :",total)
+address.sort()
+print(address)
+#output:
+#enter a addressrajgurunagar khed pune
+#['rajgurunagar', 'khed', 'pune']
+#total words : 3
+#['khed', 'pune', 'rajgurunagar']
+
+Q.create patients list:
+
+patient=[]
+patient1=[]
+x='y'
+while(x=='y'):
+    name=input("enter a name")
+    patient.append(name)
+    age=int(input("enter a age"))
+    patient.append(age)
+    add=input("enter a address")
+    patient.append(add)
+    diseases=input("enter a diseases")
+    patient.append(diseases)
+    patient1.append(patient)
+    print(patient1)
+x=input("enter a choise")
+
+#output:
+#enter a nameiuk
+#enter a age0
+#enter a addresslkop
+#enter a diseaseslpok
+#[['iuk', 0, 'lkop', 'lpok']]
+#enter a nameokij
+#enter a age09
+#enter a addresslkij
+#enter a diseaseskoi
+#[['iuk', 0, 'lkop', 'lpok', 'okij', 9, 'lkij', 'koi'], ['iuk', 0, 'lkop', 'lpok', 'okij', 9, 'lkij', 'koi']]
+
+*tuples:a tuples is a sequence of a immutable python as objects,are immutable means you cannot change in sequence object in you 
+can't modified an existing tuple.tuple are created using rounded parathesis ().
+
+for ex:
+t1=()
+t2=([11,12,13,14],[76,87,98])
+t3=("key1","key2","key3")
+t4,t5=(1,2,3),("raju","ravi","karan")
+
+*accesssing tuple:
+
+1.whole tuple:                  print(t5)
+2.each object/elements rise:    for k in t4:
+                                   print(t4)
+3.usingindex:
+                                print(t2[])
+
+1.we cannot append or update any object within tuples.
+2.concentation of tuple is possible using plus operator.
+ex:
+t1=(1,2,3)
+t2=("ashwini","vaishali","naresh")
+print(t1+t2)
+
+*representation of tuple is allowed using astrick operator
+ex:t1=(1,2,3)
+print(2*t1)
+output:(1,2,3,1,2,3)
+
+*function to convert tuple to list and viseversa:
+
+1.tuple to list       2.list to tuple
+t1=(1,2,3)              name=["ram","sham","hari","krishna"]
+num=list(t1)            tnm=tuple(name)
+print(num)              print(tnm)
+o/p=[1,2,3]             o/p=("ram","sham","hari","krishna")
+
+*dictionary:it is a mapping of key value pairs their are enclosed in curly braces {} and values can be assing and accessed 
+using square brakets.dictionary are mutable like list.the object can be update add like list.
+
+*advantages of dictionary:
+
+1.searching of key value becomes easy.
+2.sorting of one list sort another list in synchronization.
+
+*rules of cretae a dictionary:
+
+1.key must be unique .when u  enter a dublicate key then the information found in second entry will accepted.
+2.key must be immutable that means u can used string numbers or tuples for the key.
+
+*create and access dictionary:
+d1={"name":"raju","address":"pune","education":"be"}
+
+*access dictionary:
+ as there are required the key and values format: key:value
+1.full dictionary:              print(d1)
+2.to access value if key  knows print(d1['name'])
+3.access using get function:    print(d1.get("address"))
+4.to access only keys:          print(d1.keys())
+5.to access only values:        print(d1.values())
+6.to access as items:           print(d1.items())
+7.add                           d1['age']=23
+8.update                        d1['address']="nagpur"
+
+*to remove and deleted from the dictionary:
+
+1.pop(): can remove a particular item in a dictionary by providing key.
+	print(d1.pop("name"))
+	print(d1)
+2.clear(): all the items removed onces.
+	d1.clear()
+3.del(): using two ways.
+a.to remove individual item by keys:
+	del d1["address"]
+b.to delete whole dictionary:
+ 	del(d1)
+
+*dictionary operations:
+
+1.copy():this method of dictionary creates another dictionary with same items.
+for ex:
+	vehicle={'company':'tvs','model':'jupiter','price':'20000000'}
+	new=vehicle.copy()
+	print(new)
+2.to convert sequences into a dictionary:
+	t1=("name","rollno","class")
+	l1=['vidya','12','fyb']
+	info=dict(zip(t1,l1))
+	print(info)
+o/p:
+{'name':'vidya','rollno':'12','class':'fybsc'}
+
+*dictionary compreation:it is consist of an expression pair followed by for statements inside curly braces.
+for ex:
+	series={x:(x*3)for x in range 5}
+	print(series)
+o/p:
+{0:0,1:3,2:6,3:6,4:12}
+
+Q.define a series using dectionary from vaues (1 to 20)and apply x^2+5 formula on each elements .1 to 20 values should b e the key for dictionary and the values after formula appliesd while generates actual valuesfor resp.
+answer:
+	series={x:(x**2+5)for x in range (1,21)}
+	print(series)
+
+Q.accept total marks of 15 students for a user convert them into tuple and print max and min from tuple.
+
+list=[]
+num1=int(input("enter a marks :"))
+num2=int(input("enter a marks :"))
+num3=int(input("enter a marks :"))
+num4=int(input("enter a marks :"))
+num5=int(input("enter a marks :"))
+list.append(num1)
+list.append(num2)
+list.append(num3)
+list.append(num4)
+list.append(num5)
+print(list)
+tup=tuple(list)
+print(tup)
+print(max(tup))
+print(min(tup))
+#output
+#enter a marks :12
+#enter a marks :23
+#enter a marks :45
+#enter a marks :56
+#enter a marks :67
+#[12, 23, 45, 56, 67]
+#(12, 23, 45, 56, 67)
+67
+12
+
+Q.accept name of the student and stored them in tuple and apply following question of them?
+a.create distionary which accept and print the salary of each employ as value an dname as key?
+b.print dictionary in sort order of keys?
+
+name=input("enter a name of employee")
+tup=tuple(name)
+list=[]
+e1=input("enter a name of employee")
+e2=input("enter a name of employee")
+e3=input("enter a name of employee")
+e4=input("enter a name of employee")
+e5=input("enter a name of employee")
+list.append(e1)
+list.append(e2)
+list.append(e3)
+list.append(e4)
+list.append(e5)
+print(list)
+num1=int(input("enter a salary of employee "))
+num2=int(input("enter a salary of employee "))
+num3=int(input("enter a salary of employee "))
+num4=int(input("enter a salary of employee "))
+num5=int(input("enter a salary of employee "))
+list1=[]
+list1.append(num1)
+list1.append(num2)
+list1.append(num3)
+list1.append(num4)
+list1.append(num5)
+print(list)
+print(list1)
+info=dict(zip(list,list1))
+print(info)
+t=sorted(list1)
+print(t)
+#output:
+#enter a name of employeesuraj
+#enter a name of employeesangeeta
+#enter a name of employeeamruta
+#enter a name of employeenayan
+#enter a name of employeeyaashri
+#enter a name of employeekanchan
+#['sangeeta', 'amruta', 'nayan', 'yaashri', 'kanchan']
+#enter a salary of employee 98
+#enter a salary of employee 78
+#enter a salary of employee 45
+#enter a salary of employee 65
+#enter a salary of employee 23
+#['sangeeta', 'amruta', 'nayan', 'yaashri', 'kanchan']
+#[98, 78, 45, 65, 23]
+#{'sangeeta': 98, 'amruta': 78, 'nayan': 45, 'yaashri': 65, 'kanchan': 23}
+#[23, 45, 65, 78, 98]
+
+Q.write a code to accept list elements from user and print postive and negation list seperatly also print?
+
+no=int(input("how many no do u want:"))
+list=[]
+for l in range(0,no):
+    num = int(input("enter a num: "))
+    list.append(num)
+print(list)
+pos=[]
+neg=[]
+for i in range(0,no):
+    if(list[i]>0):
+        pos.append(list[i])
+    elif(list[i]<0):
+        neg.append(list[i])
+    else:
+        print("ok")
+print("list of a positive no:",pos)
+print("list of a negative no:",neg)
+print("total length of positive no is:",len(pos))
+print("total lenth of negative no is:",len(neg))
+
+#output:
+#how many no do u want:5
+#enter a num: 3
+#enter a num: -9
+#enter a num: -7
+#enter a num: -4
+#enter a num: 6
+#[3, -9, -7, -4, 6]
+#list of a positive no: [3, 6]
+#list of a negative no: [-9, -7, -4]
+#total length of positive no is: 2
+#total lenth of negative no is: 3
+
+Q.write a program to count duplicate values from tuples?
+
+
+*type of a function:
+
+1.function arguments:
+
+a.as arguments is a bit of data that is passed into a function arguments can be mutable that menas they can be modified with 
+in the function and return s changed values to the caller.
+b.you are not resticted to a single argument in a function there are four type of arguments as:
+required - the no.of arguments in a parameter list of a function should match with no.of arguments in call in function 
+for ex: all program with in function .
+
+2.keywords arguments:when their is an argument name in calling function then it is called as keyword arguments.
+for ex:
+
+def funprint(str):
+    str1="how are you"+str
+    print(str1)
+s=input("enter your name:")
+funprint(str=s)
+funprint(str="prince")
+#output:
+#enter your name:suraj
+#how are yousuraj
+#how are youprince
+
+3.default arguments:the argument have default values in function defination is called as default function.anynumber ,
+of argument in a function can have a default values but onces we have default arguments all the arguments to its right must 
+also have default values.
+for ex:
+def fundate(d,m,y=2019):
+    print("date",d,"-",m,"-",y)
+fundate(31,7)
+fundate(1,8,2018)
+#output
+#date 31 - 7 - 2019
+#date 1 - 8 - 2018
+
+4.variable length arguments:
+
+when number of argument pass to the function at the time to function calling are not fixed then used variable length arguments.
+this arguments have no name in function defination.
+
+for ex:
+
+def funprint(num1,*varargs):
+    print(num1)
+    sum=0
+    for k in varargs:
+        sum+=k
+        print("addition=",sum)
+no=int(input("enter anumber"))
+funprint(no,31,25,36)
+funprint(no,12,36)
+#output:
+#enter anumber12
+#12
+#addition= 31
+#addition= 56
+#addition= 92
+#12
+#addition= 12
+#addition= 48
+
+*were formal argument will be one example.
+*variable arguments will be empty or having no.of arguments the astricks is placed before variable  name that holds the values of all non-keywords variable arguments.
+*function suite will have one or more statements.
+for ex:
+
+def funprint(num1,*varargs):
+    print(num1)
+    sum=0
+    for k in varargs:
+        sum+=k
+        print("addition=",sum)
+no=int(input("enter anumber"))
+funprint(no,31,25,36)
+funprint(no,12,36)
+#output:
+#enter anumber12
+#12
+#addition= 31
+#addition= 56
+#addition= 92
+#12
+#addition= 12
+#addition= 48
+
+*ananymous function:
+
+this function are also called as lambda function or lambda operator which donot have anyname .
+need of ananymous function:
+1.lambda function are mainly used in combination with the function filter ,map,reduce.
+2.this function are inline function which used lambda keyword instead of def keywords.
+for ex:
+
+1. mult=lambda n1,n2:
+            n1*n2
+print("multiplication =",mult(5,6)) 
+
+2.li=[12,34,45,45,32,34]
+print ( list(filter ( lambda x:x%4==0,li)))
+#output:
+#[12, 32]
+
+3.mapping with a list:
+C = [39.2, 36.5, 37.3, 38, 37.8] 
+>>> F = list(map(lambda x: (float(9)/5)*x + 32, C))
+>>> print(F)
+[102.56, 97.7, 99.14, 100.4, 100.03999999999999]
+>>> C = list(map(lambda x: (float(5)/9)*(x-32), F))
+>>> print(C)
+[39.2, 36.5, 37.300000000000004, 38.00000000000001, 37.8]
+ 
+               OR
+
+ a = [1, 2, 3, 4]
+>>> b = [17, 12, 11, 10]
+>>> c = [-1, -4, 5, 9]
+>>> list(map(lambda x, y : x+y, a, b))
+[18, 14, 14, 14]
+ list(map(lambda x, y, z : x+y+z, a, b, c))
+[17, 10, 19, 23]
+ list(map(lambda x, y, z : 2.5*x + 2*y - z, a, b, c))
+[37.5, 33.0, 24.5, 21.0]
+               OR 
+ a = [1, 2, 3]
+ b = [17, 12, 11, 10]
+ c = [-1, -4, 5, 9]
+ 
+ list(map(lambda x, y, z : 2.5*x + 2*y - z, a, b, c))
+[37.5, 33.0, 24.5]
+  
+fibonacci = [0,1,1,2,3,5,8,13,21,34,55]
+>>> odd_numbers = list(filter(lambda x: x % 2, fibonacci))
+>>> print(odd_numbers)
+[1, 1, 3, 5, 13, 21, 55]
+>>> even_numbers = list(filter(lambda x: x % 2 == 0, fibonacci))
+>>> print(even_numbers)
+[0, 2, 8, 34]
+>>> 
+>>> 
+
+...                OR
+>>> even_numbers = list(filter(lambda x: x % 2 -1, fibonacci))
+>>> print(even_numbers)
+[0, 2, 8, 34]
+ 
+
+
+*string:A string is a collection of characterss for python character is a string of length one with the pythone for every 
+characters their is an ASCII values for an uppercase and lowercase.
+for ex:
+A value as 65.
+
+1.accessing value in string:
+
+a.as a whole string:      print(str1)
+b.access indexwise:       print(str[2],str[7])
+c.access each characters: for k in str1:
+                          print(k)
+
+*concentation of string:
+
+1.s1="hellow"            2.s1="sachine"
+  s1+="how are you"        s2="rahul"
+print(s1)                  s=s1+s2
+                           print(s)
+*repeating stirngs:
+1.str="india"            2.s="hellow"
+  str+=3*"best"            print(4*s)
+  print(str)
+
+*slicing string:it is same as sequencing slicing.
+
+	str="welcome how are you? what is going on?"
+	print(str[2:10],(str[:]),str[3:],str[:12],str[-1:],str[::-1])
+#used above different function as slicing.
+
+*in and notin operators:
+this operators check weather characters exit or not with in a string .as per the operators it written true on sucess and 
+false on failure.
+for ex:
+str="how are you?"
+print('k'in str)
+print('l'in str)
+print('h'in str)
+
+*string formatting:
+python used format specifies as %s %d %f to print values in formatted  output .
+for ex:
+1.print("my name is %s having age %d"%("monika",22))
+2.num="1234"
+  print(num.ljust(10))
+o/p 1234------
+  print(num.rjust(7))
+o/p ---1234
+
+*built in function :
+
+1.str.isalnum()=checks wheather string contain only alphanumaric chatracters(no symbol)
+2.str.isaplha()=checks wheather string contains only alphabates.
+3.str.isnumeric()=wheather all characters are
+4.str.islower()=all characters are lowercase
+5.str.isspace()=consist of spaces.
+6.str.upper()=to conver all characters in uppercase.
+7.str.lower()=to convert all characeters in lowercase.
+8.str.len()=return the length of a string.
+
+Q.write a python code to check wheather user enter astring is islower or isupper?and convert it into its opposite case.
+ 
+s=input("enter a string")
+if(s.isupper()):
+    print(s.lower())
+elif(s.islower()):
+    print(s.upper())
+#output:
+#enter a stringasjdh
+#ASJDH
+#enter a stringGAFSD
+#gafsd
+
+Q.write a python code to accept user name and password from user and apply following validation on password?
+1.its should be length at least 8 characters.
+2.its must be contain at least one number and one symbole. 
+
+name=input("enter a name")
+pas=input("enter a password")
+tup=len(pas)
+if(tup>=8 and pas.isalnum() ):
+    print("password is valid")
+else:
+    print("ok")
+#output:
+#enter a namesdfnfhg
+#enter a passworddkfijruhf980
+#password is valid
+
+*filehandling:
+
+In current industry senerio the data is most imp a permanent storage devies hold son to the data long after the machine is turn off because of this we can retrive the data for next section 
+with the file handling in python we can perform CRUD  operations means create a file,reading a file,update the data in file and delete a file.
+
+*file handling operation and function:
+
+1.open file:
+file_object=open(filename[,access mode][,buffering])
+1.filename is argument haning  filenmae with or without path.
+2.access mode the file access mode will be read write or append.
+3.buffering-if the buffering value is 0 no buffering texed placed,if the buffering value is one then line buffering is performed while 
+while accessing a file.
+4.with the modes of opening file we have to used 'r'-read mode,'w'-write mode,'a'-append mode.when we open a file using right mode then ,if file already exist data will be cleared
+before opening otherwise new file be creater.
+
+2.file operator:
+1.flush:it fluses out the contain of file to the operation system.
+2.read(size):reads atleast size bytes from the files if there are atleast that many left to read.
+3.readline:reads one complete lines from the files a line is define to be the charatcers until a new line characters is encounter.the newline is included.
+4.readlines: it reads lines in one at a time until the end of file is encounted and then written then as a list.
+5.write:it writes a batch of a data from the application to the file.
+6.write lines:it write out a list of the a lines to the file all at onces.
+
+
+Q.write  a python code to open a file read it and print the contains on concole on as a output?
+
+fileobj=open("xyz.txt","r")
+print("opening mode=",fileobj.mode)
+print(fileobj.readlines)
+for line in fileobj:
+       print(line)
+
+*whenever you want to write on file we can used two methons as writeand writelines.we have to open the files in write mode if the execute it onces the file get created with  the file name and the contain 
+with write or writelines can be see in the files
+if we execute the program again with different contain then we will get a file with same name but different contains here the file get override.
+
+Q.write a python code to write  of a file:
+
+fobj=open("AAA.txt","w")
+fobj.write("how are u")
+fobj.close()
+fobj=open("AAA.txt","a")
+l=["\n india is great","\n cricket is favourite game"]
+fobj.writelines(l)
+fobj.close()
+#output:
+#how are u
+#india is great
+#cricket is favourite game
+#AAA.text file as we have to write above we get in this file.
+
+*to open a file there is anyother method using with statements one advantages of using this methods is that method is that any file we open 
+get closed automatically after completion of code.
+syntax:
+with open("AAA.TXT")as f:
+    buf=f.readlines()
+    print(buf)
+
+#output:
+#['how are u\n', ' india is great\n', ' cricket is favourite game']
+
+********************************************OOP'S*********************************************************************************
+*object:
+its is an entity which have well define structure and behaviour.for ex:car,fan,board etc.
+*class:
+its is the templete to create like object.for ex:if we want to create like object.for ex:if we want to created objects of student 
+then first we have to create student and then student object more than one.
+*object have different characterstices,we have to give some parameter on which we can recogonised this object characteristhis 
+parameters are called as attribute of object.
+
+*four characteries of an objects are:
+
+1.state:         the current value of all attributes of an objects gives state .
+2.behaviours:    the actions or reacting takes by an object as per the change in attributes or state is called as behaviour.
+3.identity:      the attributes is distigution the objects from all objects is called identity.
+4.responsibility:the object search a services with in system this is called as responsibility.
+
+*oop programming concepts:
+
+1.abstraction:its is a method to select required attributes and ignored the rest.
+
+student       class teacher      PT teacher
+rollno         
+name
+education 
+blood group
+heigth
+weigth
+address
+phone no
+
+2.Encapsulation:its is the method of binding attributes and function together.it is also a method of hiding data variable names 
+implements functions etc.programming related concepts form the user.user should know only how to use the application for ex:
+in mobile game application software etc.
+
+3.inheritance:it create heriarcy from the top to botton with special characters of super class.parent class is also called as base 
+class or parent class while sub class is called as base class as chid or derived class.
+for ex:
+vehcile:
+1.2-wheeler hero honda,tvs,bajaj.
+2.3-wheeler tata,bajaj.
+3.4-wheeler marutisuzuki,honda ,bmw.
+
+*type of inheritance:
+1.single inheritance.
+2.multipleinheritance.
+3.multilevelinheritance.
+4.hybrid inheritance.
+
+4.polymorphism:it is the way of acting or reacting objects to the same message in different different ways.
+foe ex:in above inheritance of vehicles the same average functions we can write in every subclass but the implementation inside 
+the function will be different.
+
+*define a class:
+syntax:
+class classname:
+         initilizer/constructor
+         other function declaration
+
+
+ex:
+class student:
+    def __init__(self,rno,name):
+        self.rno=rno
+        self.name=name
+    def display(self):
+        print("rollno",self.rno)
+        print("name",self.name)
+s1=student(1,"raju")
+s1.display()
+#output:
+#rollno 1
+#name raju
+
+1.intilizers:every class in python have a special method which get invoke automatically with the creating of objects it is called 
+as intilizer.(also know as constructor).
+2.self:all method in python including intilizer have first parameter as self .this parameter references to object which invoked the 
+method.
+3.creating an object:
+syntax:
+
+object=classname(parameter list)
+
+for ex:
+s1=student(1,"raju")
+
+Q.write a python class as person with data field first name,last name,implements instilizer and display function.
+ 
+class person:
+    def __init__(self,firstname,lastname):
+        self.firstname=firstname
+        self.lastname=lastname
+    def display(self):
+        print("firstname:",self.firstname,"lastname",self.lastname)
+p1=person("suraj","pawar")
+p1.display()
+#output:
+#firstname: suraj lastname pawar
+
+*in noramal way field should not be access outside the class to hidden thoe data fields used two (__)before data field name.
+for ex:
+self.__fname=fname
+self.__lname=lname
+
+*code of person:
+
+
+
+
+
+
+
+
+
+in above example implements get salary method with the same method name,same parameters lit but different class scope of the 
+inheritance classes.thids is called as method overloading.here we achieved polymorphism.
+
+*method overloading:
+we can achieved method of function overloading by given the call to the functiom in different different ways it means function name 
+is same but no. of parameters are differernt there sequence will be differnt.
+for ex:
+
+class person:
+    def sayhellow(self,name =None):
+        if name is not None:
+            print("hellow",name)
+        else:
+            print("hellow")
+
+    p1.person()
+    p1.sayhellow()
+    p1.sayhellow("rakesh")
+
+*containment:the process of using one classobject as datamembers of another class is called containment .it is achieved by'has-a'
+relationship.
+for ex:
+ class mydate:
+    def __init__(self,d,m,y):
+        self.d=d
+        self.m=m
+        self.y=y
+    def display(self):
+        #return("date=",d"-","month=",m,"-","year=",y)
+        return ("date=",self.d,"-","month=",self.m,"-","year=",self.y)
+class emp:
+    def __init__(self,id,d,basic_salary):
+        self.id=id
+        self.d=d
+        self.basic_salary=basic_salary
+    def display(self):
+        print("id",self.id,"joining",self.d.display(),"basic_salary",self.basic_salary)
+d1=mydate(2,3,2019)
+e1=emp(1,d1,4300)
+e1.display()
+#output:
+#id 1 joining ('date=', 2, '-', 'month=', 3, '-', 'year=', 2019) basic_salary 4300
+
+*abstract class:it is a the class that comtain one ofmore abstract method and bstract method is just declared in abstract class
+ but doesnot contain any implementation.we have to write a keyword pass for abstract method .
+2.abstract class may be instilised that is object creating is not their with anstract class.
+3.in python ABC is the module to provide the infrastructure of abstract base class.
+for ex:
+we will implements following heriarcy with the abtract base class shape:
+ import abc
+class shapes(object):
+    @abc.abstractmethod
+    def AreaCal(self,val):
+        pass
+class circle(shapes):
+    def __init__(self,rad):
+        self.rad=rad
+    def AreaCal(self):
+            print("circle area=",(3.14*self.rad**2))
+
+class rectangle(shapes):
+    def __init__(self,height,breath):
+        self.height=height
+        self.breath=breath
+    def AreaCal(self):
+        print("rectangle area",(self.height*self.breath))
+
+class triangle(shapes):
+    def __init__(self,height,base):
+        self.height=height
+        self.base=base
+    def AreaCal(self):
+        print("triangle area",(self.height*self.base))
+if __name__== "__main__":
+    c1=circle(6)
+    c1.AreaCal()
+    r1=rectangle(3.3,4.5)
+    r1.AreaCal()
+    t1=triangle(5.3,2.6)
+    t1.AreaCal()
+#output:
+#circle area= 113.04
+#rectangle area 14.85
+#triangle area 13.78
+ 
+*function used with class and object:
+1.getattr(object,attribute_name):to access the attribute of object.
+2.hasattr(object,attribute_name):to check if an attribute exist or not.
+3.setattr(object,attribute_name):to set object attribute value to new value.
+4.delattr(object.attribute_name):to delete attribute .
+5.is instance(object ,class_name):to check type of object at run time.
+
+
+class game:
+    def __init__(self,gno,gname):
+        self.gno=gno
+        self.gname=game
+    def display(self):
+        print("game name=",gname)
+gno=int(input("enter game number"))
+gn=input("enter game name")
+g1=game(1,"circle")
+setattr(g1,"gname",gn)
+setattr(g1,"capital","ms")
+if(hasattr(g1,"teamsize")):
+    print("teamsize is attribute")
+else:
+    print("teamsize is not an attribute")
+    print(isinstance(g1,game))
+    #print(isinstance(g11,game))
+#output:
+#enter game number1
+#enter game nameseds
+#teamsize is not an attribute
+#True
+
+*regular expression:it is a tool for pattern matching in string or text.
+1.it is a special sequence of characters that hepls you to match of find other strings or set of strings using specialised 
+syntax held in pattern.
+2.it is also known as regex,the module're' provide support for regular expression in python.
+3.some of the important function with regular expression are:
+
+1.compiler() :it create regulare expression characters class re are compiler into a pattern object which have method for various 
+operation such as searching ,matching,finding all pattern matching string.
+
+2.match():it determine if the re matches at the begining of the string.
+3.search():scan througt string looking for any location were the 're' matches.
+4.find():it all substring were re matches and return them as a list.
+5.fintiter():find all substring were the re matches and written then as a iterator,when we found the match object for 
+information about the matching string then match object instance have method as:
+
+1.group     it return the string match by re 
+2.start     it return the starting position of the match.
+3.end       it return the ending position of the match
+4.spain     it return the a tuple containing the start and end position of match.
+
+import re
+address="advanto,laneno,karvenagar,pune"
+p=re.compile('[a-e]')
+print(p.findall(address))
+#output:
+#['d','a','a','e','a','a,'e']
+
+import re
+st=input("enter a stirng")
+x=re.search('py',st)
+print(x.group())
+#output:
+#enter a stirngpython
+#py
+
+*re have meta characterise with which are useful important and will be used inthe function of module re.
+[] represents characters class.
+^  match the begining
+$  match the end
+.  matches any charactres except newlines
+?  matches zero or one occurance
+|  means or match with any of the characters seperated by it. 
+*  any  number of occurances (including occurance)
++  one or more occuences 
+{} indicate number of occurance of preceing to re match .
+() enclose group of re
+\d matches any digital decimal equal as[0-9]
+\D matches any non digit characters
+\s matches any whitespace characters 
+\S matches any non whitespace characters.
+\w matches any alphanumeric char equal to [a-zA-Z0-9]
+\W matches any non-alphanumeric characterics.
+
+Q.match the start of the string as capital letter?
+import re
+st=input("enter a string:")
+y=re.match(r'^[A-Z].*',st)
+print(y.group())
+#enter a string:ASDFGH
+#ASDFGH
+
+Q.starting with numerica value with match with zero or one occurance of characters.
+import re
+st=input("enter a string:")
+y=re.match(r'[0-9]*[a-z].*',st)
+print(y.group())
+#enter a string:23pune
+#23pune
+
+Q.write  aregular expression patterns for matching of user enter email id?
+import re
+st=input("enter a string:")
+#y=re.match(r'^[a-z]*[0-9]*@*[a-z]*.com',st)
+y=re.match(r'[A-Za-z0-9].*@[A-za-z].*.com$',st)
+print(y.group())
+#output
+#enter a string:pawarsuraj614@gmail.com
+#pawarsuraj614@gmail.com
+
+
+#enter a string:pawARsuraj614@gmail.com
+#pawARsuraj614@gmail.com
+
+Q.phone number
+import re
+st=input("enter a string:")
+y=re.match(r'^[0-9]{10}.*',st)
+print(y.group())
+#output
+#enter a string:7776901845
+#7776901845
+
+*exception handling:there are two type pf error as syntatical error and exception.an exception is an event which occurs 
+during the execution of a program that disturbed the normal flow of the  program instruction.
+
+*exception heriarcy in python:
+in python to handle the exception we used try..except.
+syntax:
+try:
+    statements
+except[exceptionname]:
+    statements
+else:
+    statemenst
+finally:
+    statements
+the try statemsnts must be followed by at a minimum single except statements.the other statements finally and else are optional .the
+except statements may contain 0 or more exception types that may follow it.there can be built in or user define exception.
+
+Q.write a python code which handle exception with division of two numbers if second no.is zero it shuold show  the message as 
+wrong input.
+try:
+num1=int(input("enter a first number:"))
+    num=int(input("enter a second number:"))
+    div=num1/num2
+    print("division:",div)
+except:
+    print("second num should not be zero")
+#ouput:
+#enter a first number:1
+#enter a second number:0
+#second num should not be zero
+
+the flow of the program is:
+1.if error situation is there flow with continous with except and did not return back in try block.
+
+multiple exception:
+the python interpeter understand that multiple except clooser may follow a single tyr statements until the indentation level changes 
+it will process each of the except clooser it finds one matching exception .blank except  closser catches any exception .
+as a programmer when we write more than one except closser then as per the exception heriarey we have to go from botton to top.
+
+try:
+    num1=int(input("enter a first number:"))
+    num2=int(input("enter a second number:"))
+    if(num1>num2):
+        print("number is max")
+    else:
+        print("number is max:")
+    print("div",(num1/num2))
+except valueerror:
+    print("wrong input")
+#output:
+#enter a first number:12
+#enter a second number:3
+#number is max
+#div 4.0
+
+*try-final:finally is a bloak which with try except which excute all the time weather there is an exception of not.
+for ex:
+
+try:
+    num1=int(input("enter a first number:"))
+    num2=int(input("enter a second number:"))
+    if(num1>num2):
+        print("number is max")
+    else:
+        print("number is max:")
+    print("div",(num1/num2))
+except valueerror:
+    print("wrong input")
+finally:
+    print("file closed and db connetion closed")
+#enter a first number:10
+#enter a second number:2
+#number is max
+#div 5.0
+#file closed and db connetion closed
+
+
+
+*user define exception:whenever programmer wnats to define its own exception the write a class which is derived from exception 
+sure we used raised function which will raise user define exception.
+
+Q.write code to check age of the citize is below 18 handle the exception with the message u cant votes.      
+
+class Error1(Exception):
+    def __int__(self,val):
+        self.__val=val
+    def __str__(self):
+        return(repr(self.__val))
+try:
+    age=int(input("enter a age:"))
+    if(age<10):
+        raise(Error1(age))
+    else:
+        print("allowed for voating ")
+except Error1:
+        print("you cant votes")
+
+#enter a age:6
+#you cant votes
+#enter a age:15
+#allowed for voating 
+
+*sql:create table tablename(rollno interger(3),name text(20),address text(30))
+     insert into tablename(1,"suraj","pune")
+*con-connect python and splite database.
+*cursor-like a pointer execution query.
+
+*database connection:
+python allows us to connect python program with database .to connect with one database we have to used function as connect.
+for ex:
+
+1.if we connect with squite then we will used :
+  con=sqlite3.connect ('newdb')
+
+2.if we connect with mysql we will used :
+  db=mysql db.connect(""root@localhost:)","root","root","user1")
+
+3.to create  the table inside the database we have to used create query as a syntax:
+  create table tablename(col-name datatype(size),col-name datatype(size))
+
+4.if we want to mention primary key then used:
+  NOT NULL
+
+5.if we want insert the value then used the query as:
+  insert into tablename(value1,value2....)
+
+6.if we want to look the whole table from database then we have used a command as:
+  select *from tablename.
+
+Q.Write a python code to create employee table with the coloumn  as emp-id,emp-name,emp-add,emp-salary ets and insert two row inthat?
+
+import sqlite3
+con=sqlite3.connect('test.db')
+with con:
+    cur=con.cursor()
+    cur.execute('select SQLITE_VERSION()')
+    data=cur.fetchone()
+    print("sqlite version=%s"%data)
+
+import sqlite3
+con=sqlite3.connect('test.db')
+with con:
+    query1="create table Employee(empid INTEGER primary key,empname TEXT ,addres TEXT)"
+    cur=con.cursor()
+    cur.execute(query1)
+    query2="insert into Employee values(1,'ADITYA','nagpur')"
+    query3="insert into Employee values(2,'RAM','PUNE')"
+    cur.execute(query2)
+    cur.execute(query3)
+
+import sqlite3
+con=sqlite3.connect('test.db')
+with con:
+    cur=con.cursor()
+    cur.execute('select * from Employee')
+    for r in cur.fetchall():
+        print(r)
+#output:
+#(1, 'ADITYA', 'nagpur')
+#(2, 'RAM', 'PUNE')
+
+*read operation of database means the fetch the information with db with the python we can used following method to fetch the 
+records.
+
+1.fetchone()-it fetch a single record (row)that is the next row of a query result set.
+2.fetchall()-it fetch all the rows at a time in a result set.
+
+*delete:
+       delete from tablename where
+                    coloumn=value;
+*update:
+       update table_name
+       set coloumn=value
+       where colomn=value
+
+**delete**
+*import sqlite3
+con=sqlite3.connect('test.db')
+with con:
+    cur=con.cursor()
+    query1="delete from Employee where empid=1"
+    cur.execute(query1)
+    cur.execute('select * from Employee')
+    for r in cur.fetchall():
+        print(r)
+#output:
+#(2, 'mayur', 'PUNE')
+
+**update**
+*import sqlite3
+con=sqlite3.connect('test.db')
+with con:
+    cur=con.cursor()
+    query1="update Employee set empname='mayur' where empid=2"
+    cur.execute(query1)
+    cur.execute('select * from Employee')
+    for r in cur.fetchall():
+        print(r)
+#output:
+#(1, 'ADITYA', 'nagpur')
+#(2, 'RAM', 'PUNE')
+
+*multithreading:
+a program is a set of instruction and a process is run instance of a program .os is a multiprocessing unit.
+2.multithreads extends the idea of mutlitasking by taking it 1 level lower ,so a single process may have one or more threads.
+3.a threads is smallest executing unit of a process.
+
+*difference between the process and threads:
+1.communication b/w interthreads is if easily while communication b/w interprocess is slower.
+2.each process has subpart as threads but viceversa ,it is not true.
+3.the thread scheduling is done by os.
+
+*thread lifecycle:
+        born
+           |
+           |
+        ready
+           |
+           |
+        running
+           |
+           |
+        dead
+
+Q.write a program cube and square of a number using thread.
+
+import threading
+def nsquare(num):
+    print("square:{}".format(num*num))
+def ncube(num):
+    print("cube:{}".format(num*num*num))
+if __name__=='__main__':
+    t1=threading.Thread(target=nsquare,args=(5,))
+    t2=threading.Thread(target=ncube,args=(7,))
+    t1.start()
+    t2.start()
+    t1.join
+#output:
+#square:25
+#cube:343   
+
+program2:
+import threading
+import os
+import time
+def fun1(val):
+    print("current thread:{}".format(threading.current_thread().name))
+    print("thread id:{}".format(os.getpid()))
+    for k in range(1,val):
+        print(k)
+        timing.sleep(5)
+if __name__=='__main__':
+    t1=threading.Thread(target=fun1,args=(7,))
+    t2=threading.Thread(target=fun1,args=(10,))
+    t1.start()
+    t2.start()
+    t1.join
+    t1.join
+#thread id:5404
+#1
+#current thread:Thread-2
+#thread id:5404
+#1
+
+**********************************************datascience*************************************************************************
+in the study of machine learning ,AI,or and nural network we required.hanldling of huge data delivered may big data and hadoop 
+in today date the date get created with excel and its files saved as (.csv).
+2.when ever we read a single coloumn then (.csv) their is a need to convert it in the form of array,same way if any cell is empty 
+then proper values should get read by programming language.
+3.with conservation of above program python support some libraries as-numpy,scipy and matplotlib etc.
+4.data scientist used many different kinds of machine learning algorithem to discovered patterns in big-data, that lead to activate 
+insides.
+
+*library which support to os:
+1.numpy:used for basic data reading  and processing.
+2.scipy:to apply scientific formulas.
+3.pandas:to structure the data and bring it in shape for processing.
+4.matplotlib:used for data visulization.
+
+1.numpy:it reaches the programming language with powerful data structure for efficient computation of multi dimensional arrays and 
+matrices.
+
+*advantages of the numpy with the python:
+1.array oriented computation.
+2.efficiency implements multidimensionals array.
+3.design for scientific computing. 
+
+2.scipy:it extents the capability of numpy with further useful functions .for minimization ,vegration and many others for:
+mean,mode and median.
+*numpy is has to be installed before scipy.
+
+*data minging:it is basically the heap term for clearing up a mesy data set for example -entering 1 value for empty cells in coloumn 
+2.the role of date minging in the data science is often to generates a matrix to be fail into a  machine learning model,panda 
+is a valuable to the scientist.
+
+3.matplotlib:it is a data visilization model .it is python 2D,plotting libraries which produces publication quality figures in a
+ varity of hardcopy formates across plateforms.
+
+********numpy*********
+import numpy as np
+arr=np.array([[1,2,3],[4,5,6]])
+print("size of array:",arr.size)
+print(arr)
+print("shape of array:",arr.shape)
+print("type of array element:",arr.dtype)
+#size of array: 6
+#[[1 2 3]
+# [4 5 6]]
+#shape of array: (2, 3)
+#type of array element: int32
+
+***************scipy***************
+import numpy as np
+import scipy
+data=np.random.normal(7,2,50)
+print(data)
+print("mean",np.mean(data))
+print("median",np.median(data))
+x=scipy.randn(50)#genetate 50 values randomly
+print("mean",x.mean())
+print("median",x.max())
+print("standard dev",x.std())
+#[ 5.951629    3.97019963  5.59879442  3.92960913  6.61078362  4.54950922
+#  6.42327388  7.26635489  7.86555551  4.7292713   8.08082011  3.63093639
+#  4.46242463  9.6761905   6.70392092  9.12336684  9.76229315  6.65715003
+#  5.02959861 10.74925055  6.81381093  6.14471891  5.59766765 10.22558659
+#  6.11773539  6.6389012   6.81535033  7.88291591  8.53329961  8.53381094
+#  5.78938041  8.72953945  5.49154145 10.64244638  5.06174105  2.76898247
+#  4.17167403  5.62491935  6.40667542  7.37195764  5.52963491  6.11600494
+#  7.67093324  6.59707242  6.55057404  5.69341416  3.47271791  5.15768363
+#  4.76118189 10.01655754]
+#mean 6.553987242862032
+#median 6.414974650618971
+#mean -0.09731413984280798
+#median 1.4056800041880306
+#standard dev 0.8272361433771055
+
+Process finished with exit code 0
+
+****************matplotlib***********************
+
+import matplotlib.pyplot as pt
+import numpy as np
+x=np.random.normal(5,1,5)
+y=np.random.normal(7,2,5)
+print(x)
+print(y)
+#pt.subplot(224)#two plots in one window
+#pt.scatter(x,y)#many type of categories
+#pt.show()
+
+#pt.hist(x)#one type of category
+#pt.show()#we can show and display in the ppt and save it,as show window.
+
+pt.plot(y)
+pt.show()
+
+#output
+#[3.81638114 6.87245917 6.43138452 4.57706809 4.35960584]
+#[ 7.78640822  9.24358523  9.07880792 11.87254752  8.47349562]
+
+*********************all in one*******************
+import numpy as np
+import scipy.optimize
+import matplotlib.pyplot as plt
+def f(x):
+    return x**2+ 10*np.sin(x)
+#above functions have global minimum around -1.3 and a local minimum around 3.8
+x=np.arange(-10,10,0.1)
+plt.plot(x,f(x))
+plt.show()
+#wnat to find same using scipy
+result=scipy.optimize.minimize(f,x0=0)
+print(result)
+#nit: 5
+
+#njev: 6
+#status: 0
+#success: True
+#x: array([-1.30644012])
+

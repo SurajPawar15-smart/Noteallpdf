@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Generators are iterable</title>
+</head>
+
+<body>
+	<script>
+	function* generate(){
+		yield 1;
+		yield 2;
+		return 3;
+	}
+	let gen=generate();
+		for(let value of gen){
+			alert(value);
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>generator throw</title>
+</head>
+
+<body>
+	<script>
+	function* gen(){
+		try{
+			let result=yield "2+2=?";
+			alert("The execution does not reach here beacuse the exception is thown");
+		}
+		catch(e){
+			alert(e);
+		}}
+		let generator=gen();
+		let question=generator.next().value;
+		generator.throw(new Error("this answer is not found in my record"));
+	
+	
+	
+	</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Prototype based Inheritance</title>
+</head>
+
+<body>
+	<script>
+	const person={
+		fistname:"bob";
+		lastname:"dennis";
+		getfullname(){
+		return "${this.firstname} ${this.lastname}";
+	}
+	};
+		const developer={
+			firstname:"john";
+			lastname:"david";
+		};
+		developer.__proto__=person;
+		person.getfullname();
+		developer.getfullname();
+	
+	</script>
+	<script>
+	function bike(company){
+		this.company=company;
+	}
+		bike.prototype.getcompany=function(){
+			return this.company;
+		}
+		
+	function Vehicle(name,price){
+		this.name=name;
+		this.price=price;
+	}
+		var bike=new bike("honda");
+		Vehicle.prototype=bike;
+		var vehicale=new Vehicle("Shine", "800");
+		document.write(vehicale.getcompany()+"" +vehicale.name+""+vehicale.price);
+	
+	
+	
+	</script>
+</body>
+</html>

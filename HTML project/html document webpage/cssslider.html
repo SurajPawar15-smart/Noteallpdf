@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang ="en-US">
+<head>
+<meta charset="utf-8">
+<title>slide</title>
+<style>
+body{
+background:#efefef;
+}
+#page{
+width:720px;
+height:480px;
+border:5px solid white;
+margin:0 auto;
+box-shadow:0px 0px 15px grey;
+overflow:scroll;
+}
+#slider{
+width:2880px;
+height:480px;
+position:relative;
+animation-name:wap;
+animation-duration:12s;
+animation-iteration-count:infinite;
+}
+@keyframes wap{
+0%{top:0px;left:0px}
+20%{top:0px;left:0px}
+30%{top:0px;left:-720px}
+40%{top:0px;left:-720px}
+50%{top:0px;left:-1440px}
+60%{top:0px;left:-1440px}
+70%{top:0px;left:-2160px}
+80%{top:0px;left:-2160px}
+}
+img{
+float:left;
+}
+</style>
+
+</head>
+<body>
+<div id="page">
+<div id="slider">
+<img src="images/a.jpg" width="720" height="480">
+<img src="images/b.jpg" width="720" height="480">
+<img src="images/c.jpg" width="720" height="480">
+<img src="images/d.jpg" width="720" height="480">
+</div>
+</div>
+</body>
+</html>

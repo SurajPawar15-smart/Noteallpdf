@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Enxapsulation Example</title>
+</head>
+
+<body><h1>Encapsulation Prototype-based Approach</h1>
+	<script>
+		function student(name,marks){
+	var name=name;
+	var marks=marks;
+	
+		Object.defineProperty(this,"name",{
+			get:function(){
+				return name;
+			},
+			set:function(name){
+				this.name=name;
+			}
+		});
+		
+			Object.defineProperty(this,"marks",{
+			get:function(){
+				return marks;
+			},
+			set:function(marks){
+				this.marks=marks;
+			}
+		});	}
+		
+	var std=new student("bob",80);
+		document.write(std.name+""+std.marks);
+	
+
+	</script>
+</body>
+</html>

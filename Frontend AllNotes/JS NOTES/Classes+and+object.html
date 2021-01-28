@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CLASSES AND OBJECT </title>
+</head>
+
+<body>
+	<script>
+		const human={
+			fistname:'john',
+			lastname:'david',
+			age:30,
+			SayName(){
+				document.write("hi i am John David")			}
+		}
+		human.SayName()
+	</script>
+	<script>
+	var names={
+		fileName:"bob",
+		lname:"dennis"
+	}
+	console.log(names.fname);
+		console.log(names.hasOwnProperty("lnames"));console.log(names);	
+	
+	</script>
+	<script>
+	var user={
+		email:"abc@abc.com",
+		name:"xyz",
+		login(){
+		console.log(this.email,"has logged in");
+	},
+		logout(){
+			console.log(this.email,"has logged out");
+		}
+	};
+		user.login();
+		user.logout();
+	
+	
+	
+	</script>
+</body>
+</html>

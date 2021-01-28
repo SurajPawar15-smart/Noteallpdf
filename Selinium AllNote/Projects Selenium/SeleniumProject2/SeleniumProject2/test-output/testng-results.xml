@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SmokeSuite" duration-ms="66167" started-at="2015-11-14T16:03:33Z" finished-at="2015-11-14T16:04:39Z">
+    <groups>
+    </groups>
+    <test name="ParallelTest 1" duration-ms="66167" started-at="2015-11-14T16:03:33Z" finished-at="2015-11-14T16:04:39Z">
+      <class name="myPackage.TestParallel">
+        <test-method status="PASS" signature="test_01(java.lang.String)[pri:0, instance:myPackage.TestParallel@276708cc]" name="test_01" duration-ms="66134" started-at="2015-11-14T21:33:33Z" data-provider="getData" finished-at="2015-11-14T21:34:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test 3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01 -->
+        <test-method status="PASS" signature="test_01(java.lang.String)[pri:0, instance:myPackage.TestParallel@276708cc]" name="test_01" duration-ms="63095" started-at="2015-11-14T21:33:33Z" data-provider="getData" finished-at="2015-11-14T21:34:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test 1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01 -->
+        <test-method status="PASS" signature="test_01(java.lang.String)[pri:0, instance:myPackage.TestParallel@276708cc]" name="test_01" duration-ms="39310" started-at="2015-11-14T21:33:33Z" data-provider="getData" finished-at="2015-11-14T21:34:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test 2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01 -->
+      </class> <!-- myPackage.TestParallel -->
+    </test> <!-- ParallelTest 1 -->
+  </suite> <!-- SmokeSuite -->
+</testng-results>

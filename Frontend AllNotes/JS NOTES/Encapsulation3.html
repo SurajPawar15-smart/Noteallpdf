@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Encapsulation</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/addons/p5.dom.min.js"></script>
+	
+
+</head>
+
+<body>
+	<h1>Use Encapsulation to draw a circle and Manage size of it.</h1>
+	<script>
+		var shape;
+	
+		function setup(){
+			createButton("increase Size").mousePressed(onbtnIncClick);
+			createButton("decrease Size").mousePressed(onbtnDecClick);
+			createP("");
+			createCanvas(800, 600);
+			shape=new ShapeObject();		}
+	
+	function draw(){
+		clear();
+		
+    shape.draw( width / 2, height / 2);    
+	}
+	function onbtnIncClick(){
+		shape.inc(10);
+	}
+		function onbtnDecClick(){
+			shape.dec(10);
+		}
+		function ShapeObject(){
+			this.radius=50;
+		}
+		ShapeObject.prototype.inc=function(n){
+			this.radius+=n;
+		}
+		ShapeObject.prototype.dec=function(n){
+			this.radius-=n;
+		}
+		ShapeObject.prototype.draw=function(x,y){
+			ellipse(x,y,this.radius*2,this.radius*2);
+		}
+	</script>
+</body>
+</html>

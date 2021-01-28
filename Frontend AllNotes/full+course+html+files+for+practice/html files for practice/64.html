@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+div {
+ width:100px;
+ outline: 1px dashed #bbb;
+}
+#div1 {
+ overflow-wrap:normal;
+}
+#div2 {
+ overflow-wrap:break-word;
+}
+
+
+
+
+
+
+
+
+</style>
+<div id="div1">
+ <strong>#div1</strong>: Small words are displayed normally, but a long word like <span
+style="red;">supercalifragilisticexpialidocious</span> is too long so it will overflow past the
+edge of the line-break
+</div>
+<div id="div2">
+ <strong>#div2</strong>: Small words are displayed normally, but a long word like <span
+style="red;">supercalifragilisticexpialidocious</span> will be split at the line break and continue
+on the next line.
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+.nav-link {
+    text-transform: uppercase;
+    transition: all .4s;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid green;
+    padding: 30px;
+    transition: all .4s;
+   
+}
+.navbar-brand {
+    text-transform: uppercase; 
+    font-size: 25px;
+}
+nav {
+    box-shadow: 2px -2px 0px 5px rgba(0, 0, 0, 0.288);
+   
+}
+.img-slide-show {
+min-height: 700px;
+max-height: 700px;
+}
+#head1 {
+    font-size: 65px;
+    margin-top: 5em;
+}
+.home {
+background-image: url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9);
+background-size: cover;
+height: 1021px;
+color: white;
+background-attachment: fixed;
+}
+#header {
+    padding-top: 20em;
+}
+#btn {
+    font-size: 25px;
+    margin-top: 3rem;
+}
+.line {
+    width: 100%;
+    height: 5px;
+    background-color: lightgreen;
+}
+.menu {
+    background-color: rgb(235, 235, 235);
+}
+.img-menu {
+    height: 300px;
+    width: 250px;
+}
+.card-title {
+    font-size: 35px;
+}
+.card-text {
+    font-size: 24px
+    ;
+}
+#menu-btn  {
+    border-bottom: lightgreen;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+.card {
+    transition: all .5s;
+}
+.card:hover {
+    transition: all .5s;
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.212);
+}
+.news {
+    background-color: rgb(235, 235, 235);
+}
+.card-img1 {
+    min-height: 300px; 
+    max-height: 300px;
+   
+}
+#reservaiton {
+    font-size: 25px;
+}
+@media only screen and (max-width: 250px) {
+    #head1 {
+        font-size: 25px;
+        margin-top: 5em;
+    }
+    #btn {
+        font-size: 17px;
+        margin-top: 3rem;
+    }
+    .home {
+        background-image: url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9);
+        background-size: cover;
+        height: 1021px;
+        color: white;
+        background-attachment: fixed;
+        }
+        #img-home {
+            min-width: 100px;
+        }
+        .img-slide-show {
+            min-height: 200px;
+            max-height: 200px;
+            }
+            .carousel-caption  {
+                display: none;
+            }
+            #reservaiton {
+                font-size: 15px;
+            }
+            #img2 {
+                min-width: 150px;
+            }
+            .card-text {
+                font-size: 15px;
+            }
+            .card-title {
+                font-size: 20px;
+            }
+            .card {
+                min-height: 400px;
+            }
+            .card-img1 {
+                height: 400px;
+            }
+            #reservaiton1 {
+                font-size: 12px;
+            }
+            .navbar-brand {
+                text-transform: uppercase; 
+                font-size: 15px;
+                margin-left: -20%;
+            } 
+            body {
+                overflow-x: hidden;
+            }
+}
+@media (min-width: 250.1px) and (max-width: 350px) {
+    #head1 {
+        font-size: 35px;
+        margin-top: 5em;
+    }
+    #img-home {
+        min-width: 200px;
+    }
+    .img-slide-show {
+        min-height: 200px;
+        max-height: 200px;
+        }
+        .carousel-caption  {
+            display: none;
+        }
+        .card-text {
+            font-size: 15px;
+        }
+        .card-title {
+            font-size: 20px;
+        }
+        .card {
+            min-height: 300px;
+        }
+        .card-img1 {
+            height: 400px;
+        }
+}
+@media (min-width: 250.1px) and (max-width: 650px) {
+    .img-slide-show {
+        min-height: 300px;
+        max-height: 300px;
+        }
+        .carousel-caption  {
+            display: none;
+        }
+ }@media (min-width: 0px) and (max-width: 992px) {
+    .home {
+background-image: url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9);
+background-size: cover;
+color: white;
+background-attachment: inherit;
+}
+    
+}

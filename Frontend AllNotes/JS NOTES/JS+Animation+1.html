@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Animation Tutorial</title>
+    <link rel="stylesheet" href="css/main.css">
+   <script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>
+	
+<title>JS Animation 1</title>
+	<style>
+		html,body {
+        margin:0;
+        background:lightgray;
+        font-family: Arial;
+    }
+    h1 {margin:0;}
+    .container {
+        width: 350px;
+        padding: 2em;
+        background:white;
+        border-radius: 8px;
+        margin: 10% auto;
+    }
+    .txtfld {
+        width: calc(100% - 2em);
+        padding:1em;
+        margin-top: 1em;
+    }
+    .btn {
+        width:100%;
+        background:lightblue;
+        color:white;
+        margin-top:2em;
+        border:none;
+        border-radius:5px;
+        padding:1em;
+        font-size:1.2em;
+        cursor:pointer;
+    }
+    p {color:gray;}
+    .msg {
+        position: absolute;
+        padding: .5em;
+        background: rgba(0,0,0,.8);
+        color: #fff;
+        opacity: 0;
+    }    
+    </style>
+</head>
+
+<body>
+	<div class="container">
+	<h1>Fill out the form</h1>
+		<p>Pelase fill out the form bellow because that what we really need to do</p>
+		<form>
+            <span class="msg">Fullname Please</span>
+            <input type="text" placeholder="name" class="txtfld">
+            <input type="text" placeholder="Email Address" class="txtfld">
+            <input type="submit" value="Enter info" class="btn">
+        </form>
+	</div>
+<script src="https://unpkg.com/popmotion/dist/popmotion.global.min.js"></script>	<script>
+        const container = popmotion.styler(document.querySelector('.container'));
+        const formElements = document.querySelector('.inner');
+        const msgPop = popmotion.styler(document.querySelector('.msg'));
+	const myAnim = popmotion.tween({ 
+            from: { 
+                scale: .7, 
+                opacity: 0,
+                y: -300
+            },
+            to: { 
+                scale: 1, 
+                opacity: 1,
+                y: 0
+            },
+            duration: 1000
+        })
+        const myAnim2 = popmotion.keyframes({ 
+             values: [
+				 { y: -50, opacity: 0 },
+				 { y: -20, opacity: 1 },
+				 { y: -20, opacity: 1 },
+				 { y: 0, opacity: 0 },
+			 	],
+            times: [0, .2,.8, 1],
+          duration: 3000
+                })
+		myAnim.start({
+            update: container.set,
+            complete: () => { myAnim2.start(msgPop.set) }
+        });
+        const stylers = Array
+        .from(formElements.children)
+        .map(popmotion.styler); 
+        const animations = Array(stylers.length)
+        .fill(popmotion.spring({ from: 100, to:  0 }));
+        popmotion.stagger(animations, 100)
+        .start((v) => v.forEach((x, i) => stylers[i].set({'y': x})));
+    </script>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<style>
+[class*="foo"] {
+ color: red;
+}
+</style>
+<div class="foO-123">This will be red</div>
+<div class="foo123">This will be red</div>
+<div class="bar123foo">This will be red</div>
+<div class="barfooo123">This will be red</div>
+<div class="barfo0">This will NOT be red</div>
+
+
+</body>
+</html>

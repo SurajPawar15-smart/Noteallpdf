@@ -1,0 +1,6 @@
+Q.1how to print a star in the pattern form?
+*******************
+*                 *
+*                 *
+*******************
+Q2.

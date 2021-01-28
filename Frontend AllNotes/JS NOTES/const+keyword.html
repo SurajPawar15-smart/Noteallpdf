@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Const Keyword in ECMAScript 6</title>
+</head>
+
+<body>
+	<p>you cannot change the value</p>
+	<p id="demo"></p>
+	<script>
+	try{
+		const PI=3.14159265;
+		PI=3.14;
+		
+		
+	}
+		
+	catch(err){
+		document.getElementById("demo").innerHTML=err;
+	}
+	
+	</script>
+</body>
+</html>

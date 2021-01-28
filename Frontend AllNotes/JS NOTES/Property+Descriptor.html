@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Property Descriptor</title>
+</head>
+
+<body>
+	<script>
+	var car={
+		brand:"Audi",
+		model:"R8",
+		engine:"V10"
+	};
+		console.log(Object.getOwnPropertyDescriptor(car,"engine"));
+		console.log(Object.defineProperty(car,"engine",{writable:false}));
+		car.engine("V11");
+		
+		
+	
+	</script>
+</body>
+</html>

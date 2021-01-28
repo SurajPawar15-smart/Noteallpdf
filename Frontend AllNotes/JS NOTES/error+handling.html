@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Error Or Exception handling</title>
+</head>
+
+<body>
+	<script>
+		try{
+			alert("try block runs");
+			alert;sasda;
+			alert("end of try block");
+		}
+		catch(err){
+			alert("catch igroned because there i no error");
+		}
+		finally{
+			alert("hi i am finally");
+		}
+		
+	</script>
+	<script>
+	function func(){
+		var a=200;
+		var b=0;
+		try{
+			if(b==0){
+				throw("divided by zeror error");
+}
+			else{
+				var c=a/b;
+				
+			}
+		}
+		catch(e){
+			alert("error"+e);
+		}
+	}
+		
+	
+	
+	</script>
+	<p> Throw Erro</p>
+	<input type="button" value="clickme" onClick="func();">
+</body>
+</html>

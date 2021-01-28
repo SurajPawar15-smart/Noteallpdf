@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Constructor</title>
+</head>
+
+<body>
+	<p id="a"></p>
+	<script>
+	function human(first,last,age){
+		this.firstname=first;
+		this.lastname=last;
+		this.age=age;
+		
+	}
+		var father=new human("john","bob",50);
+		document.getElementById("a").innerHTML="my father is"+ father.lastname+".";
+	
+	
+	</script>
+	<script>
+	class Employee{
+		constructor(id,name){
+			this.id=id;
+			this.name=name;
+		}
+		detailemployee(){
+			document.write(this.id+""+this.name+"<br>")
+		}}
+		var emp1=new Employee(1,"bob");
+		var emp2=new Employee(2,"dennis");
+		emp1.detailemployee();
+		emp2.detailemployee();
+	
+	
+	
+	
+	</script>
+</body>
+</html>
